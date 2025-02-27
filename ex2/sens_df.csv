@@ -1,0 +1,3750 @@
+congress,senator_name,senator_state,senator_party
+118th,Katie Britt,Alabama,Republican
+118th,Tommy Tuberville,Alabama,Republican
+118th,Dan Sullivan,Alaska,Republican
+118th,Lisa Murkowski,Alaska,Republican
+118th,Kyrsten Sinema,Arizona,Independent
+118th,Mark Kelly,Arizona,Democratic
+118th,John Boozman,Arkansas,Republican
+118th,Tom Cotton,Arkansas,Republican
+118th,Alex Padilla,California,Democratic
+118th,Dianne Feinstein,California,Democratic
+118th,Laphonza Butler,California,Democratic
+118th,John Hickenlooper,Colorado,Democratic
+118th,Michael Bennet,Colorado,Democratic
+118th,Chris Murphy,Connecticut,Democratic
+118th,Richard Blumenthal,Connecticut,Democratic
+118th,Chris Coons,Delaware,Democratic
+118th,Tom Carper,Delaware,Democratic
+118th,Marco Rubio,Florida,Republican
+118th,Rick Scott,Florida,Republican
+118th,Jon Ossoff,Georgia,Democratic
+118th,Raphael Warnock,Georgia,Democratic
+118th,Brian Schatz,Hawaii,Democratic
+118th,Mazie Hirono,Hawaii,Democratic
+118th,Jim Risch,Idaho,Republican
+118th,Mike Crapo,Idaho,Republican
+118th,Dick Durbin,Illinois,Democratic
+118th,Tammy Duckworth,Illinois,Democratic
+118th,Mike Braun,Indiana,Republican
+118th,Todd Young,Indiana,Republican
+118th,Chuck Grassley,Iowa,Republican
+118th,Joni Ernst,Iowa,Republican
+118th,Jerry Moran,Kansas,Republican
+118th,Roger Marshall,Kansas,Republican
+118th,Mitch McConnell,Kentucky,Republican
+118th,Rand Paul,Kentucky,Republican
+118th,Bill Cassidy,Louisiana,Republican
+118th,John Kennedy,Louisiana,Republican
+118th,Angus King,Maine,Independent
+118th,Susan Collins,Maine,Republican
+118th,Ben Cardin,Maryland,Democratic
+118th,Chris Van Hollen,Maryland,Democratic
+118th,Ed Markey,Massachusetts,Democratic
+118th,Elizabeth Warren,Massachusetts,Democratic
+118th,Debbie Stabenow,Michigan,Democratic
+118th,Gary Peters,Michigan,Democratic
+118th,Amy Klobuchar,Minnesota,Democratic
+118th,Tina Smith,Minnesota,Democratic
+118th,Cindy Hyde-Smith,Mississippi,Republican
+118th,Roger Wicker,Mississippi,Republican
+118th,Eric Schmitt,Missouri,Republican
+118th,Josh Hawley,Missouri,Republican
+118th,Jon Tester,Montana,Democratic
+118th,Steve Daines,Montana,Republican
+118th,Ben Sasse,Nebraska,Republican
+118th,Deb Fischer,Nebraska,Republican
+118th,Pete Ricketts,Nebraska,Republican
+118th,Catherine Cortez Masto,Nevada,Democratic
+118th,Jacky Rosen,Nevada,Democratic
+118th,Jeanne Shaheen,New Hampshire,Democratic
+118th,Maggie Hassan,New Hampshire,Democratic
+118th,Bob Menendez,New Jersey,Democratic
+118th,Cory Booker,New Jersey,Democratic
+118th,George Helmy,New Jersey,Democratic
+118th,Ben Ray Luján,New Mexico,Democratic
+118th,Martin Heinrich,New Mexico,Democratic
+118th,Chuck Schumer,New York,Democratic
+118th,Kirsten Gillibrand,New York,Democratic
+118th,Ted Budd,North Carolina,Republican
+118th,Thom Tillis,North Carolina,Republican
+118th,John Hoeven,North Dakota,Republican
+118th,Kevin Cramer,North Dakota,Republican
+118th,JD Vance,Ohio,Republican
+118th,Sherrod Brown,Ohio,Democratic
+118th,James Lankford,Oklahoma,Republican
+118th,Markwayne Mullin,Oklahoma,Republican
+118th,Jeff Merkley,Oregon,Democratic
+118th,Ron Wyden,Oregon,Democratic
+118th,Bob Casey Jr.,Pennsylvania,Democratic
+118th,John Fetterman,Pennsylvania,Democratic
+118th,Jack Reed,Rhode Island,Democratic
+118th,Sheldon Whitehouse,Rhode Island,Democratic
+118th,Lindsey Graham,South Carolina,Republican
+118th,Tim Scott,South Carolina,Republican
+118th,John Thune,South Dakota,Republican
+118th,Mike Rounds,South Dakota,Republican
+118th,Bill Hagerty,Tennessee,Republican
+118th,Marsha Blackburn,Tennessee,Republican
+118th,John Cornyn,Texas,Republican
+118th,Ted Cruz,Texas,Republican
+118th,Mike Lee,Utah,Republican
+118th,Mitt Romney,Utah,Republican
+118th,Bernie Sanders,Vermont,Independent
+118th,Peter Welch,Vermont,Democratic
+118th,Mark Warner,Virginia,Democratic
+118th,Tim Kaine,Virginia,Democratic
+118th,Maria Cantwell,Washington,Democratic
+118th,Patty Murray,Washington,Democratic
+118th,Joe Manchin,West Virginia,Democratic
+118th,Shelley Moore Capito,West Virginia,Republican
+118th,Ron Johnson,Wisconsin,Republican
+118th,Tammy Baldwin,Wisconsin,Democratic
+118th,Cynthia Lummis,Wyoming,Republican
+118th,John Barrasso,Wyoming,Republican
+117th,Richard Shelby,Alabama,Republican
+117th,Tommy Tuberville,Alabama,Republican
+117th,Dan Sullivan,Alaska,Republican
+117th,Lisa Murkowski,Alaska,Republican
+117th,Kyrsten Sinema,Arizona,Democratic
+117th,Mark Kelly,Arizona,Democratic
+117th,John Boozman,Arkansas,Republican
+117th,Tom Cotton,Arkansas,Republican
+117th,Alex Padilla,California,Democratic
+117th,Dianne Feinstein,California,Democratic
+117th,Kamala Harris,California,Democratic
+117th,John Hickenlooper,Colorado,Democratic
+117th,Michael Bennet,Colorado,Democratic
+117th,Chris Murphy,Connecticut,Democratic
+117th,Richard Blumenthal,Connecticut,Democratic
+117th,Chris Coons,Delaware,Democratic
+117th,Tom Carper,Delaware,Democratic
+117th,Marco Rubio,Florida,Republican
+117th,Rick Scott,Florida,Republican
+117th,Jon Ossoff,Georgia,Democratic
+117th,Kelly Loeffler,Georgia,Republican
+117th,Raphael Warnock,Georgia,Democratic
+117th,Brian Schatz,Hawaii,Democratic
+117th,Mazie Hirono,Hawaii,Democratic
+117th,Jim Risch,Idaho,Republican
+117th,Mike Crapo,Idaho,Republican
+117th,Dick Durbin,Illinois,Democratic
+117th,Tammy Duckworth,Illinois,Democratic
+117th,Mike Braun,Indiana,Republican
+117th,Todd Young,Indiana,Republican
+117th,Chuck Grassley,Iowa,Republican
+117th,Joni Ernst,Iowa,Republican
+117th,Jerry Moran,Kansas,Republican
+117th,Roger Marshall,Kansas,Republican
+117th,Mitch McConnell,Kentucky,Republican
+117th,Rand Paul,Kentucky,Republican
+117th,Bill Cassidy,Louisiana,Republican
+117th,John Neely Kennedy,Louisiana,Republican
+117th,Angus King,Maine,Independent
+117th,Susan Collins,Maine,Republican
+117th,Ben Cardin,Maryland,Democratic
+117th,Chris Van Hollen,Maryland,Democratic
+117th,Ed Markey,Massachusetts,Democratic
+117th,Elizabeth Warren,Massachusetts,Democratic
+117th,Debbie Stabenow,Michigan,Democratic
+117th,Gary Peters,Michigan,Democratic
+117th,Amy Klobuchar,Minnesota,Democratic
+117th,Tina Smith,Minnesota,Democratic
+117th,Cindy Hyde-Smith,Mississippi,Republican
+117th,Roger Wicker,Mississippi,Republican
+117th,Josh Hawley,Missouri,Republican
+117th,Roy Blunt,Missouri,Republican
+117th,Jon Tester,Montana,Democratic
+117th,Steve Daines,Montana,Republican
+117th,Ben Sasse,Nebraska,Republican
+117th,Deb Fischer,Nebraska,Republican
+117th,Catherine Cortez Masto,Nevada,Democratic
+117th,Jacky Rosen,Nevada,Democratic
+117th,Jeanne Shaheen,New Hampshire,Democratic
+117th,Maggie Hassan,New Hampshire,Democratic
+117th,Bob Menendez,New Jersey,Democratic
+117th,Cory Booker,New Jersey,Democratic
+117th,Ben Ray Luján,New Mexico,Democratic
+117th,Martin Heinrich,New Mexico,Democratic
+117th,Chuck Schumer,New York,Democratic
+117th,Kirsten Gillibrand,New York,Democratic
+117th,Richard Burr,North Carolina,Republican
+117th,Thom Tillis,North Carolina,Republican
+117th,John Hoeven,North Dakota,Republican
+117th,Kevin Cramer,North Dakota,Republican
+117th,Rob Portman,Ohio,Republican
+117th,Sherrod Brown,Ohio,Democratic
+117th,James Lankford,Oklahoma,Republican
+117th,Jim Inhofe,Oklahoma,Republican
+117th,Jeff Merkley,Oregon,Democratic
+117th,Ron Wyden,Oregon,Democratic
+117th,"Bob Casey, Jr.",Pennsylvania,Democratic
+117th,Pat Toomey,Pennsylvania,Republican
+117th,Jack Reed,Rhode Island,Democratic
+117th,Sheldon Whitehouse,Rhode Island,Democratic
+117th,Lindsey Graham,South Carolina,Republican
+117th,Tim Scott,South Carolina,Republican
+117th,John Thune,South Dakota,Republican
+117th,Mike Rounds,South Dakota,Republican
+117th,Bill Hagerty,Tennessee,Republican
+117th,Marsha Blackburn,Tennessee,Republican
+117th,John Cornyn,Texas,Republican
+117th,Ted Cruz,Texas,Republican
+117th,Mike Lee,Utah,Republican
+117th,Mitt Romney,Utah,Republican
+117th,Bernie Sanders,Vermont,Independent
+117th,Patrick Leahy,Vermont,Democratic
+117th,Mark Warner,Virginia,Democratic
+117th,Tim Kaine,Virginia,Democratic
+117th,Maria Cantwell,Washington,Democratic
+117th,Patty Murray,Washington,Democratic
+117th,Joe Manchin,West Virginia,Democratic
+117th,Shelley Moore Capito,West Virginia,Republican
+117th,Ron Johnson,Wisconsin,Republican
+117th,Tammy Baldwin,Wisconsin,Democratic
+117th,Cynthia Lummis,Wyoming,Republican
+117th,John Barrasso,Wyoming,Republican
+116th,Doug Jones,Alabama,Democratic
+116th,Richard Shelby,Alabama,Republican
+116th,Dan Sullivan,Alaska,Republican
+116th,Lisa Murkowski,Alaska,Republican
+116th,Kyrsten Sinema,Arizona,Democratic
+116th,Mark Kelly,Arizona,Democratic
+116th,Martha McSally,Arizona,Republican
+116th,John Boozman,Arkansas,Republican
+116th,Tom Cotton,Arkansas,Republican
+116th,Dianne Feinstein,California,Democratic
+116th,Kamala Harris,California,Democratic
+116th,Cory Gardner,Colorado,Republican
+116th,Michael Bennet,Colorado,Democratic
+116th,Chris Murphy,Connecticut,Democratic
+116th,Richard Blumenthal,Connecticut,Democratic
+116th,Chris Coons,Delaware,Democratic
+116th,Tom Carper,Delaware,Democratic
+116th,Marco Rubio,Florida,Republican
+116th,Rick Scott,Florida,Republican
+116th,David Perdue,Georgia,Republican
+116th,Johnny Isakson,Georgia,Republican
+116th,Kelly Loeffler,Georgia,Republican
+116th,Brian Schatz,Hawaii,Democratic
+116th,Mazie Hirono,Hawaii,Democratic
+116th,Jim Risch,Idaho,Republican
+116th,Mike Crapo,Idaho,Republican
+116th,Dick Durbin,Illinois,Democratic
+116th,Tammy Duckworth,Illinois,Democratic
+116th,Mike Braun,Indiana,Republican
+116th,Todd Young,Indiana,Republican
+116th,Chuck Grassley,Iowa,Republican
+116th,Joni Ernst,Iowa,Republican
+116th,Jerry Moran,Kansas,Republican
+116th,Pat Roberts,Kansas,Republican
+116th,Mitch McConnell,Kentucky,Republican
+116th,Rand Paul,Kentucky,Republican
+116th,Bill Cassidy,Louisiana,Republican
+116th,John Neely Kennedy,Louisiana,Republican
+116th,Angus King,Maine,Independent
+116th,Susan Collins,Maine,Republican
+116th,Ben Cardin,Maryland,Democratic
+116th,Chris Van Hollen,Maryland,Democratic
+116th,Ed Markey,Massachusetts,Democratic
+116th,Elizabeth Warren,Massachusetts,Democratic
+116th,Debbie Stabenow,Michigan,Democratic
+116th,Gary Peters,Michigan,Democratic
+116th,Amy Klobuchar,Minnesota,Democratic
+116th,Tina Smith,Minnesota,Democratic
+116th,Cindy Hyde-Smith,Mississippi,Republican
+116th,Roger Wicker,Mississippi,Republican
+116th,Josh Hawley,Missouri,Republican
+116th,Roy Blunt,Missouri,Republican
+116th,Jon Tester,Montana,Democratic
+116th,Steve Daines,Montana,Republican
+116th,Ben Sasse,Nebraska,Republican
+116th,Deb Fischer,Nebraska,Republican
+116th,Catherine Cortez Masto,Nevada,Democratic
+116th,Jacky Rosen,Nevada,Democratic
+116th,Jeanne Shaheen,New Hampshire,Democratic
+116th,Maggie Hassan,New Hampshire,Democratic
+116th,Bob Menendez,New Jersey,Democratic
+116th,Cory Booker,New Jersey,Democratic
+116th,Martin Heinrich,New Mexico,Democratic
+116th,Tom Udall,New Mexico,Democratic
+116th,Chuck Schumer,New York,Democratic
+116th,Kirsten Gillibrand,New York,Democratic
+116th,Richard Burr,North Carolina,Republican
+116th,Thom Tillis,North Carolina,Republican
+116th,John Hoeven,North Dakota,Republican
+116th,Kevin Cramer,North Dakota,Republican
+116th,Rob Portman,Ohio,Republican
+116th,Sherrod Brown,Ohio,Democratic
+116th,James Lankford,Oklahoma,Republican
+116th,Jim Inhofe,Oklahoma,Republican
+116th,Jeff Merkley,Oregon,Democratic
+116th,Ron Wyden,Oregon,Democratic
+116th,Bob Casey Jr.,Pennsylvania,Democratic
+116th,Pat Toomey,Pennsylvania,Republican
+116th,Jack Reed,Rhode Island,Democratic
+116th,Sheldon Whitehouse,Rhode Island,Democratic
+116th,Lindsey Graham,South Carolina,Republican
+116th,Tim Scott,South Carolina,Republican
+116th,John Thune,South Dakota,Republican
+116th,Mike Rounds,South Dakota,Republican
+116th,Lamar Alexander,Tennessee,Republican
+116th,Marsha Blackburn,Tennessee,Republican
+116th,John Cornyn,Texas,Republican
+116th,Ted Cruz,Texas,Republican
+116th,Mike Lee,Utah,Republican
+116th,Mitt Romney,Utah,Republican
+116th,Bernie Sanders,Vermont,Independent
+116th,Patrick Leahy,Vermont,Democratic
+116th,Mark Warner,Virginia,Democratic
+116th,Tim Kaine,Virginia,Democratic
+116th,Maria Cantwell,Washington,Democratic
+116th,Patty Murray,Washington,Democratic
+116th,Joe Manchin,West Virginia,Democratic
+116th,Shelley Moore Capito,West Virginia,Republican
+116th,Ron Johnson,Wisconsin,Republican
+116th,Tammy Baldwin,Wisconsin,Democratic
+116th,John Barrasso,Wyoming,Republican
+116th,Mike Enzi,Wyoming,Republican
+115th,Doug Jones,Alabama,Democratic
+115th,Jeff Sessions,Alabama,Republican
+115th,Luther Strange,Alabama,Republican
+115th,Richard Shelby,Alabama,Republican
+115th,Dan Sullivan,Alaska,Republican
+115th,Lisa Murkowski,Alaska,Republican
+115th,Jeff Flake,Arizona,Republican
+115th,John McCain,Arizona,Republican
+115th,Jon Kyl,Arizona,Republican
+115th,John Boozman,Arkansas,Republican
+115th,Tom Cotton,Arkansas,Republican
+115th,Dianne Feinstein,California,Democratic
+115th,Kamala Harris,California,Democratic
+115th,Cory Gardner,Colorado,Republican
+115th,Michael Bennet,Colorado,Democratic
+115th,Chris Murphy,Connecticut,Democratic
+115th,Richard Blumenthal,Connecticut,Democratic
+115th,Chris Coons,Delaware,Democratic
+115th,Tom Carper,Delaware,Democratic
+115th,Bill Nelson,Florida,Democratic
+115th,Marco Rubio,Florida,Republican
+115th,David Perdue,Georgia,Republican
+115th,Johnny Isakson,Georgia,Republican
+115th,Brian Schatz,Hawaii,Democratic
+115th,Mazie Hirono,Hawaii,Democratic
+115th,Jim Risch,Idaho,Republican
+115th,Mike Crapo,Idaho,Republican
+115th,Dick Durbin,Illinois,Democratic
+115th,Tammy Duckworth,Illinois,Democratic
+115th,Joe Donnelly,Indiana,Democratic
+115th,Todd Young,Indiana,Republican
+115th,Chuck Grassley,Iowa,Republican
+115th,Joni Ernst,Iowa,Republican
+115th,Jerry Moran,Kansas,Republican
+115th,Pat Roberts,Kansas,Republican
+115th,Mitch McConnell,Kentucky,Republican
+115th,Rand Paul,Kentucky,Republican
+115th,Bill Cassidy,Louisiana,Republican
+115th,John Neely Kennedy,Louisiana,Republican
+115th,Angus King,Maine,Independent
+115th,Susan Collins,Maine,Republican
+115th,Ben Cardin,Maryland,Democratic
+115th,Chris Van Hollen,Maryland,Democratic
+115th,Ed Markey,Massachusetts,Democratic
+115th,Elizabeth Warren,Massachusetts,Democratic
+115th,Debbie Stabenow,Michigan,Democratic
+115th,Gary Peters,Michigan,Democratic
+115th,Al Franken,Minnesota,Democratic
+115th,Amy Klobuchar,Minnesota,Democratic
+115th,Tina Smith,Minnesota,Democratic
+115th,Cindy Hyde-Smith,Mississippi,Republican
+115th,Roger Wicker,Mississippi,Republican
+115th,Thad Cochran,Mississippi,Republican
+115th,Claire McCaskill,Missouri,Democratic
+115th,Roy Blunt,Missouri,Republican
+115th,Jon Tester,Montana,Democratic
+115th,Steve Daines,Montana,Republican
+115th,Ben Sasse,Nebraska,Republican
+115th,Deb Fischer,Nebraska,Republican
+115th,Catherine Cortez Masto,Nevada,Democratic
+115th,Dean Heller,Nevada,Republican
+115th,Jeanne Shaheen,New Hampshire,Democratic
+115th,Maggie Hassan,New Hampshire,Democratic
+115th,Bob Menendez,New Jersey,Democratic
+115th,Cory Booker,New Jersey,Democratic
+115th,Martin Heinrich,New Mexico,Democratic
+115th,Tom Udall,New Mexico,Democratic
+115th,Chuck Schumer,New York,Democratic
+115th,Kirsten Gillibrand,New York,Democratic
+115th,Richard Burr,North Carolina,Republican
+115th,Thom Tillis,North Carolina,Republican
+115th,Heidi Heitkamp,North Dakota,Democratic
+115th,John Hoeven,North Dakota,Republican
+115th,Rob Portman,Ohio,Republican
+115th,Sherrod Brown,Ohio,Democratic
+115th,James Lankford,Oklahoma,Republican
+115th,Jim Inhofe,Oklahoma,Republican
+115th,Jeff Merkley,Oregon,Democratic
+115th,Ron Wyden,Oregon,Democratic
+115th,"Bob Casey, Jr.",Pennsylvania,Democratic
+115th,Pat Toomey,Pennsylvania,Republican
+115th,Jack Reed,Rhode Island,Democratic
+115th,Sheldon Whitehouse,Rhode Island,Democratic
+115th,Lindsey Graham,South Carolina,Republican
+115th,Tim Scott,South Carolina,Republican
+115th,John Thune,South Dakota,Republican
+115th,Mike Rounds,South Dakota,Republican
+115th,Bob Corker,Tennessee,Republican
+115th,Lamar Alexander,Tennessee,Republican
+115th,John Cornyn,Texas,Republican
+115th,Ted Cruz,Texas,Republican
+115th,Mike Lee,Utah,Republican
+115th,Orrin Hatch,Utah,Republican
+115th,Bernie Sanders,Vermont,Independent
+115th,Patrick Leahy,Vermont,Democratic
+115th,Mark Warner,Virginia,Democratic
+115th,Tim Kaine,Virginia,Democratic
+115th,Maria Cantwell,Washington,Democratic
+115th,Patty Murray,Washington,Democratic
+115th,Joe Manchin,West Virginia,Democratic
+115th,Shelley Moore Capito,West Virginia,Republican
+115th,Ron Johnson,Wisconsin,Republican
+115th,Tammy Baldwin,Wisconsin,Democratic
+115th,John Barrasso,Wyoming,Republican
+115th,Mike Enzi,Wyoming,Republican
+114th,Jeff Sessions,Alabama,Republican
+114th,Richard Shelby,Alabama,Republican
+114th,Dan Sullivan,Alaska,Republican
+114th,Lisa Murkowski,Alaska,Republican
+114th,Jeff Flake,Arizona,Republican
+114th,John McCain,Arizona,Republican
+114th,John Boozman,Arkansas,Republican
+114th,Tom Cotton,Arkansas,Republican
+114th,Barbara Boxer,California,Democratic
+114th,Dianne Feinstein,California,Democratic
+114th,Cory Gardner,Colorado,Republican
+114th,Michael Bennet,Colorado,Democratic
+114th,Chris Murphy,Connecticut,Democratic
+114th,Richard Blumenthal,Connecticut,Democratic
+114th,Chris Coons,Delaware,Democratic
+114th,Tom Carper,Delaware,Democratic
+114th,Bill Nelson,Florida,Democratic
+114th,Marco Rubio,Florida,Republican
+114th,David Perdue,Georgia,Republican
+114th,Johnny Isakson,Georgia,Republican
+114th,Brian Schatz,Hawaii,Democratic
+114th,Mazie Hirono,Hawaii,Democratic
+114th,Jim Risch,Idaho,Republican
+114th,Mike Crapo,Idaho,Republican
+114th,Dick Durbin,Illinois,Democratic
+114th,Mark Kirk,Illinois,Republican
+114th,Dan Coats,Indiana,Republican
+114th,Joe Donnelly,Indiana,Democratic
+114th,Chuck Grassley,Iowa,Republican
+114th,Joni Ernst,Iowa,Republican
+114th,Jerry Moran,Kansas,Republican
+114th,Pat Roberts,Kansas,Republican
+114th,Mitch McConnell,Kentucky,Republican
+114th,Rand Paul,Kentucky,Republican
+114th,Bill Cassidy,Louisiana,Republican
+114th,David Vitter,Louisiana,Republican
+114th,Angus King,Maine,Independent
+114th,Susan Collins,Maine,Republican
+114th,Barbara Mikulski,Maryland,Democratic
+114th,Ben Cardin,Maryland,Democratic
+114th,Ed Markey,Massachusetts,Democratic
+114th,Elizabeth Warren,Massachusetts,Democratic
+114th,Debbie Stabenow,Michigan,Democratic
+114th,Gary Peters,Michigan,Democratic
+114th,Al Franken,Minnesota,Democratic
+114th,Amy Klobuchar,Minnesota,Democratic
+114th,Roger Wicker,Mississippi,Republican
+114th,Thad Cochran,Mississippi,Republican
+114th,Claire McCaskill,Missouri,Democratic
+114th,Roy Blunt,Missouri,Republican
+114th,Jon Tester,Montana,Democratic
+114th,Steve Daines,Montana,Republican
+114th,Ben Sasse,Nebraska,Republican
+114th,Deb Fischer,Nebraska,Republican
+114th,Dean Heller,Nevada,Republican
+114th,Harry Reid,Nevada,Democratic
+114th,Jeanne Shaheen,New Hampshire,Democratic
+114th,Kelly Ayotte,New Hampshire,Republican
+114th,Bob Menendez,New Jersey,Democratic
+114th,Cory Booker,New Jersey,Democratic
+114th,Martin Heinrich,New Mexico,Democratic
+114th,Tom Udall,New Mexico,Democratic
+114th,Chuck Schumer,New York,Democratic
+114th,Kirsten Gillibrand,New York,Democratic
+114th,Richard Burr,North Carolina,Republican
+114th,Thom Tillis,North Carolina,Republican
+114th,Heidi Heitkamp,North Dakota,Democratic
+114th,John Hoeven,North Dakota,Republican
+114th,Rob Portman,Ohio,Republican
+114th,Sherrod Brown,Ohio,Democratic
+114th,James Lankford,Oklahoma,Republican
+114th,Jim Inhofe,Oklahoma,Republican
+114th,Jeff Merkley,Oregon,Democratic
+114th,Ron Wyden,Oregon,Democratic
+114th,Bob Casey Jr,Pennsylvania,Democratic
+114th,Pat Toomey,Pennsylvania,Republican
+114th,Jack Reed,Rhode Island,Democratic
+114th,Sheldon Whitehouse,Rhode Island,Democratic
+114th,Lindsey Graham,South Carolina,Republican
+114th,Tim Scott,South Carolina,Republican
+114th,John Thune,South Dakota,Republican
+114th,Mike Rounds,South Dakota,Republican
+114th,Bob Corker,Tennessee,Republican
+114th,Lamar Alexander,Tennessee,Republican
+114th,John Cornyn,Texas,Republican
+114th,Ted Cruz,Texas,Republican
+114th,Mike Lee,Utah,Republican
+114th,Orrin Hatch,Utah,Republican
+114th,Bernie Sanders,Vermont,Independent
+114th,Patrick Leahy,Vermont,Democratic
+114th,Mark Warner,Virginia,Democratic
+114th,Tim Kaine,Virginia,Democratic
+114th,Maria Cantwell,Washington,Democratic
+114th,Patty Murray,Washington,Democratic
+114th,Joe Manchin,West Virginia,Democratic
+114th,Shelley Moore Capito,West Virginia,Republican
+114th,Ron Johnson,Wisconsin,Republican
+114th,Tammy Baldwin,Wisconsin,Democratic
+114th,John Barrasso,Wyoming,Republican
+114th,Mike Enzi,Wyoming,Republican
+113th,Jeff Sessions,Alabama,Republican
+113th,Richard Shelby,Alabama,Republican
+113th,Lisa Murkowski,Alaska,Republican
+113th,Mark Begich,Alaska,Democratic
+113th,Jeff Flake,Arizona,Republican
+113th,John McCain,Arizona,Republican
+113th,John Boozman,Arkansas,Republican
+113th,Mark Pryor,Arkansas,Democratic
+113th,Barbara Boxer,California,Democratic
+113th,Dianne Feinstein,California,Democratic
+113th,Mark Udall,Colorado,Democratic
+113th,Michael Bennet,Colorado,Democratic
+113th,Chris Murphy,Connecticut,Democratic
+113th,Richard Blumenthal,Connecticut,Democratic
+113th,Chris Coons,Delaware,Democratic
+113th,Tom Carper,Delaware,Democratic
+113th,Bill Nelson,Florida,Democratic
+113th,Marco Rubio,Florida,Republican
+113th,Johnny Isakson,Georgia,Republican
+113th,Saxby Chambliss,Georgia,Republican
+113th,Brian Schatz,Hawaii,Democratic
+113th,Mazie Hirono,Hawaii,Democratic
+113th,Jim Risch,Idaho,Republican
+113th,Mike Crapo,Idaho,Republican
+113th,Dick Durbin,Illinois,Democratic
+113th,Mark Kirk,Illinois,Republican
+113th,Dan Coats,Indiana,Republican
+113th,Joe Donnelly,Indiana,Democratic
+113th,Chuck Grassley,Iowa,Republican
+113th,Tom Harkin,Iowa,Democratic
+113th,Jerry Moran,Kansas,Republican
+113th,Pat Roberts,Kansas,Republican
+113th,Mitch McConnell,Kentucky,Republican
+113th,Rand Paul,Kentucky,Republican
+113th,David Vitter,Louisiana,Republican
+113th,Mary Landrieu,Louisiana,Democratic
+113th,Angus King,Maine,Independent
+113th,Susan Collins,Maine,Republican
+113th,Barbara Mikulski,Maryland,Democratic
+113th,Ben Cardin,Maryland,Democratic
+113th,Ed Markey,Massachusetts,Democratic
+113th,Elizabeth Warren,Massachusetts,Democratic
+113th,John Kerry,Massachusetts,Democratic
+113th,Mo Cowan,Massachusetts,Democratic
+113th,Carl Levin,Michigan,Democratic
+113th,Debbie Stabenow,Michigan,Democratic
+113th,Al Franken,Minnesota,Democratic
+113th,Amy Klobuchar,Minnesota,Democratic
+113th,Roger Wicker,Mississippi,Republican
+113th,Thad Cochran,Mississippi,Republican
+113th,Claire McCaskill,Missouri,Democratic
+113th,Roy Blunt,Missouri,Republican
+113th,John Walsh,Montana,Democratic
+113th,Jon Tester,Montana,Democratic
+113th,Max Baucus,Montana,Democratic
+113th,Deb Fischer,Nebraska,Republican
+113th,Mike Johanns,Nebraska,Republican
+113th,Dean Heller,Nevada,Republican
+113th,Harry Reid,Nevada,Democratic
+113th,Jeanne Shaheen,New Hampshire,Democratic
+113th,Kelly Ayotte,New Hampshire,Republican
+113th,Bob Menendez,New Jersey,Democratic
+113th,Cory Booker,New Jersey,Democratic
+113th,Frank Lautenberg,New Jersey,Democratic
+113th,Jeffrey Chiesa,New Jersey,Republican
+113th,Martin Heinrich,New Mexico,Democratic
+113th,Tom Udall,New Mexico,Democratic
+113th,Chuck Schumer,New York,Democratic
+113th,Kirsten Gillibrand,New York,Democratic
+113th,Kay Hagan,North Carolina,Democratic
+113th,Richard Burr,North Carolina,Republican
+113th,Heidi Heitkamp,North Dakota,Democratic
+113th,John Hoeven,North Dakota,Republican
+113th,Rob Portman,Ohio,Republican
+113th,Sherrod Brown,Ohio,Democratic
+113th,Jim Inhofe,Oklahoma,Republican
+113th,Tom Coburn,Oklahoma,Republican
+113th,Jeff Merkley,Oregon,Democratic
+113th,Ron Wyden,Oregon,Democratic
+113th,"Bob Casey, Jr.",Pennsylvania,Democratic
+113th,Pat Toomey,Pennsylvania,Republican
+113th,Jack Reed,Rhode Island,Democratic
+113th,Sheldon Whitehouse,Rhode Island,Democratic
+113th,Lindsey Graham,South Carolina,Republican
+113th,Tim Scott,South Carolina,Republican
+113th,John Thune,South Dakota,Republican
+113th,Tim Johnson,South Dakota,Democratic
+113th,Bob Corker,Tennessee,Republican
+113th,Lamar Alexander,Tennessee,Republican
+113th,John Cornyn,Texas,Republican
+113th,Ted Cruz,Texas,Republican
+113th,Mike Lee,Utah,Republican
+113th,Orrin Hatch,Utah,Republican
+113th,Bernie Sanders,Vermont,Independent
+113th,Patrick Leahy,Vermont,Democratic
+113th,Mark Warner,Virginia,Democratic
+113th,Tim Kaine,Virginia,Democratic
+113th,Maria Cantwell,Washington,Democratic
+113th,Patty Murray,Washington,Democratic
+113th,Jay Rockefeller,West Virginia,Democratic
+113th,Joe Manchin,West Virginia,Democratic
+113th,Ron Johnson,Wisconsin,Republican
+113th,Tammy Baldwin,Wisconsin,Democratic
+113th,John Barrasso,Wyoming,Republican
+113th,Mike Enzi,Wyoming,Republican
+112th,Jeff Sessions,Alabama,Republican
+112th,Richard Shelby,Alabama,Republican
+112th,Lisa Murkowski,Alaska,Republican
+112th,Mark Begich,Alaska,Democratic
+112th,John McCain,Arizona,Republican
+112th,Jon Kyl,Arizona,Republican
+112th,John Boozman,Arkansas,Republican
+112th,Mark Pryor,Arkansas,Democratic
+112th,Barbara Boxer,California,Democratic
+112th,Dianne Feinstein,California,Democratic
+112th,Mark Udall,Colorado,Democratic
+112th,Michael Bennet,Colorado,Democratic
+112th,Joe Lieberman,Connecticut,ID
+112th,Richard Blumenthal,Connecticut,Democratic
+112th,Chris Coons,Delaware,Democratic
+112th,Tom Carper,Delaware,Democratic
+112th,Bill Nelson,Florida,Democratic
+112th,Marco Rubio,Florida,Republican
+112th,Johnny Isakson,Georgia,Republican
+112th,Saxby Chambliss,Georgia,Republican
+112th,Brian Schatz,Hawaii,Democratic
+112th,Daniel Akaka,Hawaii,Democratic
+112th,Daniel Inouye,Hawaii,Democratic
+112th,Jim Risch,Idaho,Republican
+112th,Mike Crapo,Idaho,Republican
+112th,Dick Durbin,Illinois,Democratic
+112th,Mark Kirk,Illinois,Republican
+112th,Dan Coats,Indiana,Republican
+112th,Richard Lugar,Indiana,Republican
+112th,Chuck Grassley,Iowa,Republican
+112th,Tom Harkin,Iowa,Democratic
+112th,Jerry Moran,Kansas,Republican
+112th,Pat Roberts,Kansas,Republican
+112th,Mitch McConnell,Kentucky,Republican
+112th,Rand Paul,Kentucky,Republican
+112th,David Vitter,Louisiana,Republican
+112th,Mary Landrieu,Louisiana,Democratic
+112th,Olympia Snowe,Maine,Republican
+112th,Susan Collins,Maine,Republican
+112th,Barbara Mikulski,Maryland,Democratic
+112th,Ben Cardin,Maryland,Democratic
+112th,John Kerry,Massachusetts,Democratic
+112th,Scott Brown,Massachusetts,Republican
+112th,Carl Levin,Michigan,Democratic
+112th,Debbie Stabenow,Michigan,Democratic
+112th,Al Franken,Minnesota,Democratic
+112th,Amy Klobuchar,Minnesota,Democratic
+112th,Roger Wicker,Mississippi,Republican
+112th,Thad Cochran,Mississippi,Republican
+112th,Claire McCaskill,Missouri,Democratic
+112th,Roy Blunt,Missouri,Republican
+112th,Jon Tester,Montana,Democratic
+112th,Max Baucus,Montana,Democratic
+112th,Ben Nelson,Nebraska,Democratic
+112th,Mike Johanns,Nebraska,Republican
+112th,Dean Heller,Nevada,Republican
+112th,Harry Reid,Nevada,Democratic
+112th,John Ensign,Nevada,Republican
+112th,Jeanne Shaheen,New Hampshire,Democratic
+112th,Kelly Ayotte,New Hampshire,Republican
+112th,Bob Menendez,New Jersey,Democratic
+112th,Frank Lautenberg,New Jersey,Democratic
+112th,Jeff Bingaman,New Mexico,Democratic
+112th,Tom Udall,New Mexico,Democratic
+112th,Chuck Schumer,New York,Democratic
+112th,Kirsten Gillibrand,New York,Democratic
+112th,Kay Hagan,North Carolina,Democratic
+112th,Richard Burr,North Carolina,Republican
+112th,John Hoeven,North Dakota,Republican
+112th,Kent Conrad,North Dakota,Democratic
+112th,Rob Portman,Ohio,Republican
+112th,Sherrod Brown,Ohio,Democratic
+112th,Jim Inhofe,Oklahoma,Republican
+112th,Tom Coburn,Oklahoma,Republican
+112th,Jeff Merkley,Oregon,Democratic
+112th,Ron Wyden,Oregon,Democratic
+112th,"Bob Casey, Jr.",Pennsylvania,Democratic
+112th,Pat Toomey,Pennsylvania,Republican
+112th,Jack Reed,Rhode Island,Democratic
+112th,Sheldon Whitehouse,Rhode Island,Democratic
+112th,Jim DeMint,South Carolina,Republican
+112th,Lindsey Graham,South Carolina,Republican
+112th,Tim Scott,South Carolina,Republican
+112th,John Thune,South Dakota,Republican
+112th,Tim Johnson,South Dakota,Democratic
+112th,Bob Corker,Tennessee,Republican
+112th,Lamar Alexander,Tennessee,Republican
+112th,John Cornyn,Texas,Republican
+112th,Kay Bailey Hutchison,Texas,Republican
+112th,Mike Lee,Utah,Republican
+112th,Orrin Hatch,Utah,Republican
+112th,Bernie Sanders,Vermont,Independent
+112th,Patrick Leahy,Vermont,Democratic
+112th,Jim Webb,Virginia,Democratic
+112th,Mark Warner,Virginia,Democratic
+112th,Maria Cantwell,Washington,Democratic
+112th,Patty Murray,Washington,Democratic
+112th,Jay Rockefeller,West Virginia,Democratic
+112th,Joe Manchin,West Virginia,Democratic
+112th,Herb Kohl,Wisconsin,Democratic
+112th,Ron Johnson,Wisconsin,Republican
+112th,John Barrasso,Wyoming,Republican
+112th,Mike Enzi,Wyoming,Republican
+111th,Jeff Sessions,Alabama,Republican
+111th,Richard Shelby,Alabama,Republican
+111th,Lisa Murkowski,Alaska,Republican
+111th,Mark Begich,Alaska,Democratic
+111th,John McCain,Arizona,Republican
+111th,Jon Kyl,Arizona,Republican
+111th,Blanche Lincoln,Arkansas,Democratic
+111th,Mark Pryor,Arkansas,Democratic
+111th,Barbara Boxer,California,Democratic
+111th,Dianne Feinstein,California,Democratic
+111th,Ken Salazar,Colorado,Democratic
+111th,Mark Udall,Colorado,Democratic
+111th,Michael Bennet,Colorado,Democratic
+111th,Chris Dodd,Connecticut,Democratic
+111th,Joe Lieberman,Connecticut,Independent
+111th,Chris Coons,Delaware,Democratic
+111th,Joe Biden,Delaware,Democratic
+111th,Ted Kaufman,Delaware,Democratic
+111th,Tom Carper,Delaware,Democratic
+111th,Bill Nelson,Florida,Democratic
+111th,George LeMieux,Florida,Republican
+111th,Mel Martinez,Florida,Republican
+111th,Johnny Isakson,Georgia,Republican
+111th,Saxby Chambliss,Georgia,Republican
+111th,Daniel Akaka,Hawaii,Democratic
+111th,Daniel Inouye,Hawaii,Democratic
+111th,Jim Risch,Idaho,Republican
+111th,Mike Crapo,Idaho,Republican
+111th,Dick Durbin,Illinois,Democratic
+111th,Mark Kirk,Illinois,Republican
+111th,Roland Burris,Illinois,Democratic
+111th,Evan Bayh,Indiana,Democratic
+111th,Richard Lugar,Indiana,Republican
+111th,Chuck Grassley,Iowa,Republican
+111th,Tom Harkin,Iowa,Democratic
+111th,Pat Roberts,Kansas,Republican
+111th,Sam Brownback,Kansas,Republican
+111th,Jim Bunning,Kentucky,Republican
+111th,Mitch McConnell,Kentucky,Republican
+111th,David Vitter,Louisiana,Republican
+111th,Mary Landrieu,Louisiana,Democratic
+111th,Olympia Snowe,Maine,Republican
+111th,Susan Collins,Maine,Republican
+111th,Barbara Mikulski,Maryland,Democratic
+111th,Ben Cardin,Maryland,Democratic
+111th,John Kerry,Massachusetts,Democratic
+111th,Paul G. Kirk,Massachusetts,Democratic
+111th,Scott Brown,Massachusetts,Republican
+111th,Ted Kennedy,Massachusetts,Democratic
+111th,Carl Levin,Michigan,Democratic
+111th,Debbie Stabenow,Michigan,Democratic
+111th,Al Franken,Minnesota,Democratic
+111th,Amy Klobuchar,Minnesota,Democratic
+111th,Roger Wicker,Mississippi,Republican
+111th,Thad Cochran,Mississippi,Republican
+111th,Claire McCaskill,Missouri,Democratic
+111th,Kit Bond,Missouri,Republican
+111th,Jon Tester,Montana,Democratic
+111th,Max Baucus,Montana,Democratic
+111th,Ben Nelson,Nebraska,Democratic
+111th,Mike Johanns,Nebraska,Republican
+111th,Harry Reid,Nevada,Democratic
+111th,John Ensign,Nevada,Republican
+111th,Jeanne Shaheen,New Hampshire,Democratic
+111th,Judd Gregg,New Hampshire,Republican
+111th,Bob Menendez,New Jersey,Democratic
+111th,Frank Lautenberg,New Jersey,Democratic
+111th,Jeff Bingaman,New Mexico,Democratic
+111th,Tom Udall,New Mexico,Democratic
+111th,Chuck Schumer,New York,Democratic
+111th,Hillary Clinton,New York,Democratic
+111th,Kirsten Gillibrand,New York,Democratic
+111th,Kay Hagan,North Carolina,Democratic
+111th,Richard Burr,North Carolina,Republican
+111th,Byron Dorgan,North Dakota,Democratic
+111th,Kent Conrad,North Dakota,Democratic
+111th,George Voinovich,Ohio,Republican
+111th,Sherrod Brown,Ohio,Democratic
+111th,Jim Inhofe,Oklahoma,Republican
+111th,Tom Coburn,Oklahoma,Republican
+111th,Jeff Merkley,Oregon,Democratic
+111th,Ron Wyden,Oregon,Democratic
+111th,Arlen Specter,Pennsylvania,"R, D"
+111th,"Bob Casey, Jr.",Pennsylvania,Democratic
+111th,Jack Reed,Rhode Island,Democratic
+111th,Sheldon Whitehouse,Rhode Island,Democratic
+111th,Jim DeMint,South Carolina,Republican
+111th,Lindsey Graham,South Carolina,Republican
+111th,John Thune,South Dakota,Republican
+111th,Tim Johnson,South Dakota,Democratic
+111th,Bob Corker,Tennessee,Republican
+111th,Lamar Alexander,Tennessee,Republican
+111th,John Cornyn,Texas,Republican
+111th,Kay Bailey Hutchison,Texas,Republican
+111th,Bob Bennett,Utah,Republican
+111th,Orrin Hatch,Utah,Republican
+111th,Bernie Sanders,Vermont,Independent
+111th,Patrick Leahy,Vermont,Democratic
+111th,Jim Webb,Virginia,Democratic
+111th,Mark Warner,Virginia,Democratic
+111th,Maria Cantwell,Washington,Democratic
+111th,Patty Murray,Washington,Democratic
+111th,Carte Goodwin,West Virginia,Democratic
+111th,Jay Rockefeller,West Virginia,Democratic
+111th,Joe Manchin,West Virginia,Democratic
+111th,Robert Byrd,West Virginia,Democratic
+111th,Herb Kohl,Wisconsin,Democratic
+111th,Russ Feingold,Wisconsin,Democratic
+111th,John Barrasso,Wyoming,Republican
+111th,Mike Enzi,Wyoming,Republican
+110th,Jeff Sessions,Alabama,Republican
+110th,Richard Shelby,Alabama,Republican
+110th,Lisa Murkowski,Alaska,Republican
+110th,Ted Stevens,Alaska,Republican
+110th,John McCain,Arizona,Republican
+110th,Jon Kyl,Arizona,Republican
+110th,Blanche Lincoln,Arkansas,Democratic
+110th,Mark Pryor,Arkansas,Democratic
+110th,Barbara Boxer,California,Democratic
+110th,Dianne Feinstein,California,Democratic
+110th,Ken Salazar,Colorado,Democratic
+110th,Wayne Allard,Colorado,Republican
+110th,Chris Dodd,Connecticut,Democratic
+110th,Joe Lieberman,Connecticut,ID
+110th,Joe Biden,Delaware,Democratic
+110th,Tom Carper,Delaware,Democratic
+110th,Bill Nelson,Florida,Democratic
+110th,Mel Martinez,Florida,Republican
+110th,Johnny Isakson,Georgia,Republican
+110th,Saxby Chambliss,Georgia,Republican
+110th,Daniel Akaka,Hawaii,Democratic
+110th,Daniel Inouye,Hawaii,Democratic
+110th,Larry Craig,Idaho,Republican
+110th,Mike Crapo,Idaho,Republican
+110th,Barack Obama,Illinois,Democratic
+110th,Dick Durbin,Illinois,Democratic
+110th,Evan Bayh,Indiana,Democratic
+110th,Richard Lugar,Indiana,Republican
+110th,Chuck Grassley,Iowa,Republican
+110th,Tom Harkin,Iowa,Democratic
+110th,Pat Roberts,Kansas,Republican
+110th,Sam Brownback,Kansas,Republican
+110th,Jim Bunning,Kentucky,Republican
+110th,Mitch McConnell,Kentucky,Republican
+110th,David Vitter,Louisiana,Republican
+110th,Mary Landrieu,Louisiana,Democratic
+110th,Olympia Snowe,Maine,Republican
+110th,Susan Collins,Maine,Republican
+110th,Barbara Mikulski,Maryland,Democratic
+110th,Ben Cardin,Maryland,Democratic
+110th,John Kerry,Massachusetts,Democratic
+110th,Ted Kennedy,Massachusetts,Democratic
+110th,Carl Levin,Michigan,Democratic
+110th,Debbie Stabenow,Michigan,Democratic
+110th,Amy Klobuchar,Minnesota,Democratic
+110th,Norm Coleman,Minnesota,Republican
+110th,Roger Wicker,Mississippi,Republican
+110th,Thad Cochran,Mississippi,Republican
+110th,Trent Lott,Mississippi,Republican
+110th,Claire McCaskill,Missouri,Democratic
+110th,Kit Bond,Missouri,Republican
+110th,Jon Tester,Montana,Democratic
+110th,Max Baucus,Montana,Democratic
+110th,Ben Nelson,Nebraska,Democratic
+110th,Chuck Hagel,Nebraska,Republican
+110th,Harry Reid,Nevada,Democratic
+110th,John Ensign,Nevada,Republican
+110th,John E. Sununu,New Hampshire,Republican
+110th,Judd Gregg,New Hampshire,Republican
+110th,Bob Menendez,New Jersey,Democratic
+110th,Frank Lautenberg,New Jersey,Democratic
+110th,Jeff Bingaman,New Mexico,Democratic
+110th,Pete Domenici,New Mexico,Republican
+110th,Chuck Schumer,New York,Democratic
+110th,Hillary Clinton,New York,Democratic
+110th,Elizabeth Dole,North Carolina,Republican
+110th,Richard Burr,North Carolina,Republican
+110th,Byron Dorgan,North Dakota,Democratic
+110th,Kent Conrad,North Dakota,Democratic
+110th,George Voinovich,Ohio,Republican
+110th,Sherrod Brown,Ohio,Democratic
+110th,Jim Inhofe,Oklahoma,Republican
+110th,Tom Coburn,Oklahoma,Republican
+110th,Gordon H. Smith,Oregon,Republican
+110th,Ron Wyden,Oregon,Democratic
+110th,Arlen Specter,Pennsylvania,Republican
+110th,"Bob Casey, Jr.",Pennsylvania,Democratic
+110th,Jack Reed,Rhode Island,Democratic
+110th,Sheldon Whitehouse,Rhode Island,Democratic
+110th,Jim DeMint,South Carolina,Republican
+110th,Lindsey Graham,South Carolina,Republican
+110th,John Thune,South Dakota,Republican
+110th,Tim Johnson,South Dakota,Democratic
+110th,Bob Corker,Tennessee,Republican
+110th,Lamar Alexander,Tennessee,Republican
+110th,John Cornyn,Texas,Republican
+110th,Kay Bailey Hutchison,Texas,Republican
+110th,Bob Bennett,Utah,Republican
+110th,Orrin Hatch,Utah,Republican
+110th,Bernie Sanders,Vermont,Independent
+110th,Patrick Leahy,Vermont,Democratic
+110th,Jim Webb,Virginia,Democratic
+110th,John Warner,Virginia,Republican
+110th,Maria Cantwell,Washington,Democratic
+110th,Patty Murray,Washington,Democratic
+110th,Jay Rockefeller,West Virginia,Democratic
+110th,Robert Byrd,West Virginia,Democratic
+110th,Herb Kohl,Wisconsin,Democratic
+110th,Russ Feingold,Wisconsin,Democratic
+110th,Craig L. Thomas,Wyoming,Republican
+110th,John Barrasso,Wyoming,Republican
+110th,Mike Enzi,Wyoming,Republican
+109th,Jeff Sessions,Alabama,Republican
+109th,Richard Shelby,Alabama,Republican
+109th,Lisa Murkowski,Alaska,Republican
+109th,Ted Stevens,Alaska,Republican
+109th,John McCain,Arizona,Republican
+109th,Jon Kyl,Arizona,Republican
+109th,Blanche Lincoln,Arkansas,Democratic
+109th,Mark Pryor,Arkansas,Democratic
+109th,Barbara Boxer,California,Democratic
+109th,Dianne Feinstein,California,Democratic
+109th,Ken Salazar,Colorado,Democratic
+109th,Wayne Allard,Colorado,Republican
+109th,Chris Dodd,Connecticut,Democratic
+109th,Joe Lieberman,Connecticut,Democratic
+109th,Joe Biden,Delaware,Democratic
+109th,Tom Carper,Delaware,Democratic
+109th,Bill Nelson,Florida,Democratic
+109th,Mel Martinez,Florida,Republican
+109th,Johnny Isakson,Georgia,Republican
+109th,Saxby Chambliss,Georgia,Republican
+109th,Daniel Akaka,Hawaii,Democratic
+109th,Daniel Inouye,Hawaii,Democratic
+109th,Larry Craig,Idaho,Republican
+109th,Mike Crapo,Idaho,Republican
+109th,Barack Obama,Illinois,Democratic
+109th,Dick Durbin,Illinois,Democratic
+109th,Evan Bayh,Indiana,Democratic
+109th,Richard Lugar,Indiana,Republican
+109th,Chuck Grassley,Iowa,Republican
+109th,Tom Harkin,Iowa,Democratic
+109th,Pat Roberts,Kansas,Republican
+109th,Sam Brownback,Kansas,Republican
+109th,Jim Bunning,Kentucky,Republican
+109th,Mitch McConnell,Kentucky,Republican
+109th,David Vitter,Louisiana,Republican
+109th,Mary Landrieu,Louisiana,Democratic
+109th,Olympia Snowe,Maine,Republican
+109th,Susan Collins,Maine,Republican
+109th,Barbara Mikulski,Maryland,Democratic
+109th,Paul Sarbanes,Maryland,Democratic
+109th,John Kerry,Massachusetts,Democratic
+109th,Ted Kennedy,Massachusetts,Democratic
+109th,Carl Levin,Michigan,Democratic
+109th,Debbie Stabenow,Michigan,Democratic
+109th,Mark Dayton,Minnesota,Democratic
+109th,Norm Coleman,Minnesota,Republican
+109th,Thad Cochran,Mississippi,Republican
+109th,Trent Lott,Mississippi,Republican
+109th,Jim Talent,Missouri,Republican
+109th,Kit Bond,Missouri,Republican
+109th,Conrad Burns,Montana,Republican
+109th,Max Baucus,Montana,Democratic
+109th,Ben Nelson,Nebraska,Democratic
+109th,Chuck Hagel,Nebraska,Republican
+109th,Harry Reid,Nevada,Democratic
+109th,John Ensign,Nevada,Republican
+109th,John E. Sununu,New Hampshire,Republican
+109th,Judd Gregg,New Hampshire,Republican
+109th,Bob Menendez,New Jersey,Democratic
+109th,Frank Lautenberg,New Jersey,Democratic
+109th,Jon Corzine,New Jersey,Democratic
+109th,Jeff Bingaman,New Mexico,Democratic
+109th,Pete Domenici,New Mexico,Republican
+109th,Chuck Schumer,New York,Democratic
+109th,Hillary Clinton,New York,Democratic
+109th,Elizabeth Dole,North Carolina,Republican
+109th,Richard Burr,North Carolina,Republican
+109th,Byron Dorgan,North Dakota,Democratic
+109th,Kent Conrad,North Dakota,Democratic
+109th,George Voinovich,Ohio,Republican
+109th,Mike DeWine,Ohio,Republican
+109th,Jim Inhofe,Oklahoma,Republican
+109th,Tom Coburn,Oklahoma,Republican
+109th,Gordon H. Smith,Oregon,Republican
+109th,Ron Wyden,Oregon,Democratic
+109th,Arlen Specter,Pennsylvania,Republican
+109th,Rick Santorum,Pennsylvania,Republican
+109th,Jack Reed,Rhode Island,Democratic
+109th,Lincoln Chafee,Rhode Island,Republican
+109th,Jim DeMint,South Carolina,Republican
+109th,Lindsey Graham,South Carolina,Republican
+109th,John Thune,South Dakota,Republican
+109th,Tim Johnson,South Dakota,Democratic
+109th,Bill Frist,Tennessee,Republican
+109th,Lamar Alexander,Tennessee,Republican
+109th,John Cornyn,Texas,Republican
+109th,Kay Bailey Hutchison,Texas,Republican
+109th,Bob Bennett,Utah,Republican
+109th,Orrin Hatch,Utah,Republican
+109th,Jim Jeffords,Vermont,Independent
+109th,Patrick Leahy,Vermont,Democratic
+109th,George Allen,Virginia,Republican
+109th,John Warner,Virginia,Republican
+109th,Maria Cantwell,Washington,Democratic
+109th,Patty Murray,Washington,Democratic
+109th,Jay Rockefeller,West Virginia,Democratic
+109th,Robert Byrd,West Virginia,Democratic
+109th,Herb Kohl,Wisconsin,Democratic
+109th,Russ Feingold,Wisconsin,Democratic
+109th,Craig L. Thomas,Wyoming,Republican
+109th,Mike Enzi,Wyoming,Republican
+108th,Jeff Sessions,Alabama,Republican
+108th,Richard Shelby,Alabama,Republican
+108th,Lisa Murkowski,Alaska,Republican
+108th,Ted Stevens,Alaska,Republican
+108th,John McCain,Arizona,Republican
+108th,Jon Kyl,Arizona,Republican
+108th,Blanche Lincoln,Arkansas,Democratic
+108th,Mark Pryor,Arkansas,Democratic
+108th,Barbara Boxer,California,Democratic
+108th,Dianne Feinstein,California,Democratic
+108th,Ben Nighthorse Campbell,Colorado,Republican
+108th,Wayne Allard,Colorado,Republican
+108th,Chris Dodd,Connecticut,Democratic
+108th,Joe Lieberman,Connecticut,Democratic
+108th,Joe Biden,Delaware,Democratic
+108th,Tom Carper,Delaware,Democratic
+108th,Bill Nelson,Florida,Democratic
+108th,Bob Graham,Florida,Democratic
+108th,Saxby Chambliss,Georgia,Republican
+108th,Zell Miller,Georgia,Democratic
+108th,Daniel Akaka,Hawaii,Democratic
+108th,Daniel Inouye,Hawaii,Democratic
+108th,Larry Craig,Idaho,Republican
+108th,Mike Crapo,Idaho,Republican
+108th,Dick Durbin,Illinois,Democratic
+108th,Peter Fitzgerald,Illinois,Republican
+108th,Evan Bayh,Indiana,Democratic
+108th,Richard Lugar,Indiana,Republican
+108th,Chuck Grassley,Iowa,Republican
+108th,Tom Harkin,Iowa,Democratic
+108th,Pat Roberts,Kansas,Republican
+108th,Sam Brownback,Kansas,Republican
+108th,Jim Bunning,Kentucky,Republican
+108th,Mitch McConnell,Kentucky,Republican
+108th,John Breaux,Louisiana,Democratic
+108th,Mary Landrieu,Louisiana,Democratic
+108th,Olympia Snowe,Maine,Republican
+108th,Susan Collins,Maine,Republican
+108th,Barbara Mikulski,Maryland,Democratic
+108th,Paul Sarbanes,Maryland,Democratic
+108th,John Kerry,Massachusetts,Democratic
+108th,Ted Kennedy,Massachusetts,Democratic
+108th,Carl Levin,Michigan,Democratic
+108th,Debbie Stabenow,Michigan,Democratic
+108th,Mark Dayton,Minnesota,Democratic
+108th,Norm Coleman,Minnesota,Republican
+108th,Thad Cochran,Mississippi,Republican
+108th,Trent Lott,Mississippi,Republican
+108th,Jim Talent,Missouri,Republican
+108th,Kit Bond,Missouri,Republican
+108th,Conrad Burns,Montana,Republican
+108th,Max Baucus,Montana,Democratic
+108th,Ben Nelson,Nebraska,Democratic
+108th,Chuck Hagel,Nebraska,Republican
+108th,Harry Reid,Nevada,Democratic
+108th,John Ensign,Nevada,Republican
+108th,John E. Sununu,New Hampshire,Republican
+108th,Judd Gregg,New Hampshire,Republican
+108th,Frank Lautenberg,New Jersey,Democratic
+108th,Jon Corzine,New Jersey,Democratic
+108th,Jeff Bingaman,New Mexico,Democratic
+108th,Pete Domenici,New Mexico,Republican
+108th,Chuck Schumer,New York,Democratic
+108th,Hillary Clinton,New York,Democratic
+108th,Elizabeth Dole,North Carolina,Republican
+108th,John Edwards,North Carolina,Democratic
+108th,Byron Dorgan,North Dakota,Democratic
+108th,Kent Conrad,North Dakota,Democratic
+108th,George Voinovich,Ohio,Republican
+108th,Mike DeWine,Ohio,Republican
+108th,Don Nickles,Oklahoma,Republican
+108th,Jim Inhofe,Oklahoma,Republican
+108th,Gordon H. Smith,Oregon,Republican
+108th,Ron Wyden,Oregon,Democratic
+108th,Arlen Specter,Pennsylvania,Republican
+108th,Rick Santorum,Pennsylvania,Republican
+108th,Jack Reed,Rhode Island,Democratic
+108th,Lincoln Chafee,Rhode Island,Republican
+108th,Fritz Hollings,South Carolina,Democratic
+108th,Lindsey Graham,South Carolina,Republican
+108th,Tim Johnson,South Dakota,Democratic
+108th,Tom Daschle,South Dakota,Democratic
+108th,Bill Frist,Tennessee,Republican
+108th,Lamar Alexander,Tennessee,Republican
+108th,John Cornyn,Texas,Republican
+108th,Kay Bailey Hutchison,Texas,Republican
+108th,Bob Bennett,Utah,Republican
+108th,Orrin Hatch,Utah,Republican
+108th,Jim Jeffords,Vermont,Independent
+108th,Patrick Leahy,Vermont,Democratic
+108th,George Allen,Virginia,Republican
+108th,John Warner,Virginia,Republican
+108th,Maria Cantwell,Washington,Democratic
+108th,Patty Murray,Washington,Democratic
+108th,Jay Rockefeller,West Virginia,Democratic
+108th,Robert Byrd,West Virginia,Democratic
+108th,Herb Kohl,Wisconsin,Democratic
+108th,Russ Feingold,Wisconsin,Democratic
+108th,Craig L. Thomas,Wyoming,Republican
+108th,Mike Enzi,Wyoming,Republican
+107th,Jeff Sessions,Alabama,Republican
+107th,Richard Shelby,Alabama,Republican
+107th,Frank Murkowski,Alaska,Republican
+107th,Lisa Murkowski,Alaska,Republican
+107th,Ted Stevens,Alaska,Republican
+107th,John McCain,Arizona,Republican
+107th,Jon Kyl,Arizona,Republican
+107th,Blanche Lincoln,Arkansas,Democratic
+107th,Tim Hutchinson,Arkansas,Republican
+107th,Barbara Boxer,California,Democratic
+107th,Dianne Feinstein,California,Democratic
+107th,Ben Nighthorse Campbell,Colorado,Republican
+107th,Wayne Allard,Colorado,Republican
+107th,Chris Dodd,Connecticut,Democratic
+107th,Joe Lieberman,Connecticut,Democratic
+107th,Joe Biden,Delaware,Democratic
+107th,Tom Carper,Delaware,Democratic
+107th,Bill Nelson,Florida,Democratic
+107th,Bob Graham,Florida,Democratic
+107th,Max Cleland,Georgia,Democratic
+107th,Zell Miller,Georgia,Democratic
+107th,Daniel Akaka,Hawaii,Democratic
+107th,Daniel Inouye,Hawaii,Democratic
+107th,Larry Craig,Idaho,Republican
+107th,Mike Crapo,Idaho,Republican
+107th,Dick Durbin,Illinois,Democratic
+107th,Peter Fitzgerald,Illinois,Republican
+107th,Evan Bayh,Indiana,Democratic
+107th,Richard Lugar,Indiana,Republican
+107th,Chuck Grassley,Iowa,Republican
+107th,Tom Harkin,Iowa,Democratic
+107th,Pat Roberts,Kansas,Republican
+107th,Sam Brownback,Kansas,Republican
+107th,Jim Bunning,Kentucky,Republican
+107th,Mitch McConnell,Kentucky,Republican
+107th,John Breaux,Louisiana,Democratic
+107th,Mary Landrieu,Louisiana,Democratic
+107th,Olympia Snowe,Maine,Republican
+107th,Susan Collins,Maine,Republican
+107th,Barbara Mikulski,Maryland,Democratic
+107th,Paul Sarbanes,Maryland,Democratic
+107th,John Kerry,Massachusetts,Democratic
+107th,Ted Kennedy,Massachusetts,Democratic
+107th,Carl Levin,Michigan,Democratic
+107th,Debbie Stabenow,Michigan,Democratic
+107th,Dean Barkley,Minnesota,Independent
+107th,Mark Dayton,Minnesota,Democratic
+107th,Paul Wellstone,Minnesota,Democratic
+107th,Thad Cochran,Mississippi,Republican
+107th,Trent Lott,Mississippi,Republican
+107th,Jean Carnahan,Missouri,Democratic
+107th,Jim Talent,Missouri,Republican
+107th,Kit Bond,Missouri,Republican
+107th,Conrad Burns,Montana,Republican
+107th,Max Baucus,Montana,Democratic
+107th,Ben Nelson,Nebraska,Democratic
+107th,Chuck Hagel,Nebraska,Republican
+107th,Harry Reid,Nevada,Democratic
+107th,John Ensign,Nevada,Republican
+107th,Bob Smith,New Hampshire,Republican
+107th,Judd Gregg,New Hampshire,Republican
+107th,Jon Corzine,New Jersey,Democratic
+107th,Robert Torricelli,New Jersey,Democratic
+107th,Jeff Bingaman,New Mexico,Democratic
+107th,Pete Domenici,New Mexico,Republican
+107th,Chuck Schumer,New York,Democratic
+107th,Hillary Clinton,New York,Democratic
+107th,Jesse Helms,North Carolina,Republican
+107th,John Edwards,North Carolina,Democratic
+107th,Byron Dorgan,North Dakota,Democratic
+107th,Kent Conrad,North Dakota,Democratic
+107th,George Voinovich,Ohio,Republican
+107th,Mike DeWine,Ohio,Republican
+107th,Don Nickles,Oklahoma,Republican
+107th,Jim Inhofe,Oklahoma,Republican
+107th,Gordon H. Smith,Oregon,Republican
+107th,Ron Wyden,Oregon,Democratic
+107th,Arlen Specter,Pennsylvania,Republican
+107th,Rick Santorum,Pennsylvania,Republican
+107th,Jack Reed,Rhode Island,Democratic
+107th,Lincoln Chafee,Rhode Island,Republican
+107th,Ernest Hollings,South Carolina,Democratic
+107th,Strom Thurmond,South Carolina,Republican
+107th,Tim Johnson,South Dakota,Democratic
+107th,Tom Daschle,South Dakota,Democratic
+107th,Bill Frist,Tennessee,Republican
+107th,Fred Thompson,Tennessee,Republican
+107th,John Cornyn,Texas,Republican
+107th,Kay Bailey Hutchison,Texas,Republican
+107th,Phil Gramm,Texas,Republican
+107th,Bob Bennett,Utah,Republican
+107th,Orrin Hatch,Utah,Republican
+107th,Jim Jeffords,Vermont,Independent
+107th,Patrick Leahy,Vermont,Democratic
+107th,George Allen,Virginia,Republican
+107th,John Warner,Virginia,Republican
+107th,Maria Cantwell,Washington,Democratic
+107th,Patty Murray,Washington,Democratic
+107th,Jay Rockefeller,West Virginia,Democratic
+107th,Robert Byrd,West Virginia,Democratic
+107th,Herb Kohl,Wisconsin,Democratic
+107th,Russ Feingold,Wisconsin,Democratic
+107th,Craig L. Thomas,Wyoming,Republican
+107th,Mike Enzi,Wyoming,Republican
+106th,Jeff Sessions,Alabama,Republican
+106th,Richard Shelby,Alabama,Republican
+106th,Frank Murkowski,Alaska,Republican
+106th,Ted Stevens,Alaska,Republican
+106th,John McCain,Arizona,Republican
+106th,Jon Kyl,Arizona,Republican
+106th,Blanche Lincoln,Arkansas,Democratic
+106th,Tim Hutchinson,Arkansas,Republican
+106th,Barbara Boxer,California,Democratic
+106th,Dianne Feinstein,California,Democratic
+106th,Ben Nighthorse Campbell,Colorado,Republican
+106th,Wayne Allard,Colorado,Republican
+106th,Chris Dodd,Connecticut,Democratic
+106th,Joe Lieberman,Connecticut,Democratic
+106th,Bill Roth,Delaware,Republican
+106th,Joe Biden,Delaware,Democratic
+106th,Bob Graham,Florida,Democratic
+106th,Connie Mack III,Florida,Republican
+106th,Max Cleland,Georgia,Democratic
+106th,Paul Coverdell,Georgia,Republican
+106th,Zell Miller,Georgia,Democratic
+106th,Daniel Akaka,Hawaii,Democratic
+106th,Daniel Inouye,Hawaii,Democratic
+106th,Larry Craig,Idaho,Republican
+106th,Mike Crapo,Idaho,Republican
+106th,Dick Durbin,Illinois,Democratic
+106th,Peter Fitzgerald,Illinois,Republican
+106th,Evan Bayh,Indiana,Democratic
+106th,Richard Lugar,Indiana,Republican
+106th,Chuck Grassley,Iowa,Republican
+106th,Tom Harkin,Iowa,Democratic
+106th,Pat Roberts,Kansas,Republican
+106th,Sam Brownback,Kansas,Republican
+106th,Jim Bunning,Kentucky,Republican
+106th,Mitch McConnell,Kentucky,Republican
+106th,John Breaux,Louisiana,Democratic
+106th,Mary Landrieu,Louisiana,Republican
+106th,Olympia Snowe,Maine,Republican
+106th,Susan Collins,Maine,Republican
+106th,Barbara Mikulski,Maryland,Democratic
+106th,Paul Sarbanes,Maryland,Democratic
+106th,John Kerry,Massachusetts,Democratic
+106th,Ted Kennedy,Massachusetts,Democratic
+106th,Carl Levin,Michigan,Democratic
+106th,Spencer Abraham,Michigan,Republican
+106th,Paul Wellstone,Minnesota,Democratic
+106th,Rod Grams,Minnesota,Republican
+106th,Thad Cochran,Mississippi,Republican
+106th,Trent Lott,Mississippi,Republican
+106th,John Ashcroft,Missouri,Republican
+106th,Kit Bond,Missouri,Republican
+106th,Conrad Burns,Montana,Republican
+106th,Max Baucus,Montana,Democratic
+106th,Bob Kerrey,Nebraska,Democratic
+106th,Chuck Hagel,Nebraska,Republican
+106th,Harry Reid,Nevada,Democratic
+106th,Richard Bryan,Nevada,Democratic
+106th,Bob Smith,New Hampshire,Republican
+106th,Judd Gregg,New Hampshire,Republican
+106th,Frank Lautenberg,New Jersey,Democratic
+106th,Robert Torricelli,New Jersey,Democratic
+106th,Jeff Bingaman,New Mexico,Democratic
+106th,Pete Domenici,New Mexico,Republican
+106th,Chuck Schumer,New York,Democratic
+106th,Daniel Patrick Moynihan,New York,Democratic
+106th,Jesse Helms,North Carolina,Republican
+106th,John Edwards,North Carolina,Democratic
+106th,Byron Dorgan,North Dakota,Democratic
+106th,Kent Conrad,North Dakota,Democratic
+106th,George Voinovich,Ohio,Republican
+106th,Mike DeWine,Ohio,Republican
+106th,Don Nickles,Oklahoma,Republican
+106th,Jim Inhofe,Oklahoma,Republican
+106th,Gordon H. Smith,Oregon,Republican
+106th,Ron Wyden,Oregon,Democratic
+106th,Arlen Specter,Pennsylvania,Republican
+106th,Rick Santorum,Pennsylvania,Republican
+106th,Jack Reed,Rhode Island,Democratic
+106th,John Chafee,Rhode Island,Republican
+106th,Lincoln Chafee,Rhode Island,Republican
+106th,Fritz Hollings,South Carolina,Democratic
+106th,Strom Thurmond,South Carolina,Republican
+106th,Tim Johnson,South Dakota,Democratic
+106th,Tom Daschle,South Dakota,Democratic
+106th,Bill Frist,Tennessee,Republican
+106th,Fred Thompson,Tennessee,Republican
+106th,Kay Bailey Hutchison,Texas,Republican
+106th,Phil Gramm,Texas,Republican
+106th,Bob Bennett,Utah,Republican
+106th,Orrin Hatch,Utah,Republican
+106th,Jim Jeffords,Vermont,Republican
+106th,Patrick Leahy,Vermont,Democratic
+106th,Chuck Robb,Virginia,Democratic
+106th,John Warner,Virginia,Republican
+106th,Patty Murray,Washington,Democratic
+106th,Slade Gorton,Washington,Republican
+106th,Jay Rockefeller,West Virginia,Democratic
+106th,Robert Byrd,West Virginia,Democratic
+106th,Herb Kohl,Wisconsin,Democratic
+106th,Russ Feingold,Wisconsin,Democratic
+106th,Craig L. Thomas,Wyoming,Republican
+106th,Mike Enzi,Wyoming,Republican
+105th,Jeff Sessions,Alabama,Republican
+105th,Richard Shelby,Alabama,Republican
+105th,Frank Murkowski,Alaska,Republican
+105th,Ted Stevens,Alaska,Republican
+105th,John McCain,Arizona,Republican
+105th,Jon Kyl,Arizona,Republican
+105th,Dale Bumpers,Arkansas,Democratic
+105th,Tim Hutchinson,Arkansas,Republican
+105th,Barbara Boxer,California,Democratic
+105th,Dianne Feinstein,California,Democratic
+105th,Ben Nighthorse Campbell,Colorado,Republican
+105th,Wayne Allard,Colorado,Republican
+105th,Chris Dodd,Connecticut,Democratic
+105th,Joe Lieberman,Connecticut,Democratic
+105th,Bill Roth,Delaware,Republican
+105th,Joe Biden,Delaware,Democratic
+105th,Bob Graham,Florida,Democratic
+105th,Connie Mack,Florida,Republican
+105th,Max Cleland,Georgia,Democratic
+105th,Paul Coverdell,Georgia,Republican
+105th,Daniel Akaka,Hawaii,Democratic
+105th,Daniel Inouye,Hawaii,Democratic
+105th,Dirk Kempthorne,Idaho,Republican
+105th,Larry Craig,Idaho,Republican
+105th,Carol Moseley Braun,Illinois,Democratic
+105th,Dick Durbin,Illinois,Democratic
+105th,Dan Coats,Indiana,Republican
+105th,Richard Lugar,Indiana,Republican
+105th,Chuck Grassley,Iowa,Republican
+105th,Tom Harkin,Iowa,Democratic
+105th,Pat Roberts,Kansas,Republican
+105th,Sam Brownback,Kansas,Republican
+105th,Mitch McConnell,Kentucky,Republican
+105th,Wendell H. Ford,Kentucky,Democratic
+105th,John Breaux,Louisiana,Democratic
+105th,Mary Landrieu,Louisiana,Democratic
+105th,Olympia Snowe,Maine,Republican
+105th,Susan Collins,Maine,Republican
+105th,Barbara Mikulski,Maryland,Democratic
+105th,Paul Sarbanes,Maryland,Democratic
+105th,John Kerry,Massachusetts,Democratic
+105th,Ted Kennedy,Massachusetts,Democratic
+105th,Carl Levin,Michigan,Democratic
+105th,Spencer Abraham,Michigan,Republican
+105th,Paul Wellstone,Minnesota,Democratic
+105th,Rod Grams,Minnesota,Republican
+105th,Thad Cochran,Mississippi,Republican
+105th,Trent Lott,Mississippi,Republican
+105th,John Ashcroft,Missouri,Republican
+105th,Kit Bond,Missouri,Republican
+105th,Conrad Burns,Montana,Republican
+105th,Max Baucus,Montana,Democratic
+105th,Bob Kerrey,Nebraska,Democratic
+105th,Chuck Hagel,Nebraska,Republican
+105th,Harry Reid,Nevada,Democratic
+105th,Richard Bryan,Nevada,Democratic
+105th,Bob Smith,New Hampshire,Republican
+105th,Judd Gregg,New Hampshire,Republican
+105th,Frank Lautenberg,New Jersey,Democratic
+105th,Robert Torricelli,New Jersey,Democratic
+105th,Jeff Bingaman,New Mexico,Democratic
+105th,Pete Domenici,New Mexico,Republican
+105th,Al D'Amato,New York,Republican
+105th,Daniel Patrick Moynihan,New York,Democratic
+105th,Jesse Helms,North Carolina,Republican
+105th,Lauch Faircloth,North Carolina,Republican
+105th,Byron Dorgan,North Dakota,Democratic
+105th,Kent Conrad,North Dakota,Democratic
+105th,John Glenn,Ohio,Democratic
+105th,Mike DeWine,Ohio,Republican
+105th,Don Nickles,Oklahoma,Republican
+105th,Jim Inhofe,Oklahoma,Republican
+105th,Gordon H. Smith,Oregon,Republican
+105th,Ron Wyden,Oregon,Democratic
+105th,Arlen Specter,Pennsylvania,Republican
+105th,Rick Santorum,Pennsylvania,Republican
+105th,Jack Reed,Rhode Island,Democratic
+105th,John Chafee,Rhode Island,Republican
+105th,Ernest Hollings,South Carolina,Democratic
+105th,Strom Thurmond,South Carolina,Republican
+105th,Tim Johnson,South Dakota,Democratic
+105th,Tom Daschle,South Dakota,Democratic
+105th,Bill Frist,Tennessee,Republican
+105th,Fred Thompson,Tennessee,Republican
+105th,Kay Bailey Hutchison,Texas,Republican
+105th,Phil Gramm,Texas,Republican
+105th,Bob Bennett,Utah,Republican
+105th,Orrin Hatch,Utah,Republican
+105th,Jim Jeffords,Vermont,Republican
+105th,Patrick Leahy,Vermont,Democratic
+105th,Chuck Robb,Virginia,Democratic
+105th,John Warner,Virginia,Republican
+105th,Patty Murray,Washington,Democratic
+105th,Slade Gorton,Washington,Republican
+105th,Jay Rockefeller,West Virginia,Democratic
+105th,Robert Byrd,West Virginia,Democratic
+105th,Herb Kohl,Wisconsin,Democratic
+105th,Russ Feingold,Wisconsin,Democratic
+105th,Craig L. Thomas,Wyoming,Republican
+105th,Mike Enzi,Wyoming,Republican
+104th,Howell Heflin,Alabama,Democratic
+104th,Richard Shelby,Alabama,Republican
+104th,Frank Murkowski,Alaska,Republican
+104th,Ted Stevens,Alaska,Republican
+104th,John McCain,Arizona,Republican
+104th,Jon Kyl,Arizona,Republican
+104th,Dale Bumpers,Arkansas,Democratic
+104th,David Pryor,Arkansas,Democratic
+104th,Ben Nighthorse Campbell,CO,"D, R"
+104th,Barbara Boxer,California,Democratic
+104th,Dianne Feinstein,California,Democratic
+104th,Hank Brown,Colorado,Republican
+104th,Chris Dodd,Connecticut,Democratic
+104th,Joe Lieberman,Connecticut,Democratic
+104th,Bill Roth,Delaware,Republican
+104th,Joe Biden,Delaware,Democratic
+104th,Bob Graham,Florida,Democratic
+104th,Connie Mack,Florida,Republican
+104th,Paul Coverdell,Georgia,Republican
+104th,Sam Nunn,Georgia,Democratic
+104th,Daniel Akaka,Hawaii,Democratic
+104th,Daniel Inouye,Hawaii,Democratic
+104th,Dirk Kempthorne,Idaho,Republican
+104th,Larry Craig,Idaho,Republican
+104th,Carol Moseley Braun,Illinois,Democratic
+104th,Paul Simon,Illinois,Democratic
+104th,Dan Coats,Indiana,Republican
+104th,Richard Lugar,Indiana,Republican
+104th,Chuck Grassley,Iowa,Republican
+104th,Tom Harkin,Iowa,Democratic
+104th,Bob Dole,Kansas,Republican
+104th,Nancy Kassebaum Baker,Kansas,Republican
+104th,Sam Brownback,Kansas,Republican
+104th,Sheila Frahm,Kansas,Republican
+104th,Mitch McConnell,Kentucky,Republican
+104th,Wendell H. Ford,Kentucky,Democratic
+104th,Bennett Johnston Jr.,Louisiana,Democratic
+104th,John Breaux,Louisiana,Democratic
+104th,Olympia Snowe,Maine,Republican
+104th,William Cohen,Maine,Republican
+104th,Barbara Mikulski,Maryland,Democratic
+104th,Paul Sarbanes,Maryland,Democratic
+104th,John Kerry,Massachusetts,Democratic
+104th,Ted Kennedy,Massachusetts,Democratic
+104th,Carl Levin,Michigan,Democratic
+104th,Spencer Abraham,Michigan,Republican
+104th,Paul Wellstone,Minnesota,Democratic
+104th,Rod Grams,Minnesota,Republican
+104th,Thad Cochran,Mississippi,Republican
+104th,Trent Lott,Mississippi,Republican
+104th,John Ashcroft,Missouri,Republican
+104th,Kit Bond,Missouri,Republican
+104th,Conrad Burns,Montana,Republican
+104th,Max Baucus,Montana,Democratic
+104th,Bob Kerrey,Nebraska,Democratic
+104th,J. James Exon,Nebraska,Democratic
+104th,Harry Reid,Nevada,Democratic
+104th,Richard Bryan,Nevada,Democratic
+104th,Bob Smith,New Hampshire,Republican
+104th,Judd Gregg,New Hampshire,Republican
+104th,Bill Bradley,New Jersey,Democratic
+104th,Frank Lautenberg,New Jersey,Democratic
+104th,Jeff Bingaman,New Mexico,Democratic
+104th,Pete Domenici,New Mexico,Republican
+104th,Al D'Amato,New York,Republican
+104th,Pat Moynihan,New York,Democratic
+104th,Jesse Helms,North Carolina,Republican
+104th,Lauch Faircloth,North Carolina,Republican
+104th,Byron Dorgan,North Dakota,Democratic
+104th,Kent Conrad,North Dakota,Democratic
+104th,John Glenn,Ohio,Democratic
+104th,Mike DeWine,Ohio,Republican
+104th,Don Nickles,Oklahoma,Republican
+104th,Jim Inhofe,Oklahoma,Republican
+104th,Bob Packwood,Oregon,Republican
+104th,Mark Hatfield,Oregon,Republican
+104th,Ron Wyden,Oregon,Democratic
+104th,Arlen Specter,Pennsylvania,Republican
+104th,Rick Santorum,Pennsylvania,Republican
+104th,Claiborne Pell,Rhode Island,Democratic
+104th,John Chafee,Rhode Island,Republican
+104th,Ernest Hollings,South Carolina,Democratic
+104th,Strom Thurmond,South Carolina,Republican
+104th,Larry Pressler,South Dakota,Republican
+104th,Tom Daschle,South Dakota,Democratic
+104th,Bill Frist,Tennessee,Republican
+104th,Fred Thompson,Tennessee,Republican
+104th,Kay Bailey Hutchison,Texas,Republican
+104th,Phil Gramm,Texas,Republican
+104th,Bob Bennett,Utah,Republican
+104th,Orrin Hatch,Utah,Republican
+104th,Jim Jeffords,Vermont,Republican
+104th,Patrick Leahy,Vermont,Democratic
+104th,Chuck Robb,Virginia,Democratic
+104th,John Warner,Virginia,Republican
+104th,Patty Murray,Washington,Democratic
+104th,Slade Gorton,Washington,Republican
+104th,Jay Rockefeller,West Virginia,Democratic
+104th,Robert Byrd,West Virginia,Democratic
+104th,Herb Kohl,Wisconsin,Democratic
+104th,Russ Feingold,Wisconsin,Democratic
+104th,Alan K. Simpson,Wyoming,Republican
+104th,Craig L. Thomas,Wyoming,Republican
+103rd,Richard Shelby,AL,"D, R"
+103rd,Howell Heflin,Alabama,Democratic
+103rd,Frank Murkowski,Alaska,Republican
+103rd,Ted Stevens,Alaska,Republican
+103rd,Dennis DeConcini,Arizona,Democratic
+103rd,John McCain,Arizona,Republican
+103rd,Dale Bumpers,Arkansas,Democratic
+103rd,David Pryor,Arkansas,Democratic
+103rd,Barbara Boxer,California,Democratic
+103rd,Dianne Feinstein,California,Democratic
+103rd,Ben Nighthorse Campbell,Colorado,Democratic
+103rd,Hank Brown,Colorado,Republican
+103rd,Chris Dodd,Connecticut,Democratic
+103rd,Joe Lieberman,Connecticut,Democratic
+103rd,Bill Roth,Delaware,Republican
+103rd,Joe Biden,Delaware,Democratic
+103rd,Bob Graham,Florida,Democratic
+103rd,Connie Mack,Florida,Republican
+103rd,Paul Coverdell,Georgia,Republican
+103rd,Sam Nunn,Georgia,Democratic
+103rd,Daniel Akaka,Hawaii,Democratic
+103rd,Daniel Inouye,Hawaii,Democratic
+103rd,Dirk Kempthorne,Idaho,Republican
+103rd,Larry Craig,Idaho,Republican
+103rd,Carol Moseley Braun,Illinois,Democratic
+103rd,Paul Simon,Illinois,Democratic
+103rd,Dan Coats,Indiana,Republican
+103rd,Richard Lugar,Indiana,Republican
+103rd,Chuck Grassley,Iowa,Republican
+103rd,Tom Harkin,Iowa,Democratic
+103rd,Bob Dole,Kansas,Republican
+103rd,Nancy Kassebaum Baker,Kansas,Republican
+103rd,Mitch McConnell,Kentucky,Republican
+103rd,Wendell H. Ford,Kentucky,Democratic
+103rd,Bennett Johnston Jr.,Louisiana,Democratic
+103rd,John Breaux,Louisiana,Democratic
+103rd,George J. Mitchell,Maine,Democratic
+103rd,William Cohen,Maine,Republican
+103rd,Barbara Mikulski,Maryland,Democratic
+103rd,Paul Sarbanes,Maryland,Democratic
+103rd,John Kerry,Massachusetts,Democratic
+103rd,Ted Kennedy,Massachusetts,Democratic
+103rd,Carl Levin,Michigan,Democratic
+103rd,"Donald W. Riegle, Jr.",Michigan,Democratic
+103rd,David Durenberger,Minnesota,Republican
+103rd,Paul Wellstone,Minnesota,Democratic
+103rd,Thad Cochran,Mississippi,Republican
+103rd,Trent Lott,Mississippi,Republican
+103rd,John Danforth,Missouri,Republican
+103rd,Kit Bond,Missouri,Republican
+103rd,Conrad Burns,Montana,Republican
+103rd,Max Baucus,Montana,Democratic
+103rd,Bob Kerrey,Nebraska,Democratic
+103rd,J. James Exon,Nebraska,Democratic
+103rd,Harry Reid,Nevada,Democratic
+103rd,Richard Bryan,Nevada,Democratic
+103rd,Bob Smith,New Hampshire,Republican
+103rd,Judd Gregg,New Hampshire,Republican
+103rd,Bill Bradley,New Jersey,Democratic
+103rd,Frank Lautenberg,New Jersey,Democratic
+103rd,Jeff Bingaman,New Mexico,Democratic
+103rd,Pete Domenici,New Mexico,Republican
+103rd,Al D'Amato,New York,Republican
+103rd,Pat Moynihan,New York,Democratic
+103rd,Jesse Helms,North Carolina,Republican
+103rd,Lauch Faircloth,North Carolina,Republican
+103rd,Byron Dorgan,North Dakota,Democratic
+103rd,Kent Conrad,North Dakota,Democratic
+103rd,Howard Metzenbaum,Ohio,Democratic
+103rd,John Glenn,Ohio,Democratic
+103rd,David L. Boren,Oklahoma,Democratic
+103rd,Don Nickles,Oklahoma,Republican
+103rd,Jim Inhofe,Oklahoma,Republican
+103rd,Bob Packwood,Oregon,Republican
+103rd,Mark Hatfield,Oregon,Republican
+103rd,Arlen Specter,Pennsylvania,Republican
+103rd,Harris Wofford,Pennsylvania,Democratic
+103rd,Claiborne Pell,Rhode Island,Democratic
+103rd,John Chafee,Rhode Island,Republican
+103rd,Ernest Hollings,South Carolina,Democratic
+103rd,Strom Thurmond,South Carolina,Republican
+103rd,Larry Pressler,South Dakota,Republican
+103rd,Tom Daschle,South Dakota,Democratic
+103rd,Fred Thompson,Tennessee,Republican
+103rd,Harlan Mathews,Tennessee,Democratic
+103rd,Jim Sasser,Tennessee,Democratic
+103rd,Bob Krueger,Texas,Democratic
+103rd,Kay Bailey Hutchison,Texas,Republican
+103rd,Phil Gramm,Texas,Republican
+103rd,Bob Bennett,Utah,Republican
+103rd,Orrin Hatch,Utah,Republican
+103rd,Jim Jeffords,Vermont,Republican
+103rd,Patrick Leahy,Vermont,Democratic
+103rd,Chuck Robb,Virginia,Democratic
+103rd,John Warner,Virginia,Republican
+103rd,Patty Murray,Washington,Democratic
+103rd,Slade Gorton,Washington,Republican
+103rd,Jay Rockefeller,West Virginia,Democratic
+103rd,Robert Byrd,West Virginia,Democratic
+103rd,Herb Kohl,Wisconsin,Democratic
+103rd,Russ Feingold,Wisconsin,Democratic
+103rd,Alan K. Simpson,Wyoming,Republican
+103rd,Malcolm Wallop,Wyoming,Republican
+102nd,Howell Heflin,Alabama,Democratic
+102nd,Richard Shelby,Alabama,Democratic
+102nd,Frank Murkowski,Alaska,Republican
+102nd,Ted Stevens,Alaska,Republican
+102nd,Dennis DeConcini,Arizona,Democratic
+102nd,John McCain,Arizona,Republican
+102nd,Dale Bumpers,Arkansas,Democratic
+102nd,David Pryor,Arkansas,Democratic
+102nd,Alan Cranston,California,Democratic
+102nd,Dianne Feinstein,California,Democratic
+102nd,John F. Seymour,California,Republican
+102nd,Pete Wilson,California,Republican
+102nd,Hank Brown,Colorado,Republican
+102nd,Tim Wirth,Colorado,Democratic
+102nd,Chris Dodd,Connecticut,Democratic
+102nd,Joe Lieberman,Connecticut,Democratic
+102nd,Bill Roth,Delaware,Republican
+102nd,Joe Biden,Delaware,Democratic
+102nd,Bob Graham,Florida,Democratic
+102nd,Connie Mack,Florida,Republican
+102nd,Sam Nunn,Georgia,Democratic
+102nd,Wyche Fowler,Georgia,Democratic
+102nd,Daniel Akaka,Hawaii,Democratic
+102nd,Daniel Inouye,Hawaii,Democratic
+102nd,Larry Craig,Idaho,Republican
+102nd,Steve Symms,Idaho,Republican
+102nd,Alan J. Dixon,Illinois,Democratic
+102nd,Paul Simon,Illinois,Democratic
+102nd,Dan Coats,Indiana,Republican
+102nd,Richard Lugar,Indiana,Republican
+102nd,Chuck Grassley,Iowa,Republican
+102nd,Tom Harkin,Iowa,Democratic
+102nd,Bob Dole,Kansas,Republican
+102nd,Nancy Kassebaum Baker,Kansas,Republican
+102nd,Mitch McConnell,Kentucky,Republican
+102nd,Wendell H. Ford,Kentucky,Democratic
+102nd,Bennett Johnston Jr.,Louisiana,Democratic
+102nd,John Breaux,Louisiana,Democratic
+102nd,George J. Mitchell,Maine,Democratic
+102nd,William Cohen,Maine,Republican
+102nd,Barbara Mikulski,Maryland,Democratic
+102nd,Paul Sarbanes,Maryland,Democratic
+102nd,John Kerry,Massachusetts,Democratic
+102nd,Ted Kennedy,Massachusetts,Democratic
+102nd,Carl Levin,Michigan,Democratic
+102nd,"Donald W. Riegle, Jr.",Michigan,Democratic
+102nd,David Durenberger,Minnesota,Republican
+102nd,Paul Wellstone,Minnesota,Democratic
+102nd,Thad Cochran,Mississippi,Republican
+102nd,Trent Lott,Mississippi,Republican
+102nd,John Danforth,Missouri,Republican
+102nd,Kit Bond,Missouri,Republican
+102nd,Conrad Burns,Montana,Republican
+102nd,Max Baucus,Montana,Democratic
+102nd,Bob Kerrey,Nebraska,Democratic
+102nd,J. James Exon,Nebraska,Democratic
+102nd,Harry Reid,Nevada,Democratic
+102nd,Richard Bryan,Nevada,Democratic
+102nd,Bob Smith,New Hampshire,Republican
+102nd,Warren Rudman,New Hampshire,Republican
+102nd,Bill Bradley,New Jersey,Democratic
+102nd,Frank Lautenberg,New Jersey,Democratic
+102nd,Jeff Bingaman,New Mexico,Democratic
+102nd,Pete Domenici,New Mexico,Republican
+102nd,Al D'Amato,New York,Republican
+102nd,Pat Moynihan,New York,Democratic
+102nd,Jesse Helms,North Carolina,Republican
+102nd,Terry Sanford,North Carolina,Democratic
+102nd,Byron Dorgan,North Dakota,Democratic
+102nd,Jocelyn Burdick,North Dakota,Democratic
+102nd,Kent Conrad,North Dakota,Democratic
+102nd,Quentin Northrup Burdick,North Dakota,Democratic
+102nd,Howard Metzenbaum,Ohio,Democratic
+102nd,John Glenn,Ohio,Democratic
+102nd,David L. Boren,Oklahoma,Democratic
+102nd,Don Nickles,Oklahoma,Republican
+102nd,Bob Packwood,Oregon,Republican
+102nd,Mark Hatfield,Oregon,Republican
+102nd,Arlen Specter,Pennsylvania,Republican
+102nd,H. John Heinz III,Pennsylvania,Republican
+102nd,Harris Wofford,Pennsylvania,Democratic
+102nd,Claiborne Pell,Rhode Island,Democratic
+102nd,John Chafee,Rhode Island,Republican
+102nd,Ernest Hollings,South Carolina,Democratic
+102nd,Strom Thurmond,South Carolina,Republican
+102nd,Larry Pressler,South Dakota,Republican
+102nd,Tom Daschle,South Dakota,Democratic
+102nd,Al Gore,Tennessee,Democratic
+102nd,Harlan Mathews,Tennessee,Democratic
+102nd,Jim Sasser,Tennessee,Democratic
+102nd,Lloyd Bentsen,Texas,Democratic
+102nd,Phil Gramm,Texas,Republican
+102nd,Jake Garn,Utah,Republican
+102nd,Orrin Hatch,Utah,Republican
+102nd,Jim Jeffords,Vermont,Republican
+102nd,Patrick Leahy,Vermont,Democratic
+102nd,Chuck Robb,Virginia,Democratic
+102nd,John Warner,Virginia,Republican
+102nd,Brock Adams,Washington,Democratic
+102nd,Slade Gorton,Washington,Republican
+102nd,Jay Rockefeller,West Virginia,Democratic
+102nd,Robert Byrd,West Virginia,Democratic
+102nd,Bob Kasten,Wisconsin,Republican
+102nd,Herb Kohl,Wisconsin,Democratic
+102nd,Alan K. Simpson,Wyoming,Republican
+102nd,Malcolm Wallop,Wyoming,Republican
+101st,Howell Heflin,Alabama,Democratic
+101st,Richard Shelby,Alabama,Democratic
+101st,Frank Murkowski,Alaska,Republican
+101st,Ted Stevens,Alaska,Republican
+101st,Dennis DeConcini,Arizona,Democratic
+101st,John McCain,Arizona,Republican
+101st,Dale Bumpers,Arkansas,Democratic
+101st,David Pryor,Arkansas,Democratic
+101st,Alan Cranston,California,Democratic
+101st,Pete Wilson,California,Republican
+101st,Tim Wirth,Colorado,Democratic
+101st,William L. Armstrong,Colorado,Republican
+101st,Chris Dodd,Connecticut,Democratic
+101st,Joe Lieberman,Connecticut,I/D
+101st,Bill Roth,Delaware,Republican
+101st,Joe Biden,Delaware,Democratic
+101st,Bob Graham,Florida,Democratic
+101st,Connie Mack,Florida,Republican
+101st,Sam Nunn,Georgia,Democratic
+101st,Wyche Fowler,Georgia,Democratic
+101st,Daniel Akaka,Hawaii,Democratic
+101st,Daniel Inouye,Hawaii,Democratic
+101st,Spark Matsunaga,Hawaii,Democratic
+101st,James A. McClure,Idaho,Republican
+101st,Steve Symms,Idaho,Republican
+101st,Alan J. Dixon,Illinois,Democratic
+101st,Paul Simon,Illinois,Democratic
+101st,Dan Coats,Indiana,Republican
+101st,Richard Lugar,Indiana,Republican
+101st,Chuck Grassley,Iowa,Republican
+101st,Tom Harkin,Iowa,Democratic
+101st,Bob Dole,Kansas,Republican
+101st,Nancy Kassebaum Baker,Kansas,Republican
+101st,Mitch McConnell,Kentucky,Republican
+101st,Wendell H. Ford,Kentucky,Democratic
+101st,Bennett Johnston Jr.,Louisiana,Democratic
+101st,John Breaux,Louisiana,Democratic
+101st,George J. Mitchell,Maine,Democratic
+101st,William Cohen,Maine,Republican
+101st,Barbara Mikulski,Maryland,Democratic
+101st,Paul Sarbanes,Maryland,Democratic
+101st,John Kerry,Massachusetts,Democratic
+101st,Ted Kennedy,Massachusetts,Democratic
+101st,Carl Levin,Michigan,Democratic
+101st,"Donald W. Riegle, Jr.",Michigan,Democratic
+101st,David Durenberger,Minnesota,Republican
+101st,Rudy Boschwitz,Minnesota,Republican
+101st,Thad Cochran,Mississippi,Republican
+101st,Trent Lott,Mississippi,Republican
+101st,John Danforth,Missouri,Republican
+101st,Kit Bond,Missouri,Republican
+101st,Conrad Burns,Montana,Republican
+101st,Max Baucus,Montana,Democratic
+101st,Bob Kerrey,Nebraska,Democratic
+101st,J. James Exon,Nebraska,Democratic
+101st,Harry Reid,Nevada,Democratic
+101st,Richard Bryan,Nevada,Democratic
+101st,Bob Smith,New Hampshire,Republican
+101st,Gordon J. Humphrey,New Hampshire,Republican
+101st,Warren Rudman,New Hampshire,Republican
+101st,Bill Bradley,New Jersey,Democratic
+101st,Frank Lautenberg,New Jersey,Democratic
+101st,Jeff Bingaman,New Mexico,Democratic
+101st,Pete Domenici,New Mexico,Republican
+101st,Al D'Amato,New York,Republican
+101st,Pat Moynihan,New York,Democratic
+101st,Jesse Helms,North Carolina,Republican
+101st,Terry Sanford,North Carolina,Democratic
+101st,Kent Conrad,North Dakota,Democratic
+101st,Quentin Northrup Burdick,North Dakota,Democratic
+101st,Howard Metzenbaum,Ohio,Democratic
+101st,John Glenn,Ohio,Democratic
+101st,David L. Boren,Oklahoma,Democratic
+101st,Don Nickles,Oklahoma,Republican
+101st,Bob Packwood,Oregon,Republican
+101st,Mark Hatfield,Oregon,Republican
+101st,Arlen Specter,Pennsylvania,Republican
+101st,H. John Heinz III,Pennsylvania,Republican
+101st,Claiborne Pell,Rhode Island,Democratic
+101st,John Chafee,Rhode Island,Republican
+101st,Ernest Hollings,South Carolina,Democratic
+101st,Strom Thurmond,South Carolina,Republican
+101st,Larry Pressler,South Dakota,Republican
+101st,Tom Daschle,South Dakota,Democratic
+101st,Al Gore,Tennessee,Democratic
+101st,Jim Sasser,Tennessee,Democratic
+101st,Lloyd Bentsen,Texas,Democratic
+101st,Phil Gramm,Texas,Republican
+101st,Jake Garn,Utah,Republican
+101st,Orrin Hatch,Utah,Republican
+101st,Jim Jeffords,Vermont,Republican
+101st,Patrick Leahy,Vermont,Democratic
+101st,Chuck Robb,Virginia,Democratic
+101st,John Warner,Virginia,Republican
+101st,Brock Adams,Washington,Democratic
+101st,Slade Gorton,Washington,Republican
+101st,Jay Rockefeller,West Virginia,Democratic
+101st,Robert Byrd,West Virginia,Democratic
+101st,Bob Kasten,Wisconsin,Republican
+101st,Herb Kohl,Wisconsin,Democratic
+101st,Alan K. Simpson,Wyoming,Republican
+101st,Malcolm Wallop,Wyoming,Republican
+100th,Howell Heflin,Alabama,Democratic
+100th,Richard Shelby,Alabama,Democratic
+100th,Frank Murkowski,Alaska,Republican
+100th,Ted Stevens,Alaska,Republican
+100th,Dennis DeConcini,Arizona,Democratic
+100th,John McCain,Arizona,Republican
+100th,Dale Bumpers,Arkansas,Democratic
+100th,David Pryor,Arkansas,Democratic
+100th,Alan Cranston,California,Democratic
+100th,Pete Wilson,California,Republican
+100th,Tim Wirth,Colorado,Democratic
+100th,William L. Armstrong,Colorado,Republican
+100th,Chris Dodd,Connecticut,Democratic
+100th,Lowell Weicker,Connecticut,Republican
+100th,Bill Roth,Delaware,Republican
+100th,Joe Biden,Delaware,Democratic
+100th,Bob Graham,Florida,Democratic
+100th,Lawton Chiles,Florida,Democratic
+100th,Sam Nunn,Georgia,Democratic
+100th,Wyche Fowler,Georgia,Democratic
+100th,Daniel Inouye,Hawaii,Democratic
+100th,Spark Matsunaga,Hawaii,Democratic
+100th,James A. McClure,Idaho,Republican
+100th,Steve Symms,Idaho,Republican
+100th,Alan J. Dixon,Illinois,Democratic
+100th,Paul Simon,Illinois,Democratic
+100th,Dan Quayle,Indiana,Republican
+100th,Richard Lugar,Indiana,Republican
+100th,Chuck Grassley,Iowa,Republican
+100th,Tom Harkin,Iowa,Democratic
+100th,Bob Dole,Kansas,Republican
+100th,Nancy Kassebaum Baker,Kansas,Republican
+100th,Mitch McConnell,Kentucky,Republican
+100th,Wendell H. Ford,Kentucky,Democratic
+100th,Bennett Johnston Jr.,Louisiana,Democratic
+100th,John Breaux,Louisiana,Democratic
+100th,George J. Mitchell,Maine,Democratic
+100th,William Cohen,Maine,Republican
+100th,Barbara Mikulski,Maryland,Democratic
+100th,Paul Sarbanes,Maryland,Democratic
+100th,John Kerry,Massachusetts,Democratic
+100th,Ted Kennedy,Massachusetts,Democratic
+100th,Carl Levin,Michigan,Democratic
+100th,"Donald W. Riegle, Jr.",Michigan,Democratic
+100th,David Durenberger,Minnesota,Republican
+100th,Rudy Boschwitz,Minnesota,Republican
+100th,John C. Stennis,Mississippi,Democratic
+100th,Thad Cochran,Mississippi,Republican
+100th,John Danforth,Missouri,Republican
+100th,Kit Bond,Missouri,Republican
+100th,John Melcher,Montana,Democratic
+100th,Max Baucus,Montana,Democratic
+100th,David Karnes,Nebraska,Republican
+100th,Edward Zorinsky,Nebraska,Democratic
+100th,J. James Exon,Nebraska,Democratic
+100th,Chic Hecht,Nevada,Republican
+100th,Harry Reid,Nevada,Democratic
+100th,Gordon J. Humphrey,New Hampshire,Republican
+100th,Warren Rudman,New Hampshire,Republican
+100th,Bill Bradley,New Jersey,Democratic
+100th,Frank Lautenberg,New Jersey,Democratic
+100th,Jeff Bingaman,New Mexico,Democratic
+100th,Pete Domenici,New Mexico,Republican
+100th,Al D'Amato,New York,Republican
+100th,Pat Moynihan,New York,Democratic
+100th,Jesse Helms,North Carolina,Republican
+100th,Terry Sanford,North Carolina,Democratic
+100th,Kent Conrad,North Dakota,Democratic
+100th,Quentin Northrup Burdick,North Dakota,Democratic
+100th,Howard Metzenbaum,Ohio,Democratic
+100th,John Glenn,Ohio,Democratic
+100th,David L. Boren,Oklahoma,Democratic
+100th,Don Nickles,Oklahoma,Republican
+100th,Bob Packwood,Oregon,Republican
+100th,Mark Hatfield,Oregon,Republican
+100th,Arlen Specter,Pennsylvania,Republican
+100th,H. John Heinz III,Pennsylvania,Republican
+100th,Claiborne Pell,Rhode Island,Democratic
+100th,John Chafee,Rhode Island,Republican
+100th,Ernest Hollings,South Carolina,Democratic
+100th,Strom Thurmond,South Carolina,Republican
+100th,Larry Pressler,South Dakota,Republican
+100th,Tom Daschle,South Dakota,Democratic
+100th,Al Gore,Tennessee,Democratic
+100th,Jim Sasser,Tennessee,Democratic
+100th,Lloyd Bentsen,Texas,Democratic
+100th,Phil Gramm,Texas,Republican
+100th,Jake Garn,Utah,Republican
+100th,Orrin Hatch,Utah,Republican
+100th,Patrick Leahy,Vermont,Democratic
+100th,Robert Stafford,Vermont,Republican
+100th,John Warner,Virginia,Republican
+100th,Paul Trible,Virginia,Republican
+100th,Brock Adams,Washington,Democratic
+100th,Daniel J. Evans,Washington,Republican
+100th,Jay Rockefeller,West Virginia,Democratic
+100th,Robert Byrd,West Virginia,Democratic
+100th,Bob Kasten,Wisconsin,Republican
+100th,William Proxmire,Wisconsin,Democratic
+100th,Alan K. Simpson,Wyoming,Republican
+100th,Malcolm Wallop,Wyoming,Republican
+99th,Howell Heflin,Alabama,Democratic
+99th,Jeremiah Denton,Alabama,Republican
+99th,Frank Murkowski,Alaska,Republican
+99th,Ted Stevens,Alaska,Republican
+99th,Barry Goldwater,Arizona,Republican
+99th,Dennis DeConcini,Arizona,Democratic
+99th,Dale Bumpers,Arkansas,Democratic
+99th,David Pryor,Arkansas,Democratic
+99th,Alan Cranston,California,Democratic
+99th,Pete Wilson,California,Republican
+99th,Gary Hart,Colorado,Democratic
+99th,William L. Armstrong,Colorado,Republican
+99th,Chris Dodd,Connecticut,Democratic
+99th,Lowell Weicker,Connecticut,Republican
+99th,Bill Roth,Delaware,Republican
+99th,Joe Biden,Delaware,Democratic
+99th,Lawton Chiles,Florida,Democratic
+99th,Paula Hawkins,Florida,Republican
+99th,Mack Mattingly,Georgia,Republican
+99th,Sam Nunn,Georgia,Democratic
+99th,Daniel Inouye,Hawaii,Democratic
+99th,Spark Matsunaga,Hawaii,Democratic
+99th,James A. McClure,Idaho,Republican
+99th,Steve Symms,Idaho,Republican
+99th,Alan J. Dixon,Illinois,Democratic
+99th,Paul Simon,Illinois,Democratic
+99th,Dan Quayle,Indiana,Republican
+99th,Richard Lugar,Indiana,Republican
+99th,Chuck Grassley,Iowa,Republican
+99th,Tom Harkin,Iowa,Democratic
+99th,Bob Dole,Kansas,Republican
+99th,Nancy Kassebaum,Kansas,Republican
+99th,Mitch McConnell,Kentucky,Republican
+99th,Wendell H. Ford,Kentucky,Democratic
+99th,Bennett Johnston Jr.,Louisiana,Democratic
+99th,Russell B. Long,Louisiana,Democratic
+99th,George J. Mitchell,Maine,Democratic
+99th,William Cohen,Maine,Republican
+99th,Charles Mathias,Maryland,Republican
+99th,Paul Sarbanes,Maryland,Democratic
+99th,John Kerry,Massachusetts,Democratic
+99th,Ted Kennedy,Massachusetts,Democratic
+99th,Carl Levin,Michigan,Democratic
+99th,"Donald W. Riegle, Jr.",Michigan,Democratic
+99th,David Durenberger,Minnesota,Republican
+99th,Rudy Boschwitz,Minnesota,Republican
+99th,John C. Stennis,Mississippi,Democratic
+99th,Thad Cochran,Mississippi,Republican
+99th,John Danforth,Missouri,Republican
+99th,Thomas Eagleton,Missouri,Democratic
+99th,John Melcher,Montana,Democratic
+99th,Max Baucus,Montana,Democratic
+99th,Edward Zorinsky,Nebraska,Democratic
+99th,J. James Exon,Nebraska,Democratic
+99th,Chic Hecht,Nevada,Republican
+99th,Paul Laxalt,Nevada,Republican
+99th,Gordon J. Humphrey,New Hampshire,Republican
+99th,Warren Rudman,New Hampshire,Republican
+99th,Bill Bradley,New Jersey,Democratic
+99th,Frank Lautenberg,New Jersey,Democratic
+99th,Jeff Bingaman,New Mexico,Democratic
+99th,Pete Domenici,New Mexico,Republican
+99th,Al D'Amato,New York,Republican
+99th,Daniel Patrick Moynihan,New York,Democratic
+99th,Jesse Helms,North Carolina,Republican
+99th,Jim Broyhill,North Carolina,Republican
+99th,John Porter East,North Carolina,Republican
+99th,Terry Sanford,North Carolina,Democratic
+99th,Mark Andrews,North Dakota,Republican
+99th,Quentin Northrup Burdick,North Dakota,Democratic
+99th,Howard Metzenbaum,Ohio,Democratic
+99th,John Glenn,Ohio,Democratic
+99th,David L. Boren,Oklahoma,Democratic
+99th,Don Nickles,Oklahoma,Republican
+99th,Bob Packwood,Oregon,Republican
+99th,Mark Hatfield,Oregon,Republican
+99th,Arlen Specter,Pennsylvania,Republican
+99th,H. John Heinz III,Pennsylvania,Republican
+99th,Claiborne Pell,Rhode Island,Democratic
+99th,John Chafee,Rhode Island,Republican
+99th,Fritz Hollings,South Carolina,Democratic
+99th,Strom Thurmond,South Carolina,Republican
+99th,James Abdnor,South Dakota,Republican
+99th,Larry Pressler,South Dakota,Republican
+99th,Al Gore,Tennessee,Democratic
+99th,Jim Sasser,Tennessee,Democratic
+99th,Lloyd Bentsen,Texas,Democratic
+99th,Phil Gramm,Texas,Republican
+99th,Jake Garn,Utah,Republican
+99th,Orrin Hatch,Utah,Republican
+99th,Patrick Leahy,Vermont,Democratic
+99th,Robert Stafford,Vermont,Republican
+99th,John Warner,Virginia,Republican
+99th,Paul Trible,Virginia,Republican
+99th,Daniel J. Evans,Washington,Republican
+99th,Slade Gorton,Washington,Republican
+99th,Jay Rockefeller,West Virginia,Democratic
+99th,Robert Byrd,West Virginia,Democratic
+99th,Bob Kasten,Wisconsin,Republican
+99th,William Proxmire,Wisconsin,Democratic
+99th,Alan K. Simpson,Wyoming,Republican
+99th,Malcolm Wallop,Wyoming,Republican
+98th,Howell Heflin,Alabama,Democratic
+98th,Jeremiah Denton,Alabama,Republican
+98th,Frank Murkowski,Alaska,Republican
+98th,Ted Stevens,Alaska,Republican
+98th,Barry Goldwater,Arizona,Republican
+98th,Dennis DeConcini,Arizona,Democratic
+98th,Dale Bumpers,Arkansas,Democratic
+98th,David Pryor,Arkansas,Democratic
+98th,Alan Cranston,California,Democratic
+98th,Pete Wilson,California,Republican
+98th,Gary Hart,Colorado,Democratic
+98th,William L. Armstrong,Colorado,Republican
+98th,Chris Dodd,Connecticut,Democratic
+98th,Lowell Weicker,Connecticut,Republican
+98th,Bill Roth,Delaware,Republican
+98th,Joe Biden,Delaware,Democratic
+98th,Lawton Chiles,Florida,Democratic
+98th,Paula Hawkins,Florida,Republican
+98th,Mack Mattingly,Georgia,Republican
+98th,Sam Nunn,Georgia,Democratic
+98th,Daniel Inouye,Hawaii,Democratic
+98th,Spark Matsunaga,Hawaii,Democratic
+98th,James A. McClure,Idaho,Republican
+98th,Steve Symms,Idaho,Republican
+98th,Alan J. Dixon,Illinois,Democratic
+98th,Charles H. Percy,Illinois,Republican
+98th,Dan Quayle,Indiana,Republican
+98th,Richard Lugar,Indiana,Republican
+98th,Chuck Grassley,Iowa,Republican
+98th,Roger Jepsen,Iowa,Republican
+98th,Bob Dole,Kansas,Republican
+98th,Nancy Kassebaum,Kansas,Republican
+98th,Walter Huddleston,Kentucky,Democratic
+98th,Wendell H. Ford,Kentucky,Democratic
+98th,Bennett Johnston Jr.,Louisiana,Democratic
+98th,Russell B. Long,Louisiana,Democratic
+98th,George J. Mitchell,Maine,Democratic
+98th,William Cohen,Maine,Republican
+98th,Charles Mathias,Maryland,Republican
+98th,Paul Sarbanes,Maryland,Democratic
+98th,John Kerry,Massachusetts,Democratic
+98th,Paul Tsongas,Massachusetts,Democratic
+98th,Ted Kennedy,Massachusetts,Democratic
+98th,Carl Levin,Michigan,Democratic
+98th,"Donald W. Riegle, Jr.",Michigan,Democratic
+98th,David Durenberger,Minnesota,Republican
+98th,Rudy Boschwitz,Minnesota,Republican
+98th,John C. Stennis,Mississippi,Democratic
+98th,Thad Cochran,Mississippi,Republican
+98th,John Danforth,Missouri,Republican
+98th,Thomas Eagleton,Missouri,Democratic
+98th,John Melcher,Montana,Democratic
+98th,Max Baucus,Montana,Democratic
+98th,Edward Zorinsky,Nebraska,Democratic
+98th,J. James Exon,Nebraska,Democratic
+98th,Chic Hecht,Nevada,Republican
+98th,Paul Laxalt,Nevada,Republican
+98th,Gordon J. Humphrey,New Hampshire,Republican
+98th,Warren Rudman,New Hampshire,Republican
+98th,Bill Bradley,New Jersey,Democratic
+98th,Frank Lautenberg,New Jersey,Democratic
+98th,Jeff Bingaman,New Mexico,Democratic
+98th,Pete Domenici,New Mexico,Republican
+98th,Al D'Amato,New York,Republican
+98th,Daniel Patrick Moynihan,New York,Democratic
+98th,Jesse Helms,North Carolina,Republican
+98th,John Porter East,North Carolina,Republican
+98th,Mark Andrews,North Dakota,Republican
+98th,Quentin Northrup Burdick,North Dakota,Democratic
+98th,Howard Metzenbaum,Ohio,Democratic
+98th,John Glenn,Ohio,Democratic
+98th,David L. Boren,Oklahoma,Democratic
+98th,Don Nickles,Oklahoma,Republican
+98th,Bob Packwood,Oregon,Republican
+98th,Mark Hatfield,Oregon,Republican
+98th,Arlen Specter,Pennsylvania,Republican
+98th,H. John Heinz III,Pennsylvania,Republican
+98th,Claiborne Pell,Rhode Island,Democratic
+98th,John Chafee,Rhode Island,Republican
+98th,Fritz Hollings,South Carolina,Democratic
+98th,Strom Thurmond,South Carolina,Republican
+98th,James Abdnor,South Dakota,Republican
+98th,Larry Pressler,South Dakota,Republican
+98th,Howard Baker,Tennessee,Republican
+98th,Jim Sasser,Tennessee,Democratic
+98th,John Tower,Texas,Republican
+98th,Lloyd Bentsen,Texas,Democratic
+98th,Jake Garn,Utah,Republican
+98th,Orrin Hatch,Utah,Republican
+98th,Patrick Leahy,Vermont,Democratic
+98th,Robert Stafford,Vermont,Republican
+98th,John Warner,Virginia,Republican
+98th,Paul Trible,Virginia,Republican
+98th,Daniel J. Evans,Washington,Republican
+98th,Henry M. Jackson,Washington,Democratic
+98th,Slade Gorton,Washington,Republican
+98th,Jennings Randolph,West Virginia,Democratic
+98th,Robert Byrd,West Virginia,Democratic
+98th,Bob Kasten,Wisconsin,Republican
+98th,William Proxmire,Wisconsin,Democratic
+98th,Alan K. Simpson,Wyoming,Republican
+98th,Malcolm Wallop,Wyoming,Republican
+97th,Howell Heflin,Alabama,Democratic
+97th,Jeremiah Denton,Alabama,Republican
+97th,Frank Murkowski,Alaska,Republican
+97th,Ted Stevens,Alaska,Republican
+97th,Barry Goldwater,Arizona,Republican
+97th,Dennis DeConcini,Arizona,Democratic
+97th,Dale Bumpers,Arkansas,Democratic
+97th,David Pryor,Arkansas,Democratic
+97th,Alan Cranston,California,Democratic
+97th,Samuel Hayakawa,California,Republican
+97th,Gary Hart,Colorado,Democratic
+97th,William L. Armstrong,Colorado,Republican
+97th,Chris Dodd,Connecticut,Democratic
+97th,Lowell Weicker,Connecticut,Republican
+97th,Bill Roth,Delaware,Republican
+97th,Joe Biden,Delaware,Democratic
+97th,Lawton Chiles,Florida,Democratic
+97th,Paula Hawkins,Florida,Republican
+97th,Mack Mattingly,Georgia,Republican
+97th,Sam Nunn,Georgia,Democratic
+97th,Daniel Inouye,Hawaii,Democratic
+97th,Spark Matsunaga,Hawaii,Democratic
+97th,James A. McClure,Idaho,Republican
+97th,Steve Symms,Idaho,Republican
+97th,Alan J. Dixon,Illinois,Democratic
+97th,Charles H. Percy,Illinois,Republican
+97th,Dan Quayle,Indiana,Republican
+97th,Richard Lugar,Indiana,Republican
+97th,Chuck Grassley,Iowa,Republican
+97th,Roger Jepsen,Iowa,Republican
+97th,Bob Dole,Kansas,Republican
+97th,Nancy Kassebaum Baker,Kansas,Republican
+97th,Walter Huddleston,Kentucky,Democratic
+97th,Wendell H. Ford,Kentucky,Democratic
+97th,Bennett Johnston Jr.,Louisiana,Democratic
+97th,Russell B. Long,Louisiana,Democratic
+97th,George J. Mitchell,Maine,Democratic
+97th,William Cohen,Maine,Republican
+97th,Charles Mathias,Maryland,Republican
+97th,Paul Sarbanes,Maryland,Democratic
+97th,Paul Tsongas,Massachusetts,Democratic
+97th,Ted Kennedy,Massachusetts,Democratic
+97th,Carl Levin,Michigan,Democratic
+97th,"Donald W. Riegle, Jr.",Michigan,Democratic
+97th,David Durenberger,Minnesota,Republican
+97th,Rudy Boschwitz,Minnesota,Republican
+97th,John C. Stennis,Mississippi,Democratic
+97th,Thad Cochran,Mississippi,Republican
+97th,John Danforth,Missouri,Republican
+97th,Thomas Eagleton,Missouri,Democratic
+97th,John Melcher,Montana,Democratic
+97th,Max Baucus,Montana,Democratic
+97th,Edward Zorinsky,Nebraska,Democratic
+97th,J. James Exon,Nebraska,Democratic
+97th,Howard Cannon,Nevada,Democratic
+97th,Paul Laxalt,Nevada,Republican
+97th,Gordon J. Humphrey,New Hampshire,Republican
+97th,Warren Rudman,New Hampshire,Republican
+97th,Bill Bradley,New Jersey,Democratic
+97th,Frank Lautenberg,New Jersey,Democratic
+97th,Harrison A. Williams,New Jersey,Democratic
+97th,Nicholas F. Brady,New Jersey,Republican
+97th,Harrison Schmitt,New Mexico,Republican
+97th,Pete Domenici,New Mexico,Republican
+97th,Al D'Amato,New York,Republican
+97th,Pat Moynihan,New York,Democratic
+97th,Jesse Helms,North Carolina,Republican
+97th,John Porter East,North Carolina,Republican
+97th,Mark Andrews,North Dakota,Republican
+97th,Quentin Northrup Burdick,North Dakota,Democratic
+97th,Howard Metzenbaum,Ohio,Democratic
+97th,John Glenn,Ohio,Democratic
+97th,David L. Boren,Oklahoma,Democratic
+97th,Don Nickles,Oklahoma,Republican
+97th,Bob Packwood,Oregon,Republican
+97th,Mark Hatfield,Oregon,Republican
+97th,Arlen Specter,Pennsylvania,Republican
+97th,H. John Heinz III,Pennsylvania,Republican
+97th,Claiborne Pell,Rhode Island,Democratic
+97th,John Chafee,Rhode Island,Republican
+97th,Ernest Hollings,South Carolina,Democratic
+97th,Strom Thurmond,South Carolina,Republican
+97th,James Abdnor,South Dakota,Republican
+97th,Larry Pressler,South Dakota,Republican
+97th,Howard Baker,Tennessee,Republican
+97th,Jim Sasser,Tennessee,Democratic
+97th,John Tower,Texas,Republican
+97th,Lloyd Bentsen,Texas,Democratic
+97th,Jake Garn,Utah,Republican
+97th,Orrin Hatch,Utah,Republican
+97th,Patrick Leahy,Vermont,Democratic
+97th,Robert Stafford,Vermont,Republican
+97th,"Harry F. Byrd, Jr.",Virginia,Independent
+97th,John Warner,Virginia,Republican
+97th,Henry M. Jackson,Washington,Democratic
+97th,Slade Gorton,Washington,Republican
+97th,Jennings Randolph,West Virginia,Democratic
+97th,Robert Byrd,West Virginia,Democratic
+97th,Bob Kasten,Wisconsin,Republican
+97th,William Proxmire,Wisconsin,Democratic
+97th,Alan K. Simpson,Wyoming,Republican
+97th,Malcolm Wallop,Wyoming,Republican
+96th,Donald W. Stewart,Alabama,Democratic
+96th,Howell Heflin,Alabama,Democratic
+96th,Jeremiah Denton,Alabama,Republican
+96th,Mike Gravel,Alaska,Democratic
+96th,Ted Stevens,Alaska,Republican
+96th,Barry Goldwater,Arizona,Republican
+96th,Dennis DeConcini,Arizona,Democratic
+96th,Dale Bumpers,Arkansas,Democratic
+96th,David Pryor,Arkansas,Democratic
+96th,Alan Cranston,California,Democratic
+96th,Samuel Hayakawa,California,Republican
+96th,Gary Hart,Colorado,Democratic
+96th,William L. Armstrong,Colorado,Republican
+96th,Abraham A. Ribicoff,Connecticut,Democratic
+96th,Lowell Weicker,Connecticut,Republican
+96th,Bill Roth,Delaware,Republican
+96th,Joe Biden,Delaware,Democratic
+96th,Lawton Chiles,Florida,Democratic
+96th,Paula Hawkins,Florida,Republican
+96th,Richard Stone,Florida,Democratic
+96th,Herman Talmadge,Georgia,Democratic
+96th,Sam Nunn,Georgia,Democratic
+96th,Daniel Inouye,Hawaii,Democratic
+96th,Spark Matsunaga,Hawaii,Democratic
+96th,Frank Church,Idaho,Democratic
+96th,James A. McClure,Idaho,Republican
+96th,Adlai Stevenson III,Illinois,Democratic
+96th,Charles H. Percy,Illinois,Republican
+96th,Birch Bayh,Indiana,Democratic
+96th,Richard Lugar,Indiana,Republican
+96th,John Culver,Iowa,Democratic
+96th,Roger Jepsen,Iowa,Republican
+96th,Bob Dole,Kansas,Republican
+96th,Nancy Kassebaum Baker,Kansas,Republican
+96th,Walter Huddleston,Kentucky,Democratic
+96th,Wendell H. Ford,Kentucky,Democratic
+96th,Bennett Johnston Jr.,Louisiana,Democratic
+96th,Russell B. Long,Louisiana,Democratic
+96th,Edmund Muskie,Maine,Democratic
+96th,George J. Mitchell,Maine,Democratic
+96th,William Cohen,Maine,Republican
+96th,Charles Mathias,Maryland,Republican
+96th,Paul Sarbanes,Maryland,Democratic
+96th,Paul Tsongas,Massachusetts,Democratic
+96th,Ted Kennedy,Massachusetts,Democratic
+96th,Carl Levin,Michigan,Democratic
+96th,"Donald W. Riegle, Jr.",Michigan,Democratic
+96th,David Durenberger,Minnesota,Republican
+96th,Rudy Boschwitz,Minnesota,Republican
+96th,John C. Stennis,Mississippi,Democratic
+96th,Thad Cochran,Mississippi,Republican
+96th,John Danforth,Missouri,Republican
+96th,Thomas Eagleton,Missouri,Democratic
+96th,John Melcher,Montana,Democratic
+96th,Max Baucus,Montana,Democratic
+96th,Edward Zorinsky,Nebraska,Democratic
+96th,J. James Exon,Nebraska,Democratic
+96th,Howard Cannon,Nevada,Democratic
+96th,Paul Laxalt,Nevada,Republican
+96th,Gordon J. Humphrey,New Hampshire,Republican
+96th,John Durkin,New Hampshire,Democratic
+96th,Warren Rudman,New Hampshire,Republican
+96th,Bill Bradley,New Jersey,Democratic
+96th,Harrison A. Williams,New Jersey,Democratic
+96th,Harrison Schmitt,New Mexico,Republican
+96th,Pete Domenici,New Mexico,Republican
+96th,Jacob K. Javits,New York,Republican
+96th,Pat Moynihan,New York,Democratic
+96th,Jesse Helms,North Carolina,Republican
+96th,Robert Burren Morgan,North Carolina,Democratic
+96th,Milton Young,North Dakota,Republican
+96th,Quentin Northrup Burdick,North Dakota,Democratic
+96th,Howard Metzenbaum,Ohio,Democratic
+96th,John Glenn,Ohio,Democratic
+96th,David L. Boren,Oklahoma,Democratic
+96th,Henry Bellmon,Oklahoma,Republican
+96th,Bob Packwood,Oregon,Republican
+96th,Mark Hatfield,Oregon,Republican
+96th,H. John Heinz III,Pennsylvania,Republican
+96th,Richard Schweiker,Pennsylvania,Republican
+96th,Claiborne Pell,Rhode Island,Democratic
+96th,John Chafee,Rhode Island,Republican
+96th,Ernest Hollings,South Carolina,Democratic
+96th,Strom Thurmond,South Carolina,Republican
+96th,George McGovern,South Dakota,Democratic
+96th,Larry Pressler,South Dakota,Republican
+96th,Howard Baker,Tennessee,Republican
+96th,Jim Sasser,Tennessee,Democratic
+96th,John Tower,Texas,Republican
+96th,Lloyd Bentsen,Texas,Democratic
+96th,Jake Garn,Utah,Republican
+96th,Orrin Hatch,Utah,Republican
+96th,Patrick Leahy,Vermont,Democratic
+96th,Robert Stafford,Vermont,Republican
+96th,"Harry F. Byrd, Jr.",Virginia,Independent
+96th,John Warner,Virginia,Republican
+96th,Henry M. Jackson,Washington,Democratic
+96th,Warren G. Magnuson,Washington,Democratic
+96th,Jennings Randolph,West Virginia,Democratic
+96th,Robert Byrd,West Virginia,Democratic
+96th,Gaylord Nelson,Wisconsin,Democratic
+96th,William Proxmire,Wisconsin,Democratic
+96th,Alan K. Simpson,Wyoming,Republican
+96th,Malcolm Wallop,Wyoming,Republican
+95th,Donald W. Stewart,Alabama,Democratic
+95th,James Allen,Alabama,Democratic
+95th,John Sparkman,Alabama,Democratic
+95th,Maryon Allen,Alabama,Democratic
+95th,Mike Gravel,Alaska,Democratic
+95th,Ted Stevens,Alaska,Republican
+95th,Barry Goldwater,Arizona,Republican
+95th,Dennis DeConcini,Arizona,Democratic
+95th,Dale Bumpers,Arkansas,Democratic
+95th,John Little McClellan,Arkansas,Democratic
+95th,Kaneaster Hodges,Arkansas,Democratic
+95th,Alan Cranston,California,Democratic
+95th,Samuel Hayakawa,California,Democratic
+95th,Floyd K. Haskell,Colorado,Democratic
+95th,Gary Hart,Colorado,Democratic
+95th,Abraham A. Ribicoff,Connecticut,Democratic
+95th,Lowell Weicker,Connecticut,Republican
+95th,Bill Roth,Delaware,Republican
+95th,Joe Biden,Delaware,Democratic
+95th,Lawton Chiles,Florida,Democratic
+95th,Richard Stone,Florida,Democratic
+95th,Herman Talmadge,Georgia,Democratic
+95th,Sam Nunn,Georgia,Democratic
+95th,Daniel Inouye,Hawaii,Democratic
+95th,Spark Matsunaga,Hawaii,Democratic
+95th,Frank Church,Idaho,Democratic
+95th,James A. McClure,Idaho,Republican
+95th,Adlai Stevenson III,Illinois,Democratic
+95th,Charles H. Percy,Illinois,Republican
+95th,Birch Bayh,Indiana,Democratic
+95th,Richard Lugar,Indiana,Republican
+95th,John Culver,Iowa,Democratic
+95th,Richard C. Clark,Iowa,Democratic
+95th,Bob Dole,Kansas,Republican
+95th,James B. Pearson,Kansas,Republican
+95th,Nancy Kassebaum Baker,Kansas,Republican
+95th,Walter Huddleston,Kentucky,Democratic
+95th,Wendell H. Ford,Kentucky,Democratic
+95th,Bennett Johnston Jr.,Louisiana,Democratic
+95th,Russell B. Long,Louisiana,Democratic
+95th,Edmund Muskie,Maine,Democratic
+95th,William Hathaway,Maine,Democratic
+95th,Charles Mathias,Maryland,Republican
+95th,Paul Sarbanes,Maryland,Democratic
+95th,Edward Brooke,Massachusetts,Republican
+95th,Ted Kennedy,Massachusetts,Democratic
+95th,"Donald W. Riegle, Jr.",Michigan,Democratic
+95th,Robert P. Griffin,Michigan,Republican
+95th,David Durenberger,Minnesota,Republican
+95th,Hubert Humphrey,Minnesota,Democratic
+95th,Muriel Humphrey,Minnesota,Democratic
+95th,Rudy Boschwitz,Minnesota,Republican
+95th,Wendell Anderson,Minnesota,Democratic
+95th,James Eastland,Mississippi,Democratic
+95th,John C. Stennis,Mississippi,Democratic
+95th,Thad Cochran,Mississippi,Republican
+95th,John Danforth,Missouri,Republican
+95th,Thomas Eagleton,Missouri,Democratic
+95th,John Melcher,Montana,Democratic
+95th,Lee Metcalf,Montana,Democratic
+95th,Max Baucus,Montana,Democratic
+95th,Paul G. Hatfield,Montana,Democratic
+95th,Carl Curtis,Nebraska,Republican
+95th,Edward Zorinsky,Nebraska,Democratic
+95th,Howard Cannon,Nevada,Democratic
+95th,Paul Laxalt,Nevada,Republican
+95th,John Durkin,New Hampshire,Democratic
+95th,Thomas J. McIntyre,New Hampshire,Democratic
+95th,Clifford P. Case,New Jersey,Republican
+95th,Harrison A. Williams,New Jersey,Democratic
+95th,Harrison Schmitt,New Mexico,Republican
+95th,Pete Domenici,New Mexico,Republican
+95th,Jacob K. Javits,New York,Republican
+95th,Pat Moynihan,New York,Democratic
+95th,Jesse Helms,North Carolina,Republican
+95th,Robert Burren Morgan,North Carolina,Democratic
+95th,Milton Young,North Dakota,Republican
+95th,Quentin Northrup Burdick,North Dakota,Democratic
+95th,Howard Metzenbaum,Ohio,Democratic
+95th,John Glenn,Ohio,Democratic
+95th,Dewey F. Bartlett,Oklahoma,Republican
+95th,Henry Bellmon,Oklahoma,Republican
+95th,Bob Packwood,Oregon,Republican
+95th,Mark Hatfield,Oregon,Republican
+95th,H. John Heinz III,Pennsylvania,Republican
+95th,Richard Schweiker,Pennsylvania,Republican
+95th,Claiborne Pell,Rhode Island,Democratic
+95th,John Chafee,Rhode Island,Republican
+95th,Ernest Hollings,South Carolina,Democratic
+95th,Strom Thurmond,South Carolina,Republican
+95th,George McGovern,South Dakota,Democratic
+95th,James Abourezk,South Dakota,Democratic
+95th,Howard Baker,Tennessee,Republican
+95th,Jim Sasser,Tennessee,Democratic
+95th,John Tower,Texas,Republican
+95th,Lloyd Bentsen,Texas,Democratic
+95th,Jake Garn,Utah,Republican
+95th,Orrin Hatch,Utah,Republican
+95th,Patrick Leahy,Vermont,Democratic
+95th,Robert Stafford,Vermont,Republican
+95th,"Harry F. Byrd, Jr.",Virginia,Independent
+95th,John Warner,Virginia,Republican
+95th,William L. Scott,Virginia,Republican
+95th,Henry M. Jackson,Washington,Democratic
+95th,Warren G. Magnuson,Washington,Democratic
+95th,Jennings Randolph,West Virginia,Democratic
+95th,Robert Byrd,West Virginia,Democratic
+95th,Gaylord Nelson,Wisconsin,Democratic
+95th,William Proxmire,Wisconsin,Democratic
+95th,Alan K. Simpson,Wyoming,Republican
+95th,Clifford Hansen,Wyoming,Republican
+95th,Malcolm Wallop,Wyoming,Republican
+94th,James Allen,Alabama,Democratic
+94th,John Sparkman,Alabama,Democratic
+94th,Mike Gravel,Alaska,Democratic
+94th,Ted Stevens,Alaska,Republican
+94th,Barry Goldwater,Arizona,Republican
+94th,Paul Fannin,Arizona,Republican
+94th,Dale Bumpers,Arkansas,Democratic
+94th,John Little McClellan,Arkansas,Democratic
+94th,Alan Cranston,California,Democratic
+94th,John V. Tunney,California,Democratic
+94th,Samuel Hayakawa,California,Republican
+94th,Floyd K. Haskell,Colorado,Democratic
+94th,Gary Hart,Colorado,Democratic
+94th,Abraham A. Ribicoff,Connecticut,Democratic
+94th,Lowell Weicker,Connecticut,Republican
+94th,Bill Roth,Delaware,Republican
+94th,Joe Biden,Delaware,Democratic
+94th,Lawton Chiles,Florida,Democratic
+94th,Richard Stone,Florida,Democratic
+94th,Herman Talmadge,Georgia,Democratic
+94th,Sam Nunn,Georgia,Democratic
+94th,Daniel Inouye,Hawaii,Democratic
+94th,Hiram Fong,Hawaii,Republican
+94th,Frank Church,Idaho,Democratic
+94th,James A. McClure,Idaho,Republican
+94th,Adlai Stevenson III,Illinois,Democratic
+94th,Charles H. Percy,Illinois,Republican
+94th,Birch Bayh,Indiana,Democratic
+94th,Vance Hartke,Indiana,Democratic
+94th,John Culver,Iowa,Democratic
+94th,Richard C. Clark,Iowa,Democratic
+94th,Bob Dole,Kansas,Republican
+94th,James B. Pearson,Kansas,Republican
+94th,Walter Huddleston,Kentucky,Democratic
+94th,Wendell H. Ford,Kentucky,Democratic
+94th,Bennett Johnston Jr.,Louisiana,Democratic
+94th,Russell B. Long,Louisiana,Democratic
+94th,Edmund Muskie,Maine,Democratic
+94th,William Hathaway,Maine,Democratic
+94th,Charles Mathias,Maryland,Republican
+94th,"John Glenn Beall, Jr.",Maryland,Republican
+94th,Edward Brooke,Massachusetts,Republican
+94th,Ted Kennedy,Massachusetts,Democratic
+94th,"Donald W. Riegle, Jr.",Michigan,Democratic
+94th,Philip Hart,Michigan,Democratic
+94th,Robert P. Griffin,Michigan,Republican
+94th,Hubert Humphrey,Minnesota,Democratic
+94th,Walter Mondale,Minnesota,Democratic
+94th,Wendell Anderson,Minnesota,Democratic
+94th,James Eastland,Mississippi,Democratic
+94th,John C. Stennis,Mississippi,Democratic
+94th,John Danforth,Missouri,Republican
+94th,Stuart Symington,Missouri,Democratic
+94th,Thomas Eagleton,Missouri,Democratic
+94th,Lee Metcalf,Montana,Democratic
+94th,Mike Mansfield,Montana,Democratic
+94th,Carl Curtis,Nebraska,Republican
+94th,Edward Zorinsky,Nebraska,Democratic
+94th,Roman Hruska,Nebraska,Republican
+94th,Howard Cannon,Nevada,Democratic
+94th,Paul Laxalt,Nevada,Republican
+94th,John Durkin,New Hampshire,Democratic
+94th,Norris Cotton,New Hampshire,Republican
+94th,Thomas J. McIntyre,New Hampshire,Democratic
+94th,Clifford P. Case,New Jersey,Republican
+94th,Harrison A. Williams,New Jersey,Democratic
+94th,Joseph Montoya,New Mexico,Democratic
+94th,Pete Domenici,New Mexico,Republican
+94th,Jacob K. Javits,New York,Republican
+94th,James L. Buckley,New York,C/R
+94th,Jesse Helms,North Carolina,Republican
+94th,Robert Burren Morgan,North Carolina,Democratic
+94th,Milton Young,North Dakota,Republican
+94th,Quentin Northrup Burdick,North Dakota,Democratic
+94th,Howard Metzenbaum,Ohio,Democratic
+94th,John Glenn,Ohio,Democratic
+94th,"Robert Taft, Jr.",Ohio,Republican
+94th,Dewey F. Bartlett,Oklahoma,Republican
+94th,Henry Bellmon,Oklahoma,Republican
+94th,Bob Packwood,Oregon,Republican
+94th,Mark Hatfield,Oregon,Republican
+94th,Hugh Scott,Pennsylvania,Republican
+94th,Richard Schweiker,Pennsylvania,Republican
+94th,Claiborne Pell,Rhode Island,Democratic
+94th,John Chafee,Rhode Island,Republican
+94th,John O. Pastore,Rhode Island,Democratic
+94th,Ernest Hollings,South Carolina,Democratic
+94th,Strom Thurmond,South Carolina,Republican
+94th,George McGovern,South Dakota,Democratic
+94th,James Abourezk,South Dakota,Democratic
+94th,Bill Brock,Tennessee,Republican
+94th,Howard Baker,Tennessee,Republican
+94th,John Tower,Texas,Republican
+94th,Lloyd Bentsen,Texas,Democratic
+94th,Frank Moss,Utah,Democratic
+94th,Jake Garn,Utah,Republican
+94th,Patrick Leahy,Vermont,Democratic
+94th,Robert Stafford,Vermont,Republican
+94th,"Harry F. Byrd, Jr.",Virginia,Independent
+94th,William L. Scott,Virginia,Republican
+94th,Henry M. Jackson,Washington,Democratic
+94th,Warren G. Magnuson,Washington,Democratic
+94th,Jennings Randolph,West Virginia,Democratic
+94th,Robert Byrd,West Virginia,Democratic
+94th,Gaylord Nelson,Wisconsin,Democratic
+94th,William Proxmire,Wisconsin,Democratic
+94th,Clifford Hansen,Wyoming,Republican
+94th,Gale W. McGee,Wyoming,Democratic
+93rd,James Allen,Alabama,Democratic
+93rd,John Sparkman,Alabama,Democratic
+93rd,Mike Gravel,Alaska,Democratic
+93rd,Ted Stevens,Alaska,Republican
+93rd,Barry Goldwater,Arizona,Republican
+93rd,Paul Fannin,Arizona,Republican
+93rd,J. William Fulbright,Arkansas,Democratic
+93rd,John Little McClellan,Arkansas,Democratic
+93rd,Alan Cranston,California,Democratic
+93rd,John V. Tunney,California,Democratic
+93rd,Floyd K. Haskell,Colorado,Democratic
+93rd,Peter H. Dominick,Colorado,Republican
+93rd,Abraham A. Ribicoff,Connecticut,Democratic
+93rd,Lowell Weicker,Connecticut,Republican
+93rd,Bill Roth,Delaware,Republican
+93rd,Joe Biden,Delaware,Democratic
+93rd,Edward J. Gurney,Florida,Republican
+93rd,Lawton Chiles,Florida,Democratic
+93rd,Richard Stone,Florida,Democratic
+93rd,Herman Talmadge,Georgia,Democratic
+93rd,Sam Nunn,Georgia,Democratic
+93rd,Daniel Inouye,Hawaii,Democratic
+93rd,Hiram Fong,Hawaii,Republican
+93rd,Frank Church,Idaho,Democratic
+93rd,James A. McClure,Idaho,Republican
+93rd,Adlai Stevenson III,Illinois,Democratic
+93rd,Charles H. Percy,Illinois,Republican
+93rd,Birch Bayh,Indiana,Democratic
+93rd,Vance Hartke,Indiana,Democratic
+93rd,Harold Hughes,Iowa,Democratic
+93rd,Richard C. Clark,Iowa,Democratic
+93rd,Bob Dole,Kansas,Republican
+93rd,James B. Pearson,Kansas,Republican
+93rd,Marlow Cook,Kentucky,Republican
+93rd,Walter Huddleston,Kentucky,Democratic
+93rd,Wendell H. Ford,Kentucky,Democratic
+93rd,Bennett Johnston Jr.,Louisiana,Democratic
+93rd,Russell B. Long,Louisiana,Democratic
+93rd,Edmund Muskie,Maine,Democratic
+93rd,William Hathaway,Maine,Democratic
+93rd,Charles Mathias,Maryland,Republican
+93rd,"John Glenn Beall, Jr.",Maryland,Republican
+93rd,Edward Brooke,Massachusetts,Republican
+93rd,Ted Kennedy,Massachusetts,Democratic
+93rd,Philip Hart,Michigan,Democratic
+93rd,Robert P. Griffin,Michigan,Republican
+93rd,Hubert Humphrey,Minnesota,Democratic
+93rd,Walter Mondale,Minnesota,Democratic
+93rd,James Eastland,Mississippi,Democratic
+93rd,John C. Stennis,Mississippi,Democratic
+93rd,Stuart Symington,Missouri,Democratic
+93rd,Thomas Eagleton,Missouri,Democratic
+93rd,Lee Metcalf,Montana,Democratic
+93rd,Mike Mansfield,Montana,Democratic
+93rd,Carl Curtis,Nebraska,Republican
+93rd,Roman Hruska,Nebraska,Republican
+93rd,Alan Bible,Nevada,Democratic
+93rd,Howard Cannon,Nevada,Democratic
+93rd,Paul Laxalt,Nevada,Republican
+93rd,Louis C. Wyman,New Hampshire,Republican
+93rd,Norris Cotton,New Hampshire,Republican
+93rd,Thomas J. McIntyre,New Hampshire,Democratic
+93rd,Clifford P. Case,New Jersey,Republican
+93rd,Harrison A. Williams,New Jersey,Democratic
+93rd,Joseph Montoya,New Mexico,Democratic
+93rd,Pete Domenici,New Mexico,Republican
+93rd,Jacob K. Javits,New York,Republican
+93rd,James L. Buckley,New York,C/R
+93rd,Jesse Helms,North Carolina,Republican
+93rd,Sam Ervin,North Carolina,Democratic
+93rd,Milton Young,North Dakota,Republican
+93rd,Quentin Northrup Burdick,North Dakota,Democratic
+93rd,Howard Metzenbaum,Ohio,Democratic
+93rd,John Glenn,Ohio,Democratic
+93rd,"Robert Taft, Jr.",Ohio,Republican
+93rd,William B. Saxbe,Ohio,Republican
+93rd,Dewey F. Bartlett,Oklahoma,Republican
+93rd,Henry Bellmon,Oklahoma,Republican
+93rd,Bob Packwood,Oregon,Republican
+93rd,Mark Hatfield,Oregon,Republican
+93rd,Hugh Scott,Pennsylvania,Republican
+93rd,Richard Schweiker,Pennsylvania,Republican
+93rd,Claiborne Pell,Rhode Island,Democratic
+93rd,John O. Pastore,Rhode Island,Democratic
+93rd,Ernest Hollings,South Carolina,Democratic
+93rd,Strom Thurmond,South Carolina,Republican
+93rd,George McGovern,South Dakota,Democratic
+93rd,James Abourezk,South Dakota,Democratic
+93rd,Bill Brock,Tennessee,Republican
+93rd,Howard Baker,Tennessee,Republican
+93rd,John Tower,Texas,Republican
+93rd,Lloyd Bentsen,Texas,Democratic
+93rd,Frank Moss,Utah,Democratic
+93rd,Jake Garn,Utah,Republican
+93rd,Wallace F. Bennett,Utah,Republican
+93rd,George Aiken,Vermont,Republican
+93rd,Robert Stafford,Vermont,Republican
+93rd,"Harry F. Byrd, Jr.",Virginia,Independent
+93rd,William L. Scott,Virginia,Republican
+93rd,Henry M. Jackson,Washington,Democratic
+93rd,Warren G. Magnuson,Washington,Democratic
+93rd,Jennings Randolph,West Virginia,Democratic
+93rd,Robert Byrd,West Virginia,Democratic
+93rd,Gaylord Nelson,Wisconsin,Democratic
+93rd,William Proxmire,Wisconsin,Democratic
+93rd,Clifford Hansen,Wyoming,Republican
+93rd,Gale W. McGee,Wyoming,Democratic
+92nd,James Allen,Alabama,Democratic
+92nd,John Sparkman,Alabama,Democratic
+92nd,Mike Gravel,Alaska,Democratic
+92nd,Ted Stevens,Alaska,Republican
+92nd,Barry Goldwater,Arizona,Republican
+92nd,Paul Fannin,Arizona,Republican
+92nd,J. William Fulbright,Arkansas,Democratic
+92nd,John Little McClellan,Arkansas,Democratic
+92nd,Alan Cranston,California,Democratic
+92nd,John V. Tunney,California,Democratic
+92nd,Gordon L. Allott,Colorado,Republican
+92nd,Peter H. Dominick,Colorado,Republican
+92nd,Abraham A. Ribicoff,Connecticut,Democratic
+92nd,Lowell Weicker,Connecticut,Republican
+92nd,Bill Roth,Delaware,Republican
+92nd,James Boggs,Delaware,Republican
+92nd,Edward J. Gurney,Florida,Republican
+92nd,Lawton Chiles,Florida,Democratic
+92nd,David H. Gambrell,Georgia,Democratic
+92nd,Herman Talmadge,Georgia,Democratic
+92nd,"Richard Russell, Jr.",Georgia,Democratic
+92nd,Sam Nunn,Georgia,Democratic
+92nd,Daniel Inouye,Hawaii,Democratic
+92nd,Hiram Fong,Hawaii,Republican
+92nd,Frank Church,Idaho,Democratic
+92nd,Leonard B. Jordan,Idaho,Republican
+92nd,Adlai Stevenson III,Illinois,Democratic
+92nd,Charles H. Percy,Illinois,Republican
+92nd,Birch Bayh,Indiana,Democratic
+92nd,Vance Hartke,Indiana,Democratic
+92nd,Harold Hughes,Iowa,Democratic
+92nd,Jack Miller,Iowa,Republican
+92nd,Bob Dole,Kansas,Republican
+92nd,James B. Pearson,Kansas,Republican
+92nd,John Sherman Cooper,Kentucky,Republican
+92nd,Marlow Cook,Kentucky,Republican
+92nd,Allen J. Ellender,Louisiana,Democratic
+92nd,Bennett Johnston Jr.,Louisiana,Democratic
+92nd,Elaine S. Edwards,Louisiana,Democratic
+92nd,Russell B. Long,Louisiana,Democratic
+92nd,Edmund Muskie,Maine,Democratic
+92nd,Margaret Chase Smith,Maine,Republican
+92nd,Charles Mathias,Maryland,Republican
+92nd,"John Glenn Beall, Jr.",Maryland,Republican
+92nd,Edward Brooke,Massachusetts,Republican
+92nd,Ted Kennedy,Massachusetts,Democratic
+92nd,Philip Hart,Michigan,Democratic
+92nd,Robert P. Griffin,Michigan,Republican
+92nd,Hubert Humphrey,Minnesota,Democratic
+92nd,Walter Mondale,Minnesota,Democratic
+92nd,James Eastland,Mississippi,Democratic
+92nd,John C. Stennis,Mississippi,Democratic
+92nd,Stuart Symington,Missouri,Democratic
+92nd,Thomas Eagleton,Missouri,Democratic
+92nd,Lee Metcalf,Montana,Democratic
+92nd,Mike Mansfield,Montana,Democratic
+92nd,Carl Curtis,Nebraska,Republican
+92nd,Roman Hruska,Nebraska,Republican
+92nd,Alan Bible,Nevada,Democratic
+92nd,Howard Cannon,Nevada,Democratic
+92nd,Norris Cotton,New Hampshire,Republican
+92nd,Thomas J. McIntyre,New Hampshire,Democratic
+92nd,Clifford P. Case,New Jersey,Republican
+92nd,Harrison A. Williams,New Jersey,Democratic
+92nd,Clinton Anderson,New Mexico,Democratic
+92nd,Joseph Montoya,New Mexico,Democratic
+92nd,Jacob K. Javits,New York,Republican
+92nd,James L. Buckley,New York,C/R
+92nd,Ben Jordan,North Carolina,Democratic
+92nd,Sam Ervin,North Carolina,Democratic
+92nd,Milton Young,North Dakota,Republican
+92nd,Quentin Northrup Burdick,North Dakota,Democratic
+92nd,"Robert Taft, Jr.",Ohio,Republican
+92nd,William B. Saxbe,Ohio,Republican
+92nd,Fred R. Harris,Oklahoma,Democratic
+92nd,Henry Bellmon,Oklahoma,Republican
+92nd,Bob Packwood,Oregon,Republican
+92nd,Mark Hatfield,Oregon,Republican
+92nd,Hugh Scott,Pennsylvania,Republican
+92nd,Richard Schweiker,Pennsylvania,Republican
+92nd,Claiborne Pell,Rhode Island,Democratic
+92nd,John O. Pastore,Rhode Island,Democratic
+92nd,Ernest Hollings,South Carolina,Democratic
+92nd,Strom Thurmond,South Carolina,Republican
+92nd,George McGovern,South Dakota,Democratic
+92nd,Karl Mundt,South Dakota,Republican
+92nd,Bill Brock,Tennessee,Republican
+92nd,Howard Baker,Tennessee,Republican
+92nd,John Tower,Texas,Republican
+92nd,Lloyd Bentsen,Texas,Democratic
+92nd,Frank Moss,Utah,Democratic
+92nd,Wallace F. Bennett,Utah,Republican
+92nd,George Aiken,Vermont,Republican
+92nd,Robert Stafford,Vermont,Republican
+92nd,Winston L. Prouty,Vermont,Republican
+92nd,"Harry F. Byrd, Jr.",Virginia,Independent
+92nd,"William B. Spong, Jr.",Virginia,Democratic
+92nd,Henry M. Jackson,Washington,Democratic
+92nd,Warren G. Magnuson,Washington,Democratic
+92nd,Jennings Randolph,West Virginia,Democratic
+92nd,Robert Byrd,West Virginia,Democratic
+92nd,Gaylord Nelson,Wisconsin,Democratic
+92nd,William Proxmire,Wisconsin,Democratic
+92nd,Clifford Hansen,Wyoming,Republican
+92nd,Gale W. McGee,Wyoming,Democratic
+91st,James Allen,Alabama,Democratic
+91st,John Sparkman,Alabama,Democratic
+91st,Mike Gravel,Alaska,Democratic
+91st,Ted Stevens,Alaska,Republican
+91st,Barry Goldwater,Arizona,Republican
+91st,Paul Fannin,Arizona,Republican
+91st,J. William Fulbright,Arkansas,Democratic
+91st,John Little McClellan,Arkansas,Democratic
+91st,Alan Cranston,California,Democratic
+91st,George Murphy,California,Republican
+91st,John V. Tunney,California,Democratic
+91st,Gordon L. Allott,Colorado,Republican
+91st,Peter H. Dominick,Colorado,Republican
+91st,Abraham A. Ribicoff,Connecticut,Democratic
+91st,Thomas J. Dodd,Connecticut,Democratic
+91st,Bill Roth,Delaware,Republican
+91st,James Boggs,Delaware,Republican
+91st,John J. Williams,Delaware,Republican
+91st,Edward J. Gurney,Florida,Republican
+91st,Spessard Holland,Florida,Democratic
+91st,Herman Talmadge,Georgia,Democratic
+91st,"Richard Russell, Jr.",Georgia,Democratic
+91st,Daniel Inouye,Hawaii,Democratic
+91st,Hiram Fong,Hawaii,Republican
+91st,Frank Church,Idaho,Democratic
+91st,Leonard B. Jordan,Idaho,Republican
+91st,Adlai Stevenson III,Illinois,Democratic
+91st,Charles H. Percy,Illinois,Republican
+91st,Everett Dirksen,Illinois,Republican
+91st,Ralph Smith,Illinois,Republican
+91st,Birch Bayh,Indiana,Democratic
+91st,Vance Hartke,Indiana,Democratic
+91st,Harold Hughes,Iowa,Democratic
+91st,Jack Miller,Iowa,Republican
+91st,Bob Dole,Kansas,Republican
+91st,James B. Pearson,Kansas,Republican
+91st,John Sherman Cooper,Kentucky,Republican
+91st,Marlow Cook,Kentucky,Republican
+91st,Allen J. Ellender,Louisiana,Democratic
+91st,Russell B. Long,Louisiana,Democratic
+91st,Edmund Muskie,Maine,Democratic
+91st,Margaret Chase Smith,Maine,Republican
+91st,Charles Mathias,Maryland,Republican
+91st,Joseph Tydings,Maryland,Democratic
+91st,Edward Brooke,Massachusetts,Republican
+91st,Ted Kennedy,Massachusetts,Democratic
+91st,Philip Hart,Michigan,Democratic
+91st,Robert P. Griffin,Michigan,Republican
+91st,Eugene McCarthy,Minnesota,Democratic
+91st,Walter Mondale,Minnesota,Democratic
+91st,James Eastland,Mississippi,Democratic
+91st,John C. Stennis,Mississippi,Democratic
+91st,Stuart Symington,Missouri,Democratic
+91st,Thomas Eagleton,Missouri,Democratic
+91st,Lee Metcalf,Montana,Democratic
+91st,Mike Mansfield,Montana,Democratic
+91st,Carl Curtis,Nebraska,Republican
+91st,Roman Hruska,Nebraska,Republican
+91st,Alan Bible,Nevada,Democratic
+91st,Howard Cannon,Nevada,Democratic
+91st,Norris Cotton,New Hampshire,Republican
+91st,Thomas J. McIntyre,New Hampshire,Democratic
+91st,Clifford P. Case,New Jersey,Republican
+91st,Harrison A. Williams,New Jersey,Democratic
+91st,Clinton Anderson,New Mexico,Democratic
+91st,Joseph Montoya,New Mexico,Democratic
+91st,Charles Goodell,New York,Republican
+91st,Jacob K. Javits,New York,Republican
+91st,Ben Jordan,North Carolina,Democratic
+91st,Sam Ervin,North Carolina,Democratic
+91st,Milton Young,North Dakota,Republican
+91st,Quentin Northrup Burdick,North Dakota,Democratic
+91st,Stephen Young,Ohio,Democratic
+91st,William B. Saxbe,Ohio,Republican
+91st,Fred R. Harris,Oklahoma,Democratic
+91st,Henry Bellmon,Oklahoma,Republican
+91st,Bob Packwood,Oregon,Republican
+91st,Mark Hatfield,Oregon,Republican
+91st,Hugh Scott,Pennsylvania,Republican
+91st,Richard Schweiker,Pennsylvania,Republican
+91st,Claiborne Pell,Rhode Island,Democratic
+91st,John O. Pastore,Rhode Island,Democratic
+91st,Ernest Hollings,South Carolina,Democratic
+91st,Strom Thurmond,South Carolina,Republican
+91st,George McGovern,South Dakota,Democratic
+91st,Karl Mundt,South Dakota,Republican
+91st,"Albert Gore, Sr.",Tennessee,Democratic
+91st,Howard Baker,Tennessee,Republican
+91st,John Tower,Texas,Republican
+91st,Ralph Yarborough,Texas,Democratic
+91st,Frank Moss,Utah,Democratic
+91st,Wallace F. Bennett,Utah,Republican
+91st,George Aiken,Vermont,Republican
+91st,Winston L. Prouty,Vermont,Republican
+91st,"Harry F. Byrd, Jr.",Virginia,Democratic
+91st,"William B. Spong, Jr.",Virginia,Democratic
+91st,Henry M. Jackson,Washington,Democratic
+91st,Warren G. Magnuson,Washington,Democratic
+91st,Jennings Randolph,West Virginia,Democratic
+91st,Robert Byrd,West Virginia,Democratic
+91st,Gaylord Nelson,Wisconsin,Democratic
+91st,William Proxmire,Wisconsin,Democratic
+91st,Clifford Hansen,Wyoming,Republican
+91st,Gale W. McGee,Wyoming,Democratic
+90th,John Sparkman,Alabama,Democratic
+90th,Joseph L. Hill,Alabama,Democratic
+90th,Edward L. Bartlett,Alaska,Democratic
+90th,Ernest Gruening,Alaska,Democratic
+90th,Ted Stevens,Alaska,Republican
+90th,Carl Hayden,Arizona,Democratic
+90th,Paul Fannin,Arizona,Republican
+90th,J. William Fulbright,Arkansas,Democratic
+90th,John Little McClellan,Arkansas,Democratic
+90th,George Murphy,California,Republican
+90th,Thomas Kuchel,California,Republican
+90th,Gordon L. Allott,Colorado,Republican
+90th,Peter H. Dominick,Colorado,Republican
+90th,Abraham A. Ribicoff,Connecticut,Democratic
+90th,Thomas J. Dodd,Connecticut,Democratic
+90th,James Boggs,Delaware,Republican
+90th,John J. Williams,Delaware,Republican
+90th,George Smathers,Florida,Democratic
+90th,Spessard Holland,Florida,Democratic
+90th,Herman Talmadge,Georgia,Democratic
+90th,"Richard Russell, Jr.",Georgia,Democratic
+90th,Daniel Inouye,Hawaii,Democratic
+90th,Hiram Fong,Hawaii,Republican
+90th,Frank Church,Idaho,Democratic
+90th,Leonard B. Jordan,Idaho,Republican
+90th,Charles H. Percy,Illinois,Republican
+90th,Everett Dirksen,Illinois,Republican
+90th,Birch Bayh,Indiana,Democratic
+90th,Vance Hartke,Indiana,Democratic
+90th,Bourke B. Hickenlooper,Iowa,Republican
+90th,Jack Miller,Iowa,Republican
+90th,Frank Carlson,Kansas,Republican
+90th,James B. Pearson,Kansas,Republican
+90th,John Sherman Cooper,Kentucky,Republican
+90th,Marlow Cook,Kentucky,Republican
+90th,Thruston Ballard Morton,Kentucky,Republican
+90th,Allen J. Ellender,Louisiana,Democratic
+90th,Russell B. Long,Louisiana,Democratic
+90th,Edmund Muskie,Maine,Democratic
+90th,Margaret Chase Smith,Maine,Republican
+90th,Daniel Brewster,Maryland,Democratic
+90th,Joseph Tydings,Maryland,Democratic
+90th,Edward Brooke,Massachusetts,Republican
+90th,Ted Kennedy,Massachusetts,Democratic
+90th,Philip Hart,Michigan,Democratic
+90th,Robert P. Griffin,Michigan,Republican
+90th,Eugene McCarthy,Minnesota,Democratic
+90th,Walter Mondale,Minnesota,Democratic
+90th,James Eastland,Mississippi,Democratic
+90th,John C. Stennis,Mississippi,Democratic
+90th,Edward V. Long,Missouri,Democratic
+90th,Stuart Symington,Missouri,Democratic
+90th,Thomas Eagleton,Missouri,Democratic
+90th,Lee Metcalf,Montana,Democratic
+90th,Mike Mansfield,Montana,Democratic
+90th,Carl Curtis,Nebraska,Republican
+90th,Roman Hruska,Nebraska,Republican
+90th,Alan Bible,Nevada,Democratic
+90th,Howard Cannon,Nevada,Democratic
+90th,Norris Cotton,New Hampshire,Republican
+90th,Thomas J. McIntyre,New Hampshire,Democratic
+90th,Clifford P. Case,New Jersey,Republican
+90th,Harrison A. Williams,New Jersey,Democratic
+90th,Clinton Anderson,New Mexico,Democratic
+90th,Joseph Montoya,New Mexico,Democratic
+90th,Charles Goodell,New York,Republican
+90th,Jacob K. Javits,New York,Republican
+90th,Robert F. Kennedy,New York,Democratic
+90th,B. Everett Jordan,North Carolina,Democratic
+90th,Sam Ervin,North Carolina,Democratic
+90th,Milton Young,North Dakota,Republican
+90th,Quentin Northrup Burdick,North Dakota,Democratic
+90th,Frank J. Lausche,Ohio,Democratic
+90th,Stephen Young,Ohio,Democratic
+90th,Almer Monroney,Oklahoma,Democratic
+90th,Fred R. Harris,Oklahoma,Democratic
+90th,Mark Hatfield,Oregon,Republican
+90th,Wayne Morse,Oregon,Democratic
+90th,Hugh Scott,Pennsylvania,Republican
+90th,Joseph S. Clark,Pennsylvania,Democratic
+90th,Claiborne Pell,Rhode Island,Democratic
+90th,John O. Pastore,Rhode Island,Democratic
+90th,Ernest Hollings,South Carolina,Democratic
+90th,Strom Thurmond,South Carolina,Republican
+90th,George McGovern,South Dakota,Democratic
+90th,Karl Mundt,South Dakota,Republican
+90th,"Albert Gore, Sr.",Tennessee,Democratic
+90th,Howard Baker,Tennessee,Republican
+90th,John Tower,Texas,Republican
+90th,Ralph Yarborough,Texas,Democratic
+90th,Frank Moss,Utah,Democratic
+90th,Wallace F. Bennett,Utah,Republican
+90th,George Aiken,Vermont,Republican
+90th,Winston L. Prouty,Vermont,Republican
+90th,"Harry F. Byrd, Jr.",Virginia,Democratic
+90th,"William B. Spong, Jr.",Virginia,Democratic
+90th,Henry M. Jackson,Washington,Democratic
+90th,Warren G. Magnuson,Washington,Democratic
+90th,Jennings Randolph,West Virginia,Democratic
+90th,Robert Byrd,West Virginia,Democratic
+90th,Gaylord Nelson,Wisconsin,Democratic
+90th,William Proxmire,Wisconsin,Democratic
+90th,Clifford Hansen,Wyoming,Republican
+90th,Gale W. McGee,Wyoming,Democratic
+89th,John Sparkman,Alabama,Democratic
+89th,Joseph L. Hill,Alabama,Democratic
+89th,Edward L. Bartlett,Alaska,Democratic
+89th,Ernest Gruening,Alaska,Democratic
+89th,Carl Hayden,Arizona,Democratic
+89th,Paul Fannin,Arizona,Republican
+89th,J. William Fulbright,Arkansas,Democratic
+89th,John Little McClellan,Arkansas,Democratic
+89th,George Murphy,California,Republican
+89th,Thomas Kuchel,California,Republican
+89th,Gordon L. Allott,Colorado,Republican
+89th,Peter H. Dominick,Colorado,Republican
+89th,Abraham A. Ribicoff,Connecticut,Democratic
+89th,Thomas J. Dodd,Connecticut,Democratic
+89th,James Boggs,Delaware,Republican
+89th,John J. Williams,Delaware,Republican
+89th,George Smathers,Florida,Democratic
+89th,Spessard Holland,Florida,Democratic
+89th,Herman Talmadge,Georgia,Democratic
+89th,"Richard Russell, Jr.",Georgia,Democratic
+89th,Daniel Inouye,Hawaii,Democratic
+89th,Hiram Fong,Hawaii,Republican
+89th,Frank Church,Idaho,Democratic
+89th,Leonard B. Jordan,Idaho,Republican
+89th,Everett Dirksen,Illinois,Republican
+89th,Paul Douglas,Illinois,Democratic
+89th,Birch Bayh,Indiana,Democratic
+89th,Vance Hartke,Indiana,Democratic
+89th,Bourke B. Hickenlooper,Iowa,Republican
+89th,Jack Miller,Iowa,Republican
+89th,Frank Carlson,Kansas,Republican
+89th,James B. Pearson,Kansas,Republican
+89th,John Sherman Cooper,Kentucky,Republican
+89th,Thruston Ballard Morton,Kentucky,Republican
+89th,Allen J. Ellender,Louisiana,Democratic
+89th,Russell B. Long,Louisiana,Democratic
+89th,Edmund Muskie,Maine,Democratic
+89th,Margaret Chase Smith,Maine,Republican
+89th,Daniel Brewster,Maryland,Democratic
+89th,Joseph Tydings,Maryland,Democratic
+89th,Leverett Saltonstall,Massachusetts,Republican
+89th,Ted Kennedy,Massachusetts,Democratic
+89th,Patrick V. McNamara,Michigan,Democratic
+89th,Philip Hart,Michigan,Democratic
+89th,Robert P. Griffin,Michigan,Republican
+89th,Eugene McCarthy,Minnesota,Democratic
+89th,Walter Mondale,Minnesota,Democratic
+89th,James Eastland,Mississippi,Democratic
+89th,John C. Stennis,Mississippi,Democratic
+89th,Edward V. Long,Missouri,Democratic
+89th,Stuart Symington,Missouri,Democratic
+89th,Lee Metcalf,Montana,Democratic
+89th,Mike Mansfield,Montana,Democratic
+89th,Carl Curtis,Nebraska,Republican
+89th,Roman Hruska,Nebraska,Republican
+89th,Alan Bible,Nevada,Democratic
+89th,Howard Cannon,Nevada,Democratic
+89th,Norris Cotton,New Hampshire,Republican
+89th,Thomas J. McIntyre,New Hampshire,Democratic
+89th,Clifford P. Case,New Jersey,Republican
+89th,Harrison A. Williams,New Jersey,Democratic
+89th,Clinton Anderson,New Mexico,Democratic
+89th,Joseph Montoya,New Mexico,Democratic
+89th,Jacob K. Javits,New York,Republican
+89th,Robert F. Kennedy,New York,Democratic
+89th,Ben Jordan,North Carolina,Democratic
+89th,Sam Ervin,North Carolina,Democratic
+89th,Milton Young,North Dakota,Republican
+89th,Quentin Northrup Burdick,North Dakota,Democratic
+89th,Frank J. Lausche,Ohio,Democratic
+89th,Stephen Young,Ohio,Democratic
+89th,Almer Monroney,Oklahoma,Democratic
+89th,Fred R. Harris,Oklahoma,Democratic
+89th,Maurine Neuberger,Oregon,Democratic
+89th,Wayne Morse,Oregon,Democratic
+89th,Hugh Scott,Pennsylvania,Republican
+89th,Joseph S. Clark,Pennsylvania,Democratic
+89th,Claiborne Pell,Rhode Island,Democratic
+89th,John O. Pastore,Rhode Island,Democratic
+89th,Donald S. Russell,South Carolina,Democratic
+89th,Ernest Hollings,South Carolina,Democratic
+89th,Olin D. Johnston,South Carolina,Democratic
+89th,Strom Thurmond,South Carolina,Republican
+89th,George McGovern,South Dakota,Democratic
+89th,Karl Mundt,South Dakota,Republican
+89th,"Albert Gore, Sr.",Tennessee,Democratic
+89th,Ross Bass,Tennessee,Democratic
+89th,John Tower,Texas,Republican
+89th,Ralph Yarborough,Texas,Democratic
+89th,Frank Moss,Utah,Democratic
+89th,Wallace F. Bennett,Utah,Republican
+89th,George Aiken,Vermont,Republican
+89th,Winston L. Prouty,Vermont,Republican
+89th,A. Willis Robertson,Virginia,Democratic
+89th,"Harry F. Byrd, Jr.",Virginia,Democratic
+89th,"Harry F. Byrd, Sr.",Virginia,Democratic
+89th,"William B. Spong, Jr.",Virginia,Democratic
+89th,Henry M. Jackson,Washington,Democratic
+89th,Warren G. Magnuson,Washington,Democratic
+89th,Jennings Randolph,West Virginia,Democratic
+89th,Robert Byrd,West Virginia,Democratic
+89th,Gaylord Nelson,Wisconsin,Democratic
+89th,William Proxmire,Wisconsin,Democratic
+89th,Gale W. McGee,Wyoming,Democratic
+89th,Milward L. Simpson,Wyoming,Republican
+88th,John Sparkman,Alabama,Democratic
+88th,Joseph L. Hill,Alabama,Democratic
+88th,Edward L. Bartlett,Alaska,Democratic
+88th,Ernest Gruening,Alaska,Democratic
+88th,Barry Goldwater,Arizona,Republican
+88th,Carl Hayden,Arizona,Democratic
+88th,J. William Fulbright,Arkansas,Democratic
+88th,John Little McClellan,Arkansas,Democratic
+88th,Clair Engle,California,Democratic
+88th,George Murphy,California,Republican
+88th,Pierre Salinger,California,Democratic
+88th,Thomas Kuchel,California,Republican
+88th,Gordon L. Allott,Colorado,Republican
+88th,Peter H. Dominick,Colorado,Republican
+88th,Abraham A. Ribicoff,Connecticut,Democratic
+88th,Thomas J. Dodd,Connecticut,Democratic
+88th,James Boggs,Delaware,Republican
+88th,John J. Williams,Delaware,Republican
+88th,George Smathers,Florida,Democratic
+88th,Spessard Holland,Florida,Democratic
+88th,Herman Talmadge,Georgia,Democratic
+88th,"Richard Russell, Jr.",Georgia,Democratic
+88th,Daniel Inouye,Hawaii,Democratic
+88th,Hiram Fong,Hawaii,Republican
+88th,Frank Church,Idaho,Democratic
+88th,Leonard B. Jordan,Idaho,Republican
+88th,Everett Dirksen,Illinois,Republican
+88th,Paul Douglas,Illinois,Democratic
+88th,Birch Bayh,Indiana,Democratic
+88th,Vance Hartke,Indiana,Democratic
+88th,Bourke B. Hickenlooper,Iowa,Republican
+88th,Jack Miller,Iowa,Republican
+88th,Frank Carlson,Kansas,Republican
+88th,James B. Pearson,Kansas,Republican
+88th,John Sherman Cooper,Kentucky,Republican
+88th,Thruston Ballard Morton,Kentucky,Republican
+88th,Allen J. Ellender,Louisiana,Democratic
+88th,Russell B. Long,Louisiana,Democratic
+88th,Edmund Muskie,Maine,Democratic
+88th,Margaret Chase Smith,Maine,Republican
+88th,Daniel Brewster,Maryland,Democratic
+88th,James Glenn Beall,Maryland,Republican
+88th,Leverett Saltonstall,Massachusetts,Republican
+88th,Ted Kennedy,Massachusetts,Democratic
+88th,Patrick V. McNamara,Michigan,Democratic
+88th,Philip Hart,Michigan,Democratic
+88th,Eugene McCarthy,Minnesota,Democratic
+88th,Hubert Humphrey,Minnesota,Democratic
+88th,Walter Mondale,Minnesota,Democratic
+88th,James Eastland,Mississippi,Democratic
+88th,John C. Stennis,Mississippi,Democratic
+88th,Edward V. Long,Missouri,Democratic
+88th,Stuart Symington,Missouri,Democratic
+88th,Lee Metcalf,Montana,Democratic
+88th,Mike Mansfield,Montana,Democratic
+88th,Carl Curtis,Nebraska,Republican
+88th,Roman Hruska,Nebraska,Republican
+88th,Alan Bible,Nevada,Democratic
+88th,Howard Cannon,Nevada,Democratic
+88th,Norris Cotton,New Hampshire,Republican
+88th,Thomas J. McIntyre,New Hampshire,Democratic
+88th,Clifford P. Case,New Jersey,Republican
+88th,Harrison A. Williams,New Jersey,Democratic
+88th,Clinton Anderson,New Mexico,Democratic
+88th,Edwin L. Mechem,New Mexico,Republican
+88th,Joseph Montoya,New Mexico,Democratic
+88th,Jacob K. Javits,New York,Republican
+88th,Kenneth Keating,New York,Republican
+88th,Ben Jordan,North Carolina,Democratic
+88th,Sam Ervin,North Carolina,Democratic
+88th,Milton Young,North Dakota,Republican
+88th,Quentin Northrup Burdick,North Dakota,Democratic
+88th,Frank J. Lausche,Ohio,Democratic
+88th,Stephen Young,Ohio,Democratic
+88th,Almer Monroney,Oklahoma,Democratic
+88th,Fred R. Harris,Oklahoma,Democratic
+88th,J. Howard Edmondson,Oklahoma,Democratic
+88th,Maurine Neuberger,Oregon,Democratic
+88th,Wayne Morse,Oregon,Democratic
+88th,Hugh Scott,Pennsylvania,Republican
+88th,Joseph S. Clark,Pennsylvania,Democratic
+88th,Claiborne Pell,Rhode Island,Democratic
+88th,John O. Pastore,Rhode Island,Democratic
+88th,Olin D. Johnston,South Carolina,Democratic
+88th,Strom Thurmond,South Carolina,Democratic
+88th,George McGovern,South Dakota,Democratic
+88th,Karl Mundt,South Dakota,Republican
+88th,"Albert Gore, Sr.",Tennessee,Democratic
+88th,Estes Kefauver,Tennessee,Democratic
+88th,Herbert S. Walters,Tennessee,Democratic
+88th,Ross Bass,Tennessee,Democratic
+88th,John Tower,Texas,Republican
+88th,Ralph Yarborough,Texas,Democratic
+88th,Frank Moss,Utah,Democratic
+88th,Wallace F. Bennett,Utah,Republican
+88th,George Aiken,Vermont,Republican
+88th,Winston L. Prouty,Vermont,Republican
+88th,A. Willis Robertson,Virginia,Democratic
+88th,"Harry F. Byrd, Sr.",Virginia,Democratic
+88th,Henry M. Jackson,Washington,Democratic
+88th,Warren G. Magnuson,Washington,Democratic
+88th,Jennings Randolph,West Virginia,Democratic
+88th,Robert Byrd,West Virginia,Democratic
+88th,Gaylord Nelson,Wisconsin,Democratic
+88th,William Proxmire,Wisconsin,Democratic
+88th,Gale W. McGee,Wyoming,Democratic
+88th,Milward L. Simpson,Wyoming,Republican
+87th,John Sparkman,Alabama,Democratic
+87th,Joseph L. Hill,Alabama,Democratic
+87th,Edward L. Bartlett,Alaska,Democratic
+87th,Ernest Gruening,Alaska,Democratic
+87th,Barry Goldwater,Arizona,Republican
+87th,Carl Hayden,Arizona,Democratic
+87th,J. William Fulbright,Arkansas,Democratic
+87th,John Little McClellan,Arkansas,Democratic
+87th,Clair Engle,California,Democratic
+87th,Thomas Kuchel,California,Republican
+87th,Gordon L. Allott,Colorado,Republican
+87th,John A. Carroll,Colorado,Democratic
+87th,Prescott Bush,Connecticut,Republican
+87th,Thomas J. Dodd,Connecticut,Democratic
+87th,James Boggs,Delaware,Republican
+87th,John J. Williams,Delaware,Republican
+87th,George Smathers,Florida,Democratic
+87th,Spessard Holland,Florida,Democratic
+87th,Herman Talmadge,Georgia,Democratic
+87th,"Richard Russell, Jr.",Georgia,Democratic
+87th,Hiram Fong,Hawaii,Republican
+87th,Oren E. Long,Hawaii,Democratic
+87th,Frank Church,Idaho,Democratic
+87th,Henry Dworshak,Idaho,Republican
+87th,Leonard B. Jordan,Idaho,Republican
+87th,Everett Dirksen,Illinois,Republican
+87th,Paul Douglas,Illinois,Democratic
+87th,Homer E. Capehart,Indiana,Republican
+87th,Vance Hartke,Indiana,Democratic
+87th,Bourke B. Hickenlooper,Iowa,Republican
+87th,Jack Miller,Iowa,Republican
+87th,Andrew F. Schoeppel,Kansas,Republican
+87th,Frank Carlson,Kansas,Republican
+87th,James B. Pearson,Kansas,Republican
+87th,John Sherman Cooper,Kentucky,Republican
+87th,Thruston Ballard Morton,Kentucky,Republican
+87th,Allen J. Ellender,Louisiana,Democratic
+87th,Russell B. Long,Louisiana,Democratic
+87th,Edmund Muskie,Maine,Democratic
+87th,Margaret Chase Smith,Maine,Republican
+87th,James Glenn Beall,Maryland,Republican
+87th,John M. Butler,Maryland,Republican
+87th,Benjamin A. Smith II,Massachusetts,Democratic
+87th,Leverett Saltonstall,Massachusetts,Republican
+87th,Ted Kennedy,Massachusetts,Democratic
+87th,Patrick V. McNamara,Michigan,Democratic
+87th,Philip Hart,Michigan,Democratic
+87th,Eugene McCarthy,Minnesota,Democratic
+87th,Hubert Humphrey,Minnesota,Democratic
+87th,James Eastland,Mississippi,Democratic
+87th,John C. Stennis,Mississippi,Democratic
+87th,Edward V. Long,Missouri,Democratic
+87th,Stuart Symington,Missouri,Democratic
+87th,Lee Metcalf,Montana,Democratic
+87th,Mike Mansfield,Montana,Democratic
+87th,Carl Curtis,Nebraska,Republican
+87th,Roman Hruska,Nebraska,Republican
+87th,Alan Bible,Nevada,Democratic
+87th,Howard Cannon,Nevada,Democratic
+87th,"Maurice J. Murphy, Jr.",New Hampshire,Republican
+87th,Norris Cotton,New Hampshire,Republican
+87th,Styles Bridges,New Hampshire,Republican
+87th,Thomas J. McIntyre,New Hampshire,Democratic
+87th,Clifford P. Case,New Jersey,Republican
+87th,Harrison A. Williams,New Jersey,Democratic
+87th,Clinton Anderson,New Mexico,Democratic
+87th,Dennis Chavez,New Mexico,Democratic
+87th,Edwin L. Mechem,New Mexico,Republican
+87th,Jacob K. Javits,New York,Republican
+87th,Kenneth Keating,New York,Republican
+87th,Ben Jordan,North Carolina,Democratic
+87th,Sam Ervin,North Carolina,Democratic
+87th,Milton Young,North Dakota,Republican
+87th,Quentin Northrup Burdick,North Dakota,Democratic
+87th,Frank J. Lausche,Ohio,Democratic
+87th,Stephen Young,Ohio,Democratic
+87th,Almer Monroney,Oklahoma,Democratic
+87th,Robert S. Kerr,Oklahoma,Democratic
+87th,Maurine Neuberger,Oregon,Democratic
+87th,Wayne Morse,Oregon,Democratic
+87th,Hugh Scott,Pennsylvania,Republican
+87th,Joseph S. Clark,Pennsylvania,Democratic
+87th,Claiborne Pell,Rhode Island,Democratic
+87th,John O. Pastore,Rhode Island,Democratic
+87th,Olin D. Johnston,South Carolina,Democratic
+87th,Strom Thurmond,South Carolina,Democratic
+87th,Francis H. Case,South Dakota,Republican
+87th,Joseph H. Bottum,South Dakota,Republican
+87th,Karl Mundt,South Dakota,Republican
+87th,"Albert Gore, Sr.",Tennessee,Democratic
+87th,Estes Kefauver,Tennessee,Democratic
+87th,John Tower,Texas,Republican
+87th,Ralph Yarborough,Texas,Democratic
+87th,William A. Blakley,Texas,Democratic
+87th,Frank Moss,Utah,Democratic
+87th,Wallace F. Bennett,Utah,Republican
+87th,George Aiken,Vermont,Republican
+87th,Winston L. Prouty,Vermont,Republican
+87th,A. Willis Robertson,Virginia,Democratic
+87th,"Harry F. Byrd, Sr.",Virginia,Democratic
+87th,Henry M. Jackson,Washington,Democratic
+87th,Warren G. Magnuson,Washington,Democratic
+87th,Jennings Randolph,West Virginia,Democratic
+87th,Robert Byrd,West Virginia,Democratic
+87th,Alexander Wiley,Wisconsin,Republican
+87th,William Proxmire,Wisconsin,Democratic
+87th,Gale W. McGee,Wyoming,Democratic
+87th,John J. Hickey,Wyoming,Democratic
+87th,Milward L. Simpson,Wyoming,Republican
+86th,John Sparkman,Alabama,Democratic
+86th,Joseph L. Hill,Alabama,Democratic
+86th,Edward L. Bartlett,Alaska,Democratic
+86th,Ernest Gruening,Alaska,Democratic
+86th,Barry Goldwater,Arizona,Republican
+86th,Carl Hayden,Arizona,Democratic
+86th,J. William Fulbright,Arkansas,Democratic
+86th,John Little McClellan,Arkansas,Democratic
+86th,Clair Engle,California,Democratic
+86th,Thomas Kuchel,California,Republican
+86th,Gordon L. Allott,Colorado,Republican
+86th,John A. Carroll,Colorado,Democratic
+86th,Prescott Bush,Connecticut,Republican
+86th,Thomas J. Dodd,Connecticut,Democratic
+86th,John J. Williams,Delaware,Republican
+86th,"Joseph Frear, Jr.",Delaware,Democratic
+86th,George Smathers,Florida,Democratic
+86th,Spessard Holland,Florida,Democratic
+86th,Herman Talmadge,Georgia,Democratic
+86th,"Richard Russell, Jr.",Georgia,Democratic
+86th,Hiram Fong,Hawaii,Republican
+86th,Oren E. Long,Hawaii,Democratic
+86th,Frank Church,Idaho,Democratic
+86th,Henry Dworshak,Idaho,Republican
+86th,Everett Dirksen,Illinois,Republican
+86th,Paul Douglas,Illinois,Democratic
+86th,Homer E. Capehart,Indiana,Republican
+86th,Vance Hartke,Indiana,Democratic
+86th,Bourke B. Hickenlooper,Iowa,Republican
+86th,Thomas Martin,Iowa,Republican
+86th,Andrew F. Schoeppel,Kansas,Republican
+86th,Frank Carlson,Kansas,Republican
+86th,John Sherman Cooper,Kentucky,Republican
+86th,Thruston Ballard Morton,Kentucky,Republican
+86th,Allen J. Ellender,Louisiana,Democratic
+86th,Russell B. Long,Louisiana,Democratic
+86th,Edmund Muskie,Maine,Democratic
+86th,Margaret Chase Smith,Maine,Republican
+86th,James Glenn Beall,Maryland,Republican
+86th,John M. Butler,Maryland,Republican
+86th,Benjamin A. Smith II,Massachusetts,Democratic
+86th,John F. Kennedy,Massachusetts,Democratic
+86th,Leverett Saltonstall,Massachusetts,Republican
+86th,Patrick V. McNamara,Michigan,Democratic
+86th,Philip Hart,Michigan,Democratic
+86th,Eugene McCarthy,Minnesota,Democratic
+86th,Hubert Humphrey,Minnesota,Democratic
+86th,James Eastland,Mississippi,Democratic
+86th,John C. Stennis,Mississippi,Democratic
+86th,Edward V. Long,Missouri,Democratic
+86th,Stuart Symington,Missouri,Democratic
+86th,"Thomas C. Hennings, Jr.",Missouri,Democratic
+86th,James Murray,Montana,Democratic
+86th,Mike Mansfield,Montana,Democratic
+86th,Carl Curtis,Nebraska,Republican
+86th,Roman Hruska,Nebraska,Republican
+86th,Alan Bible,Nevada,Democratic
+86th,Howard Cannon,Nevada,Democratic
+86th,Norris Cotton,New Hampshire,Republican
+86th,Styles Bridges,New Hampshire,Republican
+86th,Clifford P. Case,New Jersey,Republican
+86th,Harrison A. Williams,New Jersey,Democratic
+86th,Clinton Anderson,New Mexico,Democratic
+86th,Dennis Chavez,New Mexico,Democratic
+86th,Jacob K. Javits,New York,Republican
+86th,Kenneth Keating,New York,Republican
+86th,Ben Jordan,North Carolina,Democratic
+86th,Sam Ervin,North Carolina,Democratic
+86th,C. Norman Brunsdale,North Dakota,Republican
+86th,Milton Young,North Dakota,Republican
+86th,Quentin Northrup Burdick,North Dakota,Democratic
+86th,William Langer,North Dakota,Republican
+86th,Frank J. Lausche,Ohio,Democratic
+86th,Stephen Young,Ohio,Democratic
+86th,Almer Monroney,Oklahoma,Democratic
+86th,Robert S. Kerr,Oklahoma,Democratic
+86th,Hall S. Lusk,Oregon,Democratic
+86th,Maurine Neuberger,Oregon,Democratic
+86th,Richard L. Neuberger,Oregon,Democratic
+86th,Wayne Morse,Oregon,Democratic
+86th,Hugh Scott,Pennsylvania,Republican
+86th,Joseph S. Clark,Pennsylvania,Democratic
+86th,John O. Pastore,Rhode Island,Democratic
+86th,Theodore F. Green,Rhode Island,Democratic
+86th,Olin D. Johnston,South Carolina,Democratic
+86th,Strom Thurmond,South Carolina,Democratic
+86th,Francis H. Case,South Dakota,Republican
+86th,Karl Mundt,South Dakota,Republican
+86th,"Albert Gore, Sr.",Tennessee,Democratic
+86th,Estes Kefauver,Tennessee,Democratic
+86th,Lyndon Johnson,Texas,Democratic
+86th,Ralph Yarborough,Texas,Democratic
+86th,Frank Moss,Utah,Democratic
+86th,Wallace F. Bennett,Utah,Republican
+86th,George Aiken,Vermont,Republican
+86th,Winston L. Prouty,Vermont,Republican
+86th,A. Willis Robertson,Virginia,Democratic
+86th,"Harry F. Byrd, Sr.",Virginia,Democratic
+86th,Henry M. Jackson,Washington,Democratic
+86th,Warren G. Magnuson,Washington,Democratic
+86th,Jennings Randolph,West Virginia,Democratic
+86th,Robert Byrd,West Virginia,Democratic
+86th,Alexander Wiley,Wisconsin,Republican
+86th,William Proxmire,Wisconsin,Democratic
+86th,Gale W. McGee,Wyoming,Democratic
+86th,Joseph C. O'Mahoney,Wyoming,Democratic
+85th,John Sparkman,Alabama,Democratic
+85th,Joseph L. Hill,Alabama,Democratic
+85th,Barry Goldwater,Arizona,Republican
+85th,Carl Hayden,Arizona,Democratic
+85th,J. William Fulbright,Arkansas,Democratic
+85th,John Little McClellan,Arkansas,Democratic
+85th,Thomas Kuchel,California,Republican
+85th,William F. Knowland,California,Republican
+85th,Gordon L. Allott,Colorado,Republican
+85th,John A. Carroll,Colorado,Democratic
+85th,Prescott Bush,Connecticut,Republican
+85th,William A. Purtell,Connecticut,Republican
+85th,John J. Williams,Delaware,Republican
+85th,"Joseph Frear, Jr.",Delaware,Democratic
+85th,George Smathers,Florida,Democratic
+85th,Spessard Holland,Florida,Democratic
+85th,Herman Talmadge,Georgia,Democratic
+85th,"Richard Russell, Jr.",Georgia,Democratic
+85th,Frank Church,Idaho,Democratic
+85th,Henry Dworshak,Idaho,Republican
+85th,Everett Dirksen,Illinois,Republican
+85th,Paul Douglas,Illinois,Democratic
+85th,Homer E. Capehart,Indiana,Republican
+85th,William E. Jenner,Indiana,Republican
+85th,Bourke B. Hickenlooper,Iowa,Republican
+85th,Thomas Martin,Iowa,Republican
+85th,Andrew F. Schoeppel,Kansas,Republican
+85th,Frank Carlson,Kansas,Republican
+85th,John Sherman Cooper,Kentucky,Republican
+85th,Thruston Ballard Morton,Kentucky,Republican
+85th,Allen J. Ellender,Louisiana,Democratic
+85th,Russell B. Long,Louisiana,Democratic
+85th,Frederick G. Payne,Maine,Republican
+85th,Margaret Chase Smith,Maine,Republican
+85th,James Glenn Beall,Maryland,Republican
+85th,John M. Butler,Maryland,Republican
+85th,John F. Kennedy,Massachusetts,Democratic
+85th,Leverett Saltonstall,Massachusetts,Republican
+85th,Charles E. Potter,Michigan,Republican
+85th,Patrick V. McNamara,Michigan,Democratic
+85th,Edward John Thye,Minnesota,Republican
+85th,Hubert Humphrey,Minnesota,Democratic
+85th,James Eastland,Mississippi,Democratic
+85th,John C. Stennis,Mississippi,Democratic
+85th,Stuart Symington,Missouri,Democratic
+85th,"Thomas C. Hennings, Jr.",Missouri,Democratic
+85th,James Murray,Montana,Democratic
+85th,Mike Mansfield,Montana,Democratic
+85th,Carl Curtis,Nebraska,Republican
+85th,Roman Hruska,Nebraska,Republican
+85th,Alan Bible,Nevada,Democratic
+85th,George W. Malone,Nevada,Republican
+85th,Norris Cotton,New Hampshire,Republican
+85th,Styles Bridges,New Hampshire,Republican
+85th,Clifford P. Case,New Jersey,Republican
+85th,Howard A. Smith,New Jersey,Republican
+85th,Clinton Anderson,New Mexico,Democratic
+85th,Dennis Chavez,New Mexico,Democratic
+85th,Irving Ives,New York,Republican
+85th,Jacob K. Javits,New York,Republican
+85th,Ben Jordan,North Carolina,Democratic
+85th,Sam Ervin,North Carolina,Democratic
+85th,W. Kerr Scott,North Carolina,Democratic
+85th,Milton Young,North Dakota,Republican
+85th,William Langer,North Dakota,Republican
+85th,Frank J. Lausche,Ohio,Democratic
+85th,John W. Bricker,Ohio,Republican
+85th,Almer Monroney,Oklahoma,Democratic
+85th,Robert S. Kerr,Oklahoma,Democratic
+85th,Richard L. Neuberger,Oregon,Democratic
+85th,Wayne Morse,Oregon,Democratic
+85th,Edward Martin,Pennsylvania,Republican
+85th,Joseph S. Clark,Pennsylvania,Democratic
+85th,John O. Pastore,Rhode Island,Democratic
+85th,Theodore F. Green,Rhode Island,Democratic
+85th,Olin D. Johnston,South Carolina,Democratic
+85th,Strom Thurmond,South Carolina,Democratic
+85th,Francis H. Case,South Dakota,Republican
+85th,Karl Mundt,South Dakota,Republican
+85th,"Albert Gore, Sr.",Tennessee,Democratic
+85th,Estes Kefauver,Tennessee,Democratic
+85th,Lyndon Johnson,Texas,Democratic
+85th,Price Daniel,Texas,Democratic
+85th,Ralph Yarborough,Texas,Democratic
+85th,William A. Blakley,Texas,Democratic
+85th,Arthur Vivian Watkins,Utah,Republican
+85th,Wallace F. Bennett,Utah,Republican
+85th,George Aiken,Vermont,Republican
+85th,Ralph Flanders,Vermont,Republican
+85th,A. Willis Robertson,Virginia,Democratic
+85th,"Harry F. Byrd, Sr.",Virginia,Democratic
+85th,Henry M. Jackson,Washington,Democratic
+85th,Warren G. Magnuson,Washington,Democratic
+85th,Jennings Randolph,West Virginia,Democratic
+85th,"John D. Hoblitzell, Jr.",West Virginia,Republican
+85th,Matthew M. Neely,West Virginia,Democratic
+85th,W. Chapman Revercomb,West Virginia,Republican
+85th,Alexander Wiley,Wisconsin,Republican
+85th,Joseph McCarthy,Wisconsin,Republican
+85th,William Proxmire,Wisconsin,Democratic
+85th,Frank A. Barrett,Wyoming,Republican
+85th,Joseph C. O'Mahoney,Wyoming,Democratic
+84th,John Sparkman,Alabama,Democratic
+84th,Joseph L. Hill,Alabama,Democratic
+84th,Barry Goldwater,Arizona,Republican
+84th,Carl Hayden,Arizona,Democratic
+84th,J. William Fulbright,Arkansas,Democratic
+84th,John Little McClellan,Arkansas,Democratic
+84th,Thomas Kuchel,California,Republican
+84th,William F. Knowland,California,Republican
+84th,Eugene D. Millikin,Colorado,Republican
+84th,Gordon L. Allott,Colorado,Republican
+84th,Prescott Bush,Connecticut,Republican
+84th,William A. Purtell,Connecticut,Republican
+84th,John J. Williams,Delaware,Republican
+84th,"Joseph Frear, Jr.",Delaware,Democratic
+84th,George Smathers,Florida,Democratic
+84th,Spessard Holland,Florida,Democratic
+84th,"Richard Russell, Jr.",Georgia,Democratic
+84th,Walter F. George,Georgia,Democratic
+84th,Henry Dworshak,Idaho,Republican
+84th,Herman Welker,Idaho,Republican
+84th,Everett Dirksen,Illinois,Republican
+84th,Paul Douglas,Illinois,Democratic
+84th,Homer E. Capehart,Indiana,Republican
+84th,William E. Jenner,Indiana,Republican
+84th,Bourke B. Hickenlooper,Iowa,Republican
+84th,Thomas Martin,Iowa,Republican
+84th,Andrew F. Schoeppel,Kansas,Republican
+84th,Frank Carlson,Kansas,Republican
+84th,Alben W. Barkley,Kentucky,Democratic
+84th,Earle C. Clements,Kentucky,Democratic
+84th,John Sherman Cooper,Kentucky,Republican
+84th,Robert Humphreys,Kentucky,Republican
+84th,Allen J. Ellender,Louisiana,Democratic
+84th,Russell B. Long,Louisiana,Democratic
+84th,Frederick G. Payne,Maine,Republican
+84th,Margaret Chase Smith,Maine,Republican
+84th,James Glenn Beall,Maryland,Republican
+84th,John M. Butler,Maryland,Republican
+84th,John F. Kennedy,Massachusetts,Democratic
+84th,Leverett Saltonstall,Massachusetts,Republican
+84th,Charles E. Potter,Michigan,Republican
+84th,Patrick V. McNamara,Michigan,Democratic
+84th,Edward John Thye,Minnesota,Republican
+84th,Hubert Humphrey,Minnesota,Democratic
+84th,James Eastland,Mississippi,Democratic
+84th,John C. Stennis,Mississippi,Democratic
+84th,Stuart Symington,Missouri,Democratic
+84th,"Thomas C. Hennings, Jr.",Missouri,Democratic
+84th,James Murray,Montana,Democratic
+84th,Mike Mansfield,Montana,Democratic
+84th,Carl Curtis,Nebraska,Republican
+84th,Roman Hruska,Nebraska,Republican
+84th,Alan Bible,Nevada,Democratic
+84th,George W. Malone,Nevada,Republican
+84th,Norris Cotton,New Hampshire,Republican
+84th,Styles Bridges,New Hampshire,Republican
+84th,Clifford P. Case,New Jersey,Republican
+84th,Howard A. Smith,New Jersey,Republican
+84th,Clinton Anderson,New Mexico,Democratic
+84th,Dennis Chavez,New Mexico,Democratic
+84th,Herbert H. Lehman,New York,Democratic
+84th,Irving Ives,New York,Republican
+84th,Sam Ervin,North Carolina,Democratic
+84th,W. Kerr Scott,North Carolina,Democratic
+84th,Milton Young,North Dakota,Republican
+84th,William Langer,North Dakota,Republican
+84th,George H. Bender,Ohio,Republican
+84th,John W. Bricker,Ohio,Republican
+84th,Almer Monroney,Oklahoma,Democratic
+84th,Robert S. Kerr,Oklahoma,Democratic
+84th,Richard L. Neuberger,Oregon,Democratic
+84th,Wayne Morse,Oregon,Democratic
+84th,Edward Martin,Pennsylvania,Republican
+84th,James H. Duff,Pennsylvania,Republican
+84th,John O. Pastore,Rhode Island,Democratic
+84th,Theodore F. Green,Rhode Island,Democratic
+84th,Olin D. Johnston,South Carolina,Democratic
+84th,Strom Thurmond,South Carolina,Independent
+84th,Strom Thurmond,South Carolina,Democratic
+84th,Thomas A. Wofford,South Carolina,Democratic
+84th,Francis H. Case,South Dakota,Republican
+84th,Karl Mundt,South Dakota,Republican
+84th,"Albert Gore, Sr.",Tennessee,Democratic
+84th,Estes Kefauver,Tennessee,Democratic
+84th,Lyndon Johnson,Texas,Democratic
+84th,Price Daniel,Texas,Democratic
+84th,Arthur Vivian Watkins,Utah,Republican
+84th,Wallace F. Bennett,Utah,Republican
+84th,George Aiken,Vermont,Republican
+84th,Ralph Flanders,Vermont,Republican
+84th,A. Willis Robertson,Virginia,Democratic
+84th,"Harry F. Byrd, Sr.",Virginia,Democratic
+84th,Henry M. Jackson,Washington,Democratic
+84th,Warren G. Magnuson,Washington,Democratic
+84th,Harley M. Kilgore,West Virginia,Democratic
+84th,Matthew M. Neely,West Virginia,Democratic
+84th,W. Chapman Revercomb,West Virginia,Republican
+84th,"William R. Laird, III",West Virginia,Democratic
+84th,Alexander Wiley,Wisconsin,Republican
+84th,Joseph McCarthy,Wisconsin,Republican
+84th,Frank A. Barrett,Wyoming,Republican
+84th,Joseph C. O'Mahoney,Wyoming,Democratic
+83rd,John Sparkman,Alabama,Democratic
+83rd,Joseph L. Hill,Alabama,Democratic
+83rd,Barry Goldwater,Arizona,Republican
+83rd,Carl Hayden,Arizona,Democratic
+83rd,J. William Fulbright,Arkansas,Democratic
+83rd,John Little McClellan,Arkansas,Democratic
+83rd,Thomas Kuchel,California,Republican
+83rd,William F. Knowland,California,Republican
+83rd,Edwin C. Johnson,Colorado,Democratic
+83rd,Eugene D. Millikin,Colorado,Republican
+83rd,Prescott Bush,Connecticut,Republican
+83rd,William A. Purtell,Connecticut,Republican
+83rd,John J. Williams,Delaware,Republican
+83rd,"Joseph Frear, Jr.",Delaware,Democratic
+83rd,George Smathers,Florida,Democratic
+83rd,Spessard Holland,Florida,Democratic
+83rd,"Richard Russell, Jr.",Georgia,Democratic
+83rd,Walter F. George,Georgia,Democratic
+83rd,Henry Dworshak,Idaho,Republican
+83rd,Herman Welker,Idaho,Republican
+83rd,Everett Dirksen,Illinois,Republican
+83rd,Paul Douglas,Illinois,Democratic
+83rd,Homer E. Capehart,Indiana,Republican
+83rd,William E. Jenner,Indiana,Republican
+83rd,Bourke B. Hickenlooper,Iowa,Republican
+83rd,Guy Mark Gillette,Iowa,Democratic
+83rd,Andrew F. Schoeppel,Kansas,Republican
+83rd,Frank Carlson,Kansas,Republican
+83rd,Earle C. Clements,Kentucky,Democratic
+83rd,John Sherman Cooper,Kentucky,Republican
+83rd,Allen J. Ellender,Louisiana,Democratic
+83rd,Russell B. Long,Louisiana,Democratic
+83rd,Frederick G. Payne,Maine,Republican
+83rd,Margaret Chase Smith,Maine,Republican
+83rd,James Glenn Beall,Maryland,Republican
+83rd,John M. Butler,Maryland,Republican
+83rd,John F. Kennedy,Massachusetts,Democratic
+83rd,Leverett Saltonstall,Massachusetts,Republican
+83rd,Charles E. Potter,Michigan,Republican
+83rd,Homer S. Ferguson,Michigan,Republican
+83rd,Edward John Thye,Minnesota,Republican
+83rd,Hubert Humphrey,Minnesota,Democratic
+83rd,James Eastland,Mississippi,Democratic
+83rd,John C. Stennis,Mississippi,Democratic
+83rd,Stuart Symington,Missouri,Democratic
+83rd,"Thomas C. Hennings, Jr.",Missouri,Democratic
+83rd,James Murray,Montana,Democratic
+83rd,Mike Mansfield,Montana,Democratic
+83rd,Carl Curtis,Nebraska,Republican
+83rd,Dwight Griswold,Nebraska,Republican
+83rd,Eva Bowring,Nebraska,Democratic
+83rd,Hazel Abel,Nebraska,Republican
+83rd,Hugh A. Butler,Nebraska,Republican
+83rd,Roman Hruska,Nebraska,Republican
+83rd,Samuel W. Reynolds,Nebraska,Republican
+83rd,Alan Bible,Nevada,Democratic
+83rd,Ernest S. Brown,Nevada,Republican
+83rd,George W. Malone,Nevada,Republican
+83rd,Pat McCarran,Nevada,Democratic
+83rd,Charles W. Tobey,New Hampshire,Republican
+83rd,Norris Cotton,New Hampshire,Republican
+83rd,Robert W. Upton,New Hampshire,Republican
+83rd,Styles Bridges,New Hampshire,Republican
+83rd,Howard A. Smith,New Jersey,Republican
+83rd,Robert C. Hendrickson,New Jersey,Republican
+83rd,Clinton Anderson,New Mexico,Democratic
+83rd,Dennis Chavez,New Mexico,Democratic
+83rd,Herbert H. Lehman,New York,Democratic
+83rd,Irving Ives,New York,Republican
+83rd,Alton Asa Lennon,North Carolina,Democratic
+83rd,Clyde R. Hoey,North Carolina,Democratic
+83rd,Sam Ervin,North Carolina,Democratic
+83rd,W. Kerr Scott,North Carolina,Democratic
+83rd,Willis Smith,North Carolina,Democratic
+83rd,Milton Young,North Dakota,Republican
+83rd,William Langer,North Dakota,Republican
+83rd,George H. Bender,Ohio,Republican
+83rd,John W. Bricker,Ohio,Republican
+83rd,Robert A. Taft,Ohio,Republican
+83rd,Thomas A. Burke,Ohio,Democratic
+83rd,Almer Monroney,Oklahoma,Democratic
+83rd,Robert S. Kerr,Oklahoma,Democratic
+83rd,Guy Cordon,Oregon,Republican
+83rd,Wayne Morse,Oregon,I/D
+83rd,Edward Martin,Pennsylvania,Republican
+83rd,James H. Duff,Pennsylvania,Republican
+83rd,John O. Pastore,Rhode Island,Democratic
+83rd,Theodore F. Green,Rhode Island,Democratic
+83rd,Burnet R. Maybank,South Carolina,Democratic
+83rd,Charles E. Daniel,South Carolina,Democratic
+83rd,Olin D. Johnston,South Carolina,Democratic
+83rd,Strom Thurmond,South Carolina,Independent
+83rd,Francis H. Case,South Dakota,Republican
+83rd,Karl Mundt,South Dakota,Republican
+83rd,"Albert Gore, Sr.",Tennessee,Democratic
+83rd,Estes Kefauver,Tennessee,Democratic
+83rd,Lyndon Johnson,Texas,Democratic
+83rd,Price Daniel,Texas,Democratic
+83rd,Arthur Vivian Watkins,Utah,Republican
+83rd,Wallace F. Bennett,Utah,Republican
+83rd,George Aiken,Vermont,Republican
+83rd,Ralph Flanders,Vermont,Republican
+83rd,A. Willis Robertson,Virginia,Democratic
+83rd,"Harry F. Byrd, Sr.",Virginia,Democratic
+83rd,Henry M. Jackson,Washington,Democratic
+83rd,Warren G. Magnuson,Washington,Democratic
+83rd,Harley M. Kilgore,West Virginia,Democratic
+83rd,Matthew M. Neely,West Virginia,Democratic
+83rd,Alexander Wiley,Wisconsin,Republican
+83rd,Joseph McCarthy,Wisconsin,Republican
+83rd,Edward D. Crippa,Wyoming,Republican
+83rd,Frank A. Barrett,Wyoming,Republican
+83rd,Joseph C. O'Mahoney,Wyoming,Democratic
+83rd,Lester C. Hunt,Wyoming,Democratic

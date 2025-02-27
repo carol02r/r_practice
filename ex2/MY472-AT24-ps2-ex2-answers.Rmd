@@ -1,0 +1,388 @@
+---
+title: "MY472: Mid-Term Problem Set Solutions"
+author: "LSE Candidate Number: 50799"
+date: "Autumn Term 2024"
+output: html_document
+---
+
+```{r setup, include=FALSE} 
+# this chunk contains code that sets global options for the entire .Rmd. 
+# we use include=FALSE to suppress it from the top of the document, but it will still appear in the appendix. 
+
+knitr::opts_chunk$set(echo = FALSE) # actually set the global chunk options. 
+# we set echo=FALSE to suppress code such that it by default does not appear throughout the document. 
+# note: this is different from .Rmd default
+
+```
+
+<!-- DO NOT EDIT THIS LINE OR ANYTHING ABOVE IT, EXCEPT PUTTING YOUR CANDIDATE NUMBER AT THE TOP. ALL OF YOUR WORK SHOULD BE COMPLETED BELOW HERE. -->
+
+```{r packages, message=FALSE}
+# importing necessary packages
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+library(rvest)
+
+```
+
+## Exercise 2 (30 marks)
+In these answers I attempt to use good scraping etiquette by not making multiple requests (i.e. repeatedly calling the `read_html()` function) for the same Wikipedia webpage.
+
+### Part 1. Create dataset of all major presidential candidates since the 1952 election
+
+The goal of this exercise was to create a dataset capturing specific information about the two top candidates in every U.S. presidential election since 1952. _Note_: I did not go up to the 2024 election, as the vote count was still ongoing at the time I collected the data.
+
+The information was to be sourced from Wikipedia pages dedicated to each election (with URLs following the format `https://en.wikipedia.org/wiki/yyyy_United_States_presidential_election`, where `yyyy` is to be replaced with the desired election year), especially from the information box tables located in the top right corner.
+
+Here is an example of the information box structure for the 2020 election:
+
+<img src="/Users/henriquerodrigues/Desktop/LSE/Y2/AT/Data_MY472/PS2/my472-at24-ps2-carol02r/ex2/screenshot_ex2.1.png" height="500">
+
+<br>
+
+**Approach:** To answer this question, I developed a function called `wiki_election` that automates the extraction process for a given election year. For each year, this function creates the correct URL, retrieves the HTML content only once, stores it and then extracts all tables. Typically, the table containing candidate information is the third table on the page, but for the 1976 election, this information is located in the fourth table. 
+
+From there, I extract all the relevant information to a new dataset with seven columns:
+
+- `election_year`
+
+- `candidate_name`
+
+- `candidate_party`
+
+- `pop_vote`: contains the number of votes cast for the candidate.
+
+- `pop_vote_perc`: contains the popular vote percentage.
+
+- `ec_vote`: contains the number of electoral votes cast for the candidate.
+
+- `winner`: a binary variable depending on whether that candidate was elected president.
+
+Once this function was set up, I iterated through all election years (4-year intervals between 1952 and 2020) to apply it. For each year, the function extracted the necessary data, and I appended the results to an overall dataset that included all election years. Finally, I cleaned this further to remove all footnotes and sorted it by election year in ascending order and by popular vote in descending order.
+
+The last step was saving this dataset as a CSV file named `pres_cands_df.csv` in the specific folder for this exercise.
+
+
+```{r election_scraping, warning = FALSE}
+### ex2.1
+
+# function that extracts all required information for top two candidates for a given election year
+wiki_election <- function(year) {
+  # adding year to base url
+  url <- paste0('https://en.wikipedia.org/wiki/',year,'_United_States_presidential_election')
+
+  # retrieving content tables from the wikipedia page
+  wiki_tables <- read_html(url) %>% 
+    html_table(fill=TRUE)
+  
+  # usually, the 3rd table contains the candidate information - for 1976, it's the fourth table
+  if (year==1976){
+    info_box <- wiki_tables[[4]]}
+  
+  else {
+    info_box <- wiki_tables[[3]]}
+  
+  # info_box is a table with 9 rows and 4 columns 
+    # the first column includes names all the variables with candidate information 
+    # (e.g. 'nominee', 'party', etc.)
+    # each column after holds the observation for a candidate (either top 2 or 3)
+  
+  # the candidates are ranked in terms of their electoral college vote
+  # so it's enough to extract info from the first two candidate columns
+ 
+  info_box <- info_box %>% 
+  # removing empty picture row
+    .[-1, ] %>%
+  # transposing for convenience   
+    t()
+  
+  # adding data to a data frame for the year
+  election_year <- data.frame(
+    # 2 rows
+    election_year = rep(year, 2),
+    candidate_name = c(info_box[2:3,1]),
+    candidate_party = c(info_box[2:3, 2]),
+    pop_vote = c(info_box[2:3, 7]),
+    pop_vote_perc = c(info_box[2:3, 8]),
+    ec_vote = c(info_box[2:3, 5]),
+    # the winner is always the candidate in the first row
+    winner = c("1", "0"))
+  
+  return(election_year)}
+
+# empty data frame to store results
+us_elections <- data.frame()
+
+# calling the function above for every election year since 1952
+# 2024 not included since reporting was not yet concluded
+for (year in seq(1952, 2020, 4)) {
+  # extract dataset for each year
+  election <- wiki_election(year)
+  # add year-specific dataset to overall result data frame
+  us_elections <- rbind(us_elections, election)}
+
+# removing row names coming from wikipedia's table
+rownames(us_elections) <- NULL
+
+# clean footnotes 
+# used chatgpt for regex
+us_elections <- us_elections %>%
+  mutate(across(everything(), ~ str_replace(.x, "\\[.*?\\]", "")))
+
+# sort by election year (ascending) and then by popular vote (descending)
+us_elections <- us_elections %>% 
+  arrange(election_year, desc(pop_vote))
+
+# save in 'ex2' folder as 'pres_cands_df.csv'
+write_csv(us_elections, 'pres_cands_df.csv')
+
+```
+<br>
+
+
+As an example of what the final dataset looks like, I display the rows corresponding to the 1992, the 2008 and the 2016 elections below:
+
+```{r}
+# filtering: 1992, 2008, 2016
+filtered_elections <- us_elections %>% 
+  filter(election_year %in% c(1992, 2008, 2016))
+
+# printing result in a neater table
+kable(filtered_elections, format = "html") %>% 
+  kable_styling("striped", full_width = FALSE, position = "left")
+
+
+```
+
+This table shows two Democratic wins (Bill Clinton in 1992 and Barack Obama in 2008) and one Republican win (Donald Trump in 2016). Bill Clinton secured the highest number of Electoral College votes in this table, despite having a much lower vote percentage than other candidates. Barack Obama is the only candidate obtaining a majority of the popular vote (52.9%). Donald Trump stands out as the only president in this list to be elected despite not receiving the most popular votes (46.1% compared to Hillary Clinton's 48.2%). 
+
+<br>
+
+### Part 2. Create dataset of all U.S. senators since January 1953
+
+The goal of this exercise was to create a dataset containing information on all U.S senators from the 83rd Congress (starting in 1953) to the present 188th Congress. The information was to be sourced from Wikipedia pages that list senators for each Congress (following the URL format `https://en.wikipedia.org/wiki/List_of_United_States_senators_in_the_x_Congress`, where `x` is to be replaced with the desired Congress term).
+
+<br>
+
+**Approach:** To automate the process of collecting this information, I had to create a couple auxiliary of functions. The `term_suffix` function is meant to generate the correct suffix (i.e. 'st', 'nd', 'rd', or 'th') for each Congress term based on its number, which will be used to generate the correct URL. The `get_full_state_name` is used to convert each state's 2-letter abbreviation into full state names (e.g. 'CA' for California), to ensure that the data is consistent.
+
+The main function is `wiki_senate`, which scrapes each Congress' list of senators from the respective Wikipedia page. It retrieves and stores HTML content only once and then extracts only the second table containing the full list of senators. 
+
+Using the information from this table, I create a dataset that has four columns:
+
+- `congress`: indicates which congress (e.g., the 118th, etc.).
+
+- `senator_name`
+
+- `senator_state`
+
+- `senator_party`
+
+For Congresses prior to the 114th, this information was not neatly organized into columns, so I used regular expressions to extract the senator’s name, party affiliation, and state from a single string. From the 114th Congress onward, the tables were well-structured, allowing for easier extraction of the data. To ensure consistency across the two different table formats, I addressed various formatting issues, such as converting state abbreviations into full state names using the `get_full_state_name` function and expanding party affiliations ('R', 'D', and 'I') into their full names (Republican, Democratic, and Independent, respectively).
+
+I then applied the `wiki_senate` function iteratively to all Congresses from the 83rd to the 118th, collecting the data into a single combined dataset with the full list of senators. The dataset was finally sorted by Congress term in descending order, followed by the state in ascending order and senator name in ascending order as well.
+
+Finally, I saved this in CSV format directly in the folder for this exercise, naming it `sens_df.csv`.
+
+```{r}
+### ex2.2
+
+# creating function to automate the url process
+# generate suffix based on term number
+term_suffix <- function(term) {
+  # selecting final characters
+  last_char = str_sub(as.character(term), -1)
+  last_2_chars = str_sub(as.character(term), -2)
+  
+  # ending in 1 (st) - exception ending in 11
+  if (last_char=='1' & last_2_chars!='11'){
+    term_full <- paste0(term,'st')}
+  
+  # ending in 2 (nd) - exception ending in 12
+  else if (last_char=='2' & last_2_chars!='12'){
+    term_full <- paste0(term,'nd')}
+  
+  # ending in 3 (rd) - exception ending in 13
+  else if (last_char=='3' & last_2_chars!='13'){
+    term_full <- paste0(term,'rd')}
+  
+  # general case (th)
+  else{
+    term_full <- paste0(term,'th')}
+  
+  return(term_full)}
+
+# function that converts state abbreviations to full names
+get_full_state_name <- function(state_abbr) {
+
+  # list from chatgpt
+  state_lookup <- c(
+    "AL" = "Alabama", 
+    "AK" = "Alaska", 
+    "AZ" = "Arizona", 
+    "AR" = "Arkansas", 
+    "CA" = "California", 
+    "CO" = "Colorado", 
+    "CT" = "Connecticut", 
+    "DE" = "Delaware", 
+    "FL" = "Florida", 
+    "GA" = "Georgia", 
+    "HI" = "Hawaii", 
+    "ID" = "Idaho", 
+    "IL" = "Illinois", 
+    "IN" = "Indiana", 
+    "IA" = "Iowa", 
+    "KS" = "Kansas", 
+    "KY" = "Kentucky", 
+    "LA" = "Louisiana", 
+    "ME" = "Maine", 
+    "MD" = "Maryland", 
+    "MA" = "Massachusetts", 
+    "MI" = "Michigan", 
+    "MN" = "Minnesota", 
+    "MS" = "Mississippi", 
+    "MO" = "Missouri", 
+    "MT" = "Montana", 
+    "NE" = "Nebraska", 
+    "NV" = "Nevada", 
+    "NH" = "New Hampshire", 
+    "NJ" = "New Jersey", 
+    "NM" = "New Mexico", 
+    "NY" = "New York", 
+    "NC" = "North Carolina", 
+    "ND" = "North Dakota", 
+    "OH" = "Ohio", 
+    "OK" = "Oklahoma", 
+    "OR" = "Oregon", 
+    "PA" = "Pennsylvania", 
+    "RI" = "Rhode Island", 
+    "SC" = "South Carolina", 
+    "SD" = "South Dakota", 
+    "TN" = "Tennessee", 
+    "TX" = "Texas", 
+    "UT" = "Utah", 
+    "VT" = "Vermont", 
+    "VA" = "Virginia", 
+    "WA" = "Washington", 
+    "WV" = "West Virginia", 
+    "WI" = "Wisconsin", 
+    "WY" = "Wyoming")
+  
+  # match 2-letter abbreviation to full term from the list
+  full_state_name <- state_lookup[state_abbr]
+  
+  # return full state name or 
+  # the same string as before if abbreviation not found
+  return(ifelse(is.na(full_state_name), state_abbr, full_state_name))}
+
+
+# function that extracts all required senator information for a given congress 
+wiki_senate <- function(term) {
+  # adding term and suffix to base url
+  url <- paste0('https://en.wikipedia.org/wiki/List_of_United_States_senators_in_the_',
+                term_suffix(term) ,'_Congress')
+
+  # retrieving content tables from the wikipedia page
+  wiki_tables <- read_html(url) %>%
+    html_table()
+  
+  # the second table contains senator information
+  info_box <- wiki_tables[[2]]
+  
+  # no neat tables before congress term 114th
+  if (term<114){
+    #using regex to extract elemnts from a string
+    # format e.g. Name (Party-State)
+    
+    # name: remove everything including and after first parenthesis
+    senator_name <- sub('\\s*\\(.*$', '', info_box$`Senator (party-state)`)
+    
+    # state: grab element after dash and before closing parenthesis
+    state_list <- sub('^.*\\(.*\\-(.*)\\).*$', '\\1', info_box$`Senator (party-state)`)
+    # change state abbreviations to full names
+    senator_state <- get_full_state_name(state_list)
+    
+    # party: grab element after opening parenthesis and before dash
+    party_list <- sub('^.*\\((.*)\\-.*\\).*$', '\\1', info_box$`Senator (party-state)`)
+    # change R, D and I to full party names
+    # leave unchanged if none of these options are matched
+    senator_party <- ifelse(party_list=='R', 'Republican', 
+                            ifelse(party_list == 'D', 'Democratic', 
+                                   ifelse(party_list == 'I', 'Independent', party_list)))}
+  
+  # neat column formatting from 114th congress  
+  else {
+    senator_name <- info_box$Senator
+    senator_state <- info_box$State
+    senator_party <- info_box$Party}
+
+  # adding data to a data frame for the year
+  congress_term <- data.frame(
+    # varying number of senators per term
+    congress = rep(term_suffix(term), length(senator_name)),
+    senator_name,
+    senator_state,
+    senator_party) %>% 
+    # remove rows with NaN values
+    na.omit()
+  
+  return(congress_term)}
+
+# empty data frame to store results
+us_congress <- data.frame()
+
+# calling the function above for every congress term
+for (term in seq(83, 118)) {
+  # extract dataset for each term
+  senators_term <- wiki_senate(term)
+  # add term-specific dataset to overall result dataset
+  us_congress <- rbind(us_congress, senators_term)}
+
+# clean footnotes
+# used chatgptfor regex
+us_congress <- us_congress %>%
+  mutate(across(everything(), ~ str_remove_all(.x, "\\[.*?\\]")))
+
+# sort by congress term (descending), by state (ascending) and then by senator name (ascending)
+us_congress <- us_congress %>% 
+  # the suffix causes issues with sorting since it's interpreted as a string
+  # temporarily create a column without suffix (last 2 characters)
+  mutate(congress_num = as.numeric(substr(congress, 1, nchar(congress) - 2))) %>% 
+  arrange(desc(congress_num), senator_state, senator_name) %>% 
+  # remove temporary column
+  select(-congress_num)
+
+# save in 'ex2' folder as 'sens_df.csv'
+write_csv(us_congress, 'sens_df.csv')
+
+```
+<br>
+
+As an example of what this dataset looks like, I display the rows showing the senators from California in the 90th and 115th Congresses below:
+
+```{r}
+# filtering: california in the 90th and 115th congresses
+filtered_congress <- us_congress %>% 
+  filter(senator_state=='California') %>% 
+  filter(congress %in% c('90th', '115th'))
+
+# printing result in a neater table
+kable(filtered_congress, format = "html") %>% 
+  kable_styling("striped", full_width = FALSE, position = "left")
+
+```
+
+In the 115th Congress, both senators, Dianne Feinstein and Kamala Harris, were women from the Democratic Party, while in the 90th Congress, California was represented by two Republican male senators, Thomas Kuchel and George Murphy.
+
+<br>
+
+<!-- DO NOT EDIT THIS LINE OR ANYTHING BELOW IT. ALL OF YOUR WORK SHOULD BE COMPLETED ABOVE. -->
+
+## Appendix: All code in this assignment
+
+```{r ref.label=knitr::all_labels(), echo=TRUE, eval=FALSE} 
+
+# this chunk generates the complete code appendix. 
+# eval=FALSE tells R not to run (``evaluate'') the code here (it was already run before).
+```

@@ -1,0 +1,111 @@
+---
+title: "MY472: Mid-Term Problem Set Solutions"
+author: "LSE Candidate Number: 50799"
+date: "Autumn Term 2024"
+output: html_document
+---
+
+```{r setup, include=FALSE} 
+# this chunk contains code that sets global options for the entire .Rmd. 
+# we use include=FALSE to suppress it from the top of the document, but it will still appear in the appendix. 
+
+knitr::opts_chunk$set(echo = FALSE) # actually set the global chunk options. 
+# we set echo=FALSE to suppress code such that it by default does not appear throughout the document. 
+# note: this is different from .Rmd default
+
+```
+
+<!-- DO NOT EDIT THIS LINE OR ANYTHING ABOVE IT, EXCEPT PUTTING YOUR CANDIDATE NUMBER AT THE TOP. ALL OF YOUR WORK SHOULD BE COMPLETED BELOW HERE. -->
+
+```{r packages, message=FALSE}
+# importing necessary packages
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+
+```
+
+## Exercise 1 (10 marks)
+
+### Part 1. Clone Submission Repo and create directory structure
+I have cloned my Submission Repo to a local directory on my computer. This is an “appropriate” location for permanently storing important files that is neatly organised. The ful path to this directory is `/Users/henriquerodrigues/Desktop/LSE/Y2/AT/Data_MY472/PS2`. I am storing inside my LSE folder, specifically inside a subfolder where I keep all the material for this course (`Data_MY472`). Inside that, I have created a folder for this problem set (`PS2`), where I clone the repository and keep other related files that I do not want to be pushed to Github.
+
+Below is the code I used to clone the Repo:
+
+```{bash, echo=TRUE, eval=FALSE}
+### ex1.1
+
+# setting path to directory
+cd /Users/henriquerodrigues/Desktop/LSE/Y2/AT/Data_MY472/PS2
+
+# cloning git repository to directory
+git clone git@github.com:lse-my472/my472-at24-ps2-carol02r.git
+
+```
+
+In the local directory for my Submission Repo, I created a new folder for each of the exercises in this problem set and named them `ex1`, `ex2`, etc. Inside each of these folders, I made a copy of the file `MY472-AT24-ps2-answers.Rmd` and renamed it based on the exercise number using the following format: `MY472-AT24-ps2-ex*-answers.Rmd` (replacing the `*` with the actual exercise number). 
+
+For each exercise in this problem set, I will write up my answers in the relevant file for that exercise. I will also store my answers and any supporting files I create inside the relevant folder for that exercise.
+
+<br> 
+
+### Part 2. Generate a screenshot
+I produced a screenshot of the folder containing the local copy of your Submission Repo, where I show all the files and folders in a list format (including any hidden files). I also show the full pathway to the directory in the bottom of the screen.
+
+![](/Users/henriquerodrigues/Desktop/LSE/Y2/AT/Data_MY472/PS2/my472-at24-ps2-carol02r/ex1/screenshot_ex1.2.png)
+<br>  
+
+### Part 3. Figure out character encoding
+
+I've downloaded `TextFile.txt`, which was not encoded using a UTF encoding, and saved it in the folder for this exercise. First, I figured out the file’s encoding by using the `guess_encoding()` function in tidyverse that helps you guess the encoding. This function suggests that the file is encoded using `Shift_JIS` with maximum confidence.
+
+```{r guess_encoding, echo=TRUE}
+### ex1.3
+
+pathname <- '/Users/henriquerodrigues/Desktop/LSE/Y2/AT/Data_MY472/PS2/my472-at24-ps2-carol02r/ex1/TextFile.txt'
+
+# using tidyverse's function to guess encoding
+guess <- guess_encoding(pathname)
+
+# printing result in a neater table
+kable(guess, format = "html") %>% 
+  kable_styling("striped", full_width = FALSE, position = "left")
+
+```
+Below I show what the text in this file looks like, after reading it in with encoding `Shift_JIS`:
+
+```{r read_text, echo=TRUE}
+# trying out most likely encoding
+text_data <- read_file(pathname, locale = locale(encoding="Shift_JIS")) 
+
+text_data
+
+```
+<br>
+The text is in a non-English language, so I used [Google Translate](https://translate.google.com/) to translate it to English. Below I show the complete translation:
+
+![](/Users/henriquerodrigues/Desktop/LSE/Y2/AT/Data_MY472/PS2/my472-at24-ps2-carol02r/ex1/screenshot_ex1.3.png)
+<br>
+<br>
+This text is describing a short message sent from the Japanese Prime Minister to President-elect Donald Trump congratulating him for his victory in the presidential election.
+
+Then, I save it as a new file with UTF-8 encoding in the `ex1` folder, with the file name `TextFileUTF.txt`.
+
+```{r save_text, echo=TRUE}
+# saving file in utf-8
+# since `readr` encodes as utf-8 by default, we can do the following:
+write_file(text_data, "TextFileUTF.txt")
+
+```
+
+<br>
+
+
+<!-- DO NOT EDIT THIS LINE OR ANYTHING BELOW IT. ALL OF YOUR WORK SHOULD BE COMPLETED ABOVE. -->
+
+## Appendix: All code in this assignment
+
+```{r ref.label=knitr::all_labels(), echo=TRUE, eval=FALSE} 
+# this chunk generates the complete code appendix. 
+# eval=FALSE tells R not to run (``evaluate'') the code here (it was already run before).
+```

@@ -1,0 +1,332 @@
+---
+title: "MY472: Mid-Term Problem Set Solutions"
+author: "LSE Candidate Number: 50799"
+date: "Autumn Term 2024"
+output: html_document
+---
+
+```{r setup, include=FALSE} 
+# this chunk contains code that sets global options for the entire .Rmd. 
+# we use include=FALSE to suppress it from the top of the document, but it will still appear in the appendix. 
+
+knitr::opts_chunk$set(echo = FALSE) # actually set the global chunk options. 
+# we set echo=FALSE to suppress code such that it by default does not appear throughout the document. 
+# note: this is different from .Rmd default
+
+```
+
+<!-- DO NOT EDIT THIS LINE OR ANYTHING ABOVE IT, EXCEPT PUTTING YOUR CANDIDATE NUMBER AT THE TOP. ALL OF YOUR WORK SHOULD BE COMPLETED BELOW HERE. -->
+
+```{r packages, message=FALSE}
+# importing necessary packages
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+library(plotly)
+
+```
+
+## Exercise 3 (30 marks)
+In this exercise, I will explore biographical data on U.S. Federal Judges, using a dataset of all Article III federal judges maintained by The Federal Judicial Center (FJC).
+
+### Part 1. Get data and explore
+I have download a copy of this dataset from <https://www.fjc.gov/sites/default/files/history/judges.csv> and saved it into my `ex3` folder. I have also added this file to my `.gitignore` so that git does not track it in my local Submission Repo and it is not pushed to GitHub. 
+
+<br>
+
+Below I show what the first few rows and some selected columns of this dataset look like:
+
+```{r read_data, warning=FALSE, message= FALSE}
+### ex3.1
+
+#creating an object called bio.file.path 
+#which is a string that contains the full path to the dataset on my local computer
+bio.file.path <- '/Users/henriquerodrigues/Desktop/LSE/Y2/AT/Data_MY472/PS2/my472-at24-ps2-carol02r/ex3/judges.csv'
+
+# using this string to read the csv file as a tibble in R
+bio.data <- read_csv(bio.file.path)
+
+# printing result in a neater table - just first few columns
+# selecting appointment columns to demonstrate repeated variables
+kable(head(bio.data) %>% select(1:8, 19:21), format = "html") %>%
+  kable_styling("striped", full_width = FALSE, position = "left")
+
+```
+We say tabular dataset is 'tidy' when each row represents an observation, each column represents a variable, and each entry corresponds to one single value.
+
+```{r results='hide'}
+# checking if there are no repeated judge entries
+bio.data %>%
+  summarise(UniqueJudges = n_distinct(nid))
+
+```
+
+In this dataset, I have confirmed that each row currently represents a unique judge. However, **I don't think this dataset is tidy**. This is because we currently have many repeated columns - i.e. those related to judge appointments. So, for example,  we have `Court Type (1)`, `Court Type (2)`, up to `Court Type (6)`, which represent multiple observations of the same variable. One way to fix this would be to have each row instead represent one individual appointment, i.e. having more than one row per judge depending on their number of appointments. This same pattern is repeated for educational variables, such as `Degree (1)` up to `Degree(5)`. 
+
+Therefore, to make this dataset tidy, we would have to present it in a longer format than it is right now. 
+
+<br>
+
+### Part 2. How many judges have multiple appointments?
+Since an individual can receive several appointments to different judge positions during their lifetime, the goal of this analysis is to create a "long" version of the original dataset (i.e. one where each appointment is represented by a separate row, rather than having one row per judge with multiple columns corresponding to each appointment).
+
+**Approach**: To achieve this, I used the `pivot_longer` function to take the data from a wide to a long format. I start by selecting all the columns related to a judge's appointments and assigning their values to new rows under a unique variable. In the original dataset, judges with multiple appointments have separate columns for each court, with the appointment number in parentheses. In the transformed dataset, each appointment variable is consolidated into its own unique column, while the appointment number is stored in a new variable called `Appointment Number` to indicate the sequence of appointments for each judge. Although this new variable is not strictly necessary, it improves clarity and makes the data easier to interpret.
+
+<br>
+
+Below, I illustrate the aspect of the dataset I created:
+
+```{r pivot_long}
+### ex3.2
+
+# pivot from wide to long format
+bio.data_long <- bio.data %>% 
+  # pivot to long format - one row per appointment
+  pivot_longer(
+      # selecting numbered appointment columns
+      cols = "Court Type (1)":"Termination Date (6)",
+      # splitting columns name into "base" variable and appointment number
+      names_pattern = "(.+) \\(([1-6])\\)",
+      # create new columns:
+        # use base variable name as new column name 
+        # appointment number to help identify what each row corresponds to
+      names_to = c(".value", "Appointment Number")) %>%
+  # delete rows with 'empty' appointments
+  filter(!is.na(`Court Name`))
+
+# printing first rows and selected columns in neater format
+bio.data_long %>% 
+  select(1:4, 23:24, 40:44) %>% 
+  head(n=5) %>% 
+  kable(format = "html") %>%
+  kable_styling("striped", full_width = FALSE, position = "left")
+
+```
+You can see that the dataset still contains numbered columns, such as those related to education, because we have only pivoted the appointment-related columns.
+
+<br>
+
+For example current Supreme Court Justice Sonia Sotomayor has had three appointments as judge on three different courts: U.S. District Court for the Southern District of New York (from 1992 to 1998), the U.S. Court of Appeals for the Second Circuit (from 1998 to 2009) and now the U.S. Supreme Court (from 2009 to now). Below I show how the modified dataset represents this information:
+
+```{r sonia_sotomayor}
+# judge sotomayor example
+sotomayor <- bio.data_long %>% 
+  filter(`Last Name`=='Sotomayor') %>% 
+  select(nid, `Last Name`, `First Name`, `Appointment Number`, `Court Name`)
+
+kable(sotomayor, format = "html") %>%
+  kable_styling("striped", full_width = FALSE, position = "left")
+
+```
+
+<br>
+
+To further analyze the dataset, I created a summary table to show how many appointments each judge had, sorting it in descending order of the number of appointments. This was done using two methods: 
+
+- one by looking at the maximum value in the `Appointment Number` column for each judge, 
+
+- and the other by simply counting the number of rows associated with each judge’s name. 
+
+Both methods provide the same result, and the code implementation of both is shown in the appendix. The second method is more straightforward and does not require the creation of the `Appointment Number` variable.
+
+<br>
+
+You can see the first 5 rows of this table below:
+
+```{r n_appointments, message=FALSE}
+# tibble that shows how many judge appointments each person had
+# first method - find the maximum number in the 'appointment' number column for each unique judge
+appointment_count <- bio.data_long %>%
+  # for each judge...
+  group_by(nid, `Last Name`,`First Name`, `Middle Name`) %>%
+  # ... find max value in 'appointment number' column
+  summarise(N_Appointments = max(as.numeric(`Appointment Number`))) %>% 
+  arrange(desc(N_Appointments))
+
+kable(head(appointment_count, n=5), format = "html") %>%
+  kable_styling("striped", full_width = FALSE, position = "left")
+
+```
+
+```{r n_appointments_2, results='hide', message=FALSE}
+# second method - count the number of rows linked to each unique judge
+appointment_count <- bio.data_long %>%
+  # for each judge...
+  group_by(nid, `Last Name`,`First Name`, `Middle Name`) %>%
+  # ... count number of associated rows
+  summarise(N_Appointments = n()) %>% 
+  arrange(desc(N_Appointments))
+
+kable(head(appointment_count, n=5), format = "html") %>%
+  kable_styling("striped", full_width = FALSE, position = "left")
+
+```
+
+<br>
+
+Finally, I calculated the mean and median number of appointments across all judges in the dataset:
+
+```{r appointment_stats}
+# mean and median appointments
+paste0('The average number of appointments per judge is: ', mean(appointment_count$N_Appointments))
+paste0('The median number of appointments per judge is: ', median(appointment_count$N_Appointments))
+
+```
+
+<br>
+
+### Part 3. How many federal judges have there been over time?
+The objective of this analysis is to create a high-quality visualisation depicting the number of actively serving judges on the 1^st^ of January of every year from 1790 to 2024. A judge is considered to be actively serving at any date if that date falls between their `Commission Date` and `Termination Date`.
+
+**Approach:** The first step was to create a dataset that includes the count of active judges on the 1^st^ of January of each year from 1790 to 2024. To do this, I iterated through each year and created a date object representing the 1^st^ of January for that year. Then, I filtered the dataset to determine which judges were actively serving on that date. 
+
+```{r serving_judges, results='hide'}
+### ex3.3
+
+# checking that necessary columns already in proper date format
+str(bio.data_long)
+
+# dataset with column for year and number of active judges - currently empty
+judges_year <- data.frame(year = seq(1970, 2024), active_judges = 0)
+
+# a judge is serving on the 1st of January of year x if that date happens between their commission
+# and termination dates - which could be NA if they're still serving
+for (i in 1:nrow(judges_year))
+  {
+  # create date object (yyyy-01-01) for each year
+  date <- as.Date(paste0(judges_year$year[i], '-01-01'))
+  # check how many judges were active that day
+  subset <- bio.data_long %>% 
+                       filter(`Commission Date` <= date 
+                              & (is.na(`Termination Date`) | `Termination Date` >= date ))
+  # insert yearly count in the judges_year dataset
+  judges_year$active_judges[i] <- nrow(subset)}
+
+```
+
+Once this data was collected, the final step was to create the visualization. The x-axis of the plot represents the years, while the y-axis shows the number of active judges. I used blue dots to represent the data points for each year, connected by a blue line that illustrates the trend over time. The x-axis ticks were set to appear every 10 years. I labelled the plot with a title, subtitle and axis labels. I have also included the data source for replicability.
+
+<br>
+The chart is visible below:
+<br>
+
+```{r plot_serving_judges}
+# plotting number of active judges per year
+
+# data, x and y variables
+ggplot(judges_year, aes(x = year, y = active_judges)) +
+  # inserting blue dots
+  geom_point(color = "blue", size = 1.5) +
+  # inserting a blue line connecting the dots
+  geom_line(color = "blue", size = 0.8)  +
+  # setting x ticks for every 10 years
+  scale_x_continuous(breaks = seq(1790, 2024, by = 10)) +
+  # set theme
+  theme_minimal() +
+  # text labels
+  labs(
+    title = "Actively Serving Federal Judges (1790-2024)",
+    subtitle = 'Number of Judges calculated on the' ~ 1^st ~ 'of January for every year.',
+    x = "Year",
+    y = "Number of Active Judges",
+    caption = "Source: Federal Judge Centre (FJC)") +
+  # setting size, position and style of the text
+  theme(
+    plot.title = element_text(hjust=0.1, vjust=1, size = 16, face='bold'),
+    plot.subtitle = element_text(hjust=0.062, vjust=1, size = 10),
+    axis.title = element_text(size = 12),
+    axis.text = element_text(size = 10),
+    plot.caption = element_text(size = 8))
+
+```
+
+The chart shows the number of actively serving federal judges in the United States has been steadily increasing from 1790 to 2024. The number of federal judges has more than doubled since the 1970s.
+
+<br>
+
+### Part 4. Exploring judges’ previous careers
+The aim of this analysis is to examine the previous careers of judges appointed between January 1^st^ 1970, and January 1^st^ 2024 before they assumed their first appointment. I'll be specifically looking at the number of jobs they held prior to becoming a federal judge.
+
+<br>
+
+In the `Professional Career` column of the original `judges.csv` file, each judge’s previous work experiences are listed separated by semi-colons. Below is a snapshot of what this column looks like:
+
+```{r prior_jobs}
+### ex3.4
+
+# the 'Professional Career' entry is the same in all appointments related to a judge
+# therefore it's enough to keep only the rows with their first appointment 
+bio.data_long %>%
+  filter(`Appointment Number`==1) %>% 
+  # select desired columns
+  select(nid, `First Name`, `Middle Name`, `Last Name`,`Professional Career`) %>% 
+  head(n=3) %>% 
+  # presenting table in a neater way
+  kable(format = "html") %>%
+  kable_styling("striped", full_width = FALSE, position = "left")
+
+```
+
+<br>
+
+**Approach:** The first step is to filter the dataset for appointment dates after 1^st^ January 1970 and before 1^st^ January 2024. For every judge in this list, I keep information for three columns: 
+
+- `nid`: the judge’s ID number.
+
+- `name`: the judge’s full name.
+
+- `jobs`: the number of jobs listed in Professional Career.
+
+To extract the number of prior jobs each judge held, I counted the number of semicolons in the `Professional Career` column. Since each job is separated by a semicolon, the number of jobs for each judge is equal to the number of semicolons plus one. Additionally, I concatenated the judge’s first, middle, and last names into a single `name` column for ease of presentation. 
+
+The resulting dataset was arranged by the `nid` column in ascending order.
+
+<br>
+
+Below I display the first five columns of the modified dataset:
+
+```{r job_stats}
+# tibble with number of appointments per judge 1970-2024
+judges_1970 <- bio.data_long %>%
+  # check for date of first appointment in desired interval
+  filter(`Appointment Number`==1) %>% 
+  filter(`Commission Date` >= '1970-01-01' & `Commission Date` <= '2024-01-01') %>%
+  # if there is one semicolon, there are 2 prior jobs
+  mutate(jobs=str_count(`Professional Career`, ';')+1) %>% 
+  # create column with full name - concatenate first, middle and last
+  mutate(name= paste0(`First Name`,' ', `Middle Name`, ' ',`Last Name`)) %>%
+  # select desired columns
+  select(nid, name, jobs) %>% 
+  # sort by nid in ascending order
+  arrange(nid)
+
+kable(head(judges_1970, n=5), format = "html") %>%
+  kable_styling("striped", full_width = FALSE, position = "left")
+
+```
+
+<br>
+
+Finally, I computed the total number of judges in the dataset, as well as the average, median, and maximum number of prior jobs across all judges. 
+
+```{r job_stats_2}
+# judge count
+paste0('There are ', nrow(judges_1970), ' judges on this tibble.')
+# average, median and max appointments
+paste0('Each judge had on average ', round(mean(judges_1970$jobs),2), ' prior jobs.')
+paste0('The median number of prior jobs is ', median(judges_1970$jobs), '.')
+paste0('The maximum number of prior jobs is ', max(judges_1970$jobs), '.')
+
+```
+
+<br>
+
+<!-- DO NOT EDIT THIS LINE OR ANYTHING BELOW IT. ALL OF YOUR WORK SHOULD BE COMPLETED ABOVE. -->
+
+## Appendix: All code in this assignment
+
+```{r ref.label=knitr::all_labels(), echo=TRUE, eval=FALSE} 
+
+# this chunk generates the complete code appendix. 
+# eval=FALSE tells R not to run (``evaluate'') the code here (it was already run before).
+```

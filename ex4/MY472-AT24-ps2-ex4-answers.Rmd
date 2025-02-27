@@ -1,0 +1,277 @@
+---
+title: "MY472: Mid-Term Problem Set Solutions"
+author: "LSE Candidate Number: 50799"
+date: "Autumn Term 2024"
+output: html_document
+---
+
+```{r setup, include=FALSE} 
+# this chunk contains code that sets global options for the entire .Rmd. 
+# we use include=FALSE to suppress it from the top of the document, but it will still appear in the appendix. 
+
+knitr::opts_chunk$set(echo = FALSE) # actually set the global chunk options. 
+# we set echo=FALSE to suppress code such that it by default does not appear throughout the document. 
+# note: this is different from .Rmd default
+
+```
+
+<!-- DO NOT EDIT THIS LINE OR ANYTHING ABOVE IT, EXCEPT PUTTING YOUR CANDIDATE NUMBER AT THE TOP. ALL OF YOUR WORK SHOULD BE COMPLETED BELOW HERE. -->
+
+```{r packages, message=FALSE}
+# importing necessary packages
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+library(RSelenium)
+library(rvest)
+library(netstat)
+library(quanteda)
+
+```
+
+## Exercise 4 (30 marks)
+
+In my answers, I attempt to use good scraping etiquette (by not repeatedly make requests to a webpage such as using the `navigate()` function, or repetitively interact with elements in a way that is unnecessary). I also leave at least a 2-second delay between every action you take on the webpage for this whole exercise.
+
+### Part 1. Launch the browser and find hearings from the 117th Congress
+
+The objective of this exercise is to use the `Rselenium` package to find every public hearing transcript corresponding to a federal judicial nomination during the 117th Congress, which are published here: `https://www.congress.gov/senate-hearing-transcripts/`.
+
+**Approach:** The process begins with setting up a Selenium browser session, which is launched using the `rsDriver` function. The Firefox browser is then directed to the starting webpage with the Senate Hearing Transcripts.
+
+After the browser loads the page, the next step involves locating the dropdown menu that allows users to filter transcripts by Congress term. Using the `xpath` selector for the dropdown’s HTML element, the scraper clicks this element to reveal the options. Once the dropdown menu is expanded, the scraper identifies the option corresponding to the 117th Congress using its `xpath` and clicks it.
+
+Below is the code I used to implement this approach:
+
+```{r, echo=TRUE}
+### ex4.1
+
+url <- 'https://www.congress.gov/senate-hearing-transcripts/'
+
+# start the Selenium server
+rD <- rsDriver(browser=c("firefox"), verbose = F, 
+               port = netstat::free_port(random = TRUE), chromever = NULL) 
+
+# call for setting the driver client
+driver <- rD$client
+
+# navigate to the url
+driver$navigate(url)
+Sys.sleep(2)
+
+# find dropdown menu with xpath and click
+dropdown <- driver$findElement(using = 'xpath', value = '//*[@id="congresses"]') 
+dropdown$clickElement()
+Sys.sleep(2)
+
+# find option of 117th congress with xpath and click
+option <- driver$findElement(using = 'xpath', 
+                             value = '//*[@value="/senate-hearing-transcripts/117th-congress"]') 
+option$clickElement()
+Sys.sleep(2)
+
+```
+
+<br>
+
+### Part 2. Create a table of the Senate hearings from the 117th Congress
+
+This exercise is aimed at extracting the list of Senate hearings from the 117th Congress webpage and filter it to focus specifically on judiciary hearings related to judicial confirmations.
+
+**Approach**: The first step is extracting the page source using the `getPageSource()` function and saving it as a new object. This page source contains all the HTML content of the current webpage. Then, I used the `read_html()` and `html_table()` functions from the `rvest` package to parse the HTML and extract the tables embedded in the webpage. The relevant table containing the list of hearings is selected and converted into a tibble.
+
+Next, the tibble is filtered to include only hearings from the Judiciary Committee where the hearing title contains the term "confirmation" in any case variation (i.e. lowercase, uppercase, or mixed case).
+
+The code used in this section is visible below:
+
+```{r, echo=TRUE}
+### ex4.2
+
+# extract page source
+tables <- read_html(driver$getPageSource()[[1]]) %>% 
+  html_table()
+
+# extract tibble with list of all hearings
+hearings <- tables[[1]]
+
+# filter rows...
+filt_hearings <- hearings %>% 
+  # ... in the judiciary committee
+  filter(Committee=='Judiciary') %>% 
+  # ... with 'confirmation' in the title
+  filter(grepl('confirmation', `Hearing Title`, ignore.case = TRUE))
+
+```
+
+<br>
+
+Here I present what the filtered tibble looks like:
+
+```{r filt_table_print}
+# printing result in a neater table
+kable(filt_hearings, format = "html") %>% 
+  kable_styling("striped", full_width = FALSE, position = "left")
+```
+<br>
+
+### Part 3. Get the transcript from each hearing about judicial nominations
+
+In this part, the objective was to automate the process of scraping hearing transcripts related to judicial nominations from the 117th Congress. This should start by navigating to each hearing's page, extracting the text only, and saving it as a new file.
+
+**Approach:** I start by creating a folder inside my `ex4` folder called `transcripts`. Then, I iterate over the filtered list of hearings obtained from the previous part and find the link to the relevant hearing in the main page. After that, I navigate to the hearing page and extract **only** the text from the page source. Finally, I save this text as a `.txt`file in the folder I initially created. These files are named with the respective hearing numbers from the tibble of hearings.
+
+Here is the code used to implement this approach:
+
+```{r, echo=TRUE}
+### ex4.3
+
+# looping through the filtered data frame to extract text files
+for (i in 1:nrow(filt_hearings)){
+  hearing_number <- filt_hearings$`Hearing Number`[i]
+  
+  # find hearing link and click
+  link <- driver$findElement(using = "xpath", 
+                             paste0("//a[contains(text(), '", hearing_number, "')]")) 
+  
+  # clickElement() only opening new page with 2 clicks
+  # alternative code from reddit:
+  # https://www.reddit.com/r/selenium/comments/o8mp4i/cannot_click_element/
+  driver$executeScript("arguments[0].click();", list(link))
+  Sys.sleep(2) 
+  
+  # extract text from page source
+  text <- read_html(driver$getPageSource()[[1]]) %>%
+    # between tags <pre
+    html_element("pre") %>%
+    html_text()
+  
+  Sys.sleep(2)
+  
+  # save .txt file in 'transcripts' folder
+  write_file(text, paste0('transcripts/',hearing_number,'.txt'))
+  
+  # go back to main page
+  driver$goBack()
+  Sys.sleep(2)}
+
+```
+
+<br>
+
+After extracting and saving the transcripts, I load the text file for hearing S.Hrg.117-873 and print the first 200 characters of its content to preview the beginning of the document:
+
+```{r}
+# load file 'S.Hrg.117-873.txt'
+example_file <- read_file('transcripts/S.Hrg.117-873.txt')
+# print first 200 chars
+cat(substr(example_file, 1, 200))
+```
+<br>
+
+### Part 4. Create a dfm
+
+This goal of this exercise is to create a document-feature matrix (DFM) (using the `quanteda` package) from the verbatim transcripts of the hearings collected above. This involves cleaning the transcript data, removing unnecessary text and ensuring each "document" corresponds to a paragraph from the transcripts.
+
+**Approach:** The first step is loading in each hearing's file and removing all extra text, such as section headers, introductory text, table of contents, etc. After that, I perform the “standard” pre-processing, including transforming the collection of documents into a corpus, removing punctuation and stopwords and stemming the words. In this case, I will be treating each paragraph as a separate “document.”  The last step is to create the DFM and removing all words which are not at least contained in 5 documents.
+
+Here is the code for this step:
+
+```{r, echo=TRUE, warning=FALSE}
+### ex4.4
+
+# load files
+files <- list.files('transcripts', full.names = TRUE)
+
+# create empty list to store 'documents'
+cleaned_hearing_docs <- list()
+
+# clean, remove extra text and separate file text into docs
+for (f in files) {
+  # read file content
+  raw_text <- readLines(f)
+  
+  # collapse paragraph lines into one string
+  full_text <- paste(raw_text, collapse = "\n")
+  
+  # remove everything before and including the sentence:
+  # "The hearing will come to order.",
+  # which marks the beginning of the statements
+  cleaned_text <- sub("(?s).*The hearing will come to order\\.*", "",  
+                      full_text, perl = TRUE)
+  
+  # remove leading and trailing whitespace
+  cleaned_text <- trimws(cleaned_text)
+  
+  # remove punctuation and numbers
+  cleaned_text <- gsub("[[:punct:][:digit:]]", "", cleaned_text)
+  
+  # separate paragraphs - each one is a document
+  paragraphs <- unlist(strsplit(cleaned_text, "\n\n"))
+  
+  # adding file text to list of docs
+  cleaned_hearing_docs <- c(cleaned_hearing_docs, paragraphs)}
+
+cleaned_hearing_docs <- unlist(cleaned_hearing_docs)
+
+# create corpus from collection of docs
+corpus <- corpus(cleaned_hearing_docs)
+
+dfm <- corpus %>%
+  # remove punctuation and numbers
+  tokens(remove_punct = TRUE, remove_numbers = TRUE) %>%
+  # remove english stopwords
+  tokens_remove(stopwords("en")) %>%
+  # stemming tokens
+  tokens_wordstem() %>% 
+  # create dfm
+  dfm() %>%
+  # remove terms appearing in less than 5 docs
+  dfm_trim(min_termfreq = 5)
+
+```
+
+<br>
+
+Below is a preview of the DFM:
+
+```{r warning=FALSE}
+# printing result in a neater table
+kable(dfm[c(1:10), c(1:10)], format = "html") %>% 
+  kable_styling("striped", full_width = FALSE, position = "left")
+
+```
+
+<br>
+
+The next task is to identify the most frequent terms across these hearings. This is done by summing the frequencies of terms in the DFM and sorting them in descending order.
+
+Here is the code to analyze and display the top 20 most frequent words:
+
+```{r echo=TRUE}
+dfm %>%
+  # sum all values each column
+  colSums() %>%
+  # convert to dataframe and change column names
+  enframe(name = "Term", value = "Frequency") %>%
+  # sort by frequency (descending)
+  arrange(desc(Frequency)) %>% 
+  # show top 20
+  head(20) %>% 
+  # neat table formatting
+  kable(format = "html") %>% 
+  kable_styling("striped", full_width = FALSE, position = "left")
+
+```
+This list is not at all surprising considering the context of U.S.federal judicial nomination hearings. It includes key legal and political terms like "senat", "judg", "law", "court",  "justic", "state", "feder" and "chair". The presence of terms like "thank", "mr", "ms" and "question" is also understandable given the formal, respectful language typically used in settings such as these. The inclusion of "durbin" probably relates to Senator Dick Durbin, who was Senate majority whip during the 117th Congress as well as chair of the Senate Judiciary Committee. This makes his presence in the hearing records unsurprising.
+
+<br>
+
+<!-- DO NOT EDIT THIS LINE OR ANYTHING BELOW IT. ALL OF YOUR WORK SHOULD BE COMPLETED ABOVE. -->
+
+## Appendix: All code in this assignment
+
+```{r ref.label=knitr::all_labels(), echo=TRUE, eval=FALSE} 
+
+# this chunk generates the complete code appendix. 
+# eval=FALSE tells R not to run (``evaluate'') the code here (it was already run before).
+```

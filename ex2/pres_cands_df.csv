@@ -1,0 +1,37 @@
+election_year,candidate_name,candidate_party,pop_vote,pop_vote_perc,ec_vote,winner
+1952,Dwight D. Eisenhower,Republican,"34,075,529",55.2%,442,1
+1952,Adlai Stevenson II,Democratic,"27,375,090",44.3%,89,0
+1956,Dwight D. Eisenhower,Republican,"35,579,180",57.4%,457,1
+1956,Adlai Stevenson II,Democratic,"26,028,028",42.0%,73,0
+1960,John F. Kennedy,Democratic,"34,220,984",49.72%,303,1
+1960,Richard Nixon,Republican,"34,108,157",49.55%,219,0
+1964,Lyndon B. Johnson,Democratic,"43,129,040",61.1%,486,1
+1964,Barry Goldwater,Republican,"27,175,754",38.5%,52,0
+1968,Richard Nixon,Republican,"31,783,783",43.4%,301,1
+1968,Hubert Humphrey,Democratic,"31,271,839",42.7%,191,0
+1972,Richard Nixon,Republican,"47,168,710",60.7%,520,1
+1972,George McGovern,Democratic,"29,173,222",37.5%,17,0
+1976,Jimmy Carter,Democratic,"40,831,881",50.1%,297,1
+1976,Gerald Ford,Republican,"39,148,634",48.0%,240,0
+1980,Ronald Reagan,Republican,"43,903,230",50.7%,489,1
+1980,Jimmy Carter,Democratic,"35,481,115",41.0%,49,0
+1984,Ronald Reagan,Republican,"54,455,472",58.8%,525,1
+1984,Walter Mondale,Democratic,"37,577,352",40.6%,13,0
+1988,George H. W. Bush,Republican,"48,886,597",53.4%,426,1
+1988,Michael Dukakis,Democratic,"41,809,476",45.6%,111,0
+1992,Bill Clinton,Democratic,"44,909,889",43.0%,370,1
+1992,George H. W. Bush,Republican,"39,104,550",37.4%,168,0
+1996,Bill Clinton,Democratic,"47,401,185",49.2%,379,1
+1996,Bob Dole,Republican,"39,197,469",40.7%,159,0
+2000,Al Gore,Democratic,"50,999,897",48.4%,266,0
+2000,George W. Bush,Republican,"50,456,002",47.9%,271,1
+2004,George W. Bush,Republican,"62,040,610",50.7%,286,1
+2004,John Kerry,Democratic,"59,028,444",48.3%,251,0
+2008,Barack Obama,Democratic,"69,498,516",52.9%,365,1
+2008,John McCain,Republican,"59,948,323",45.7%,173,0
+2012,Barack Obama,Democratic,"65,915,795",51.1%,332,1
+2012,Mitt Romney,Republican,"60,933,504",47.2%,206,0
+2016,Hillary Clinton,Democratic,"65,853,514",48.2%,227,0
+2016,Donald Trump,Republican,"62,984,828",46.1%,304,1
+2020,Joe Biden,Democratic,"81,283,501",51.3%,306,1
+2020,Donald Trump,Republican,"74,223,975",46.8%,232,0
